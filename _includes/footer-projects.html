@@ -1,0 +1,50 @@
+
+			<footer>
+				<span id="copy">&copy; Paul Anthony Webb</span>
+
+				<nav>
+					<ul>
+						<li><a href="http://dribbble.com/nokadota">Dribbble</a></li>
+						<li><a href="http://github.com/NetOperatorWibby">GitHub</a></li>
+						<li><a href="http://twitter.com/NetOpWibby">Twitter</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div>
+
+		<!--/ scripts /-->
+
+		<script src="/scripts/mousewheel.js"></script>
+		<script src="/scripts/scrollpanel.js"></script>
+		<script src="/scripts/waypoints.min.js"></script>
+		<script src="/scripts/dsgn.js"></script>
+		<script src="/scripts/fluidbox.js"></script>
+
+		<script>
+			$(function () {
+
+				$(".gallery a").fluidbox();
+
+				$("#menu-projects").css({
+					"background-color": "#70d0eb",
+					"color": "#fcfcfc"
+				});
+
+				$(".iphone-preview .content-wrapper").scrollpanel();
+				$(".browser-preview .content-wrapper").scrollpanel();
+
+				$("header").waypoint(function () {
+					$("#link-me, #link-thoughts, #link-projects").css("opacity", "1");
+				}, { offset: -100 });
+
+				$("#projects").waypoint(function () {
+					$("#link-me, #link-thoughts").css("opacity", "0.1");
+					$("#link-projects").css("opacity", "1");
+				}, { offset: 410 });
+
+			});
+		</script>
+
+	</body>
+
+</html>

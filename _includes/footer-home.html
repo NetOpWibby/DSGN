@@ -1,0 +1,59 @@
+
+			<footer>
+				<span id="copy">&copy; Paul Anthony Webb</span>
+
+				<nav>
+					<ul>
+						<li><a href="http://dribbble.com/nokadota">Dribbble</a></li>
+						<li><a href="http://github.com/NetOperatorWibby">GitHub</a></li>
+						<li><a href="http://twitter.com/NetOpWibby">Twitter</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</div>
+
+		<!--/ scripts /-->
+
+		<script src="/scripts/mousewheel.js"></script>
+		<script src="/scripts/scrollpanel.js"></script>
+		<script src="/scripts/waypoints.min.js"></script>
+		<script src="/scripts/dsgn.js"></script>
+
+		<script>
+			$(function () {
+
+				// FW420325257
+
+				$("#menu-home").css({
+					"background-color": "#70d0eb",
+					"color": "#fcfcfc"
+				});
+
+				$(".iphone-preview .content-wrapper").scrollpanel();
+				$(".browser-preview .content-wrapper").scrollpanel();
+
+				$("header").waypoint(function () {
+					$("#link-me, #link-thoughts, #link-projects").css("opacity", "1");
+				}, { offset: -100 });
+
+				$("#me").waypoint(function () {
+					$("#link-thoughts, #link-projects").css("opacity", "0.1");
+					$("#link-me").css("opacity", "1");
+				}, { offset: 410 });
+
+				$("#thoughts").waypoint(function () {
+					$("#link-me, #link-projects").css("opacity", "0.1");
+					$("#link-thoughts").css("opacity", "1");
+				}, { offset: 100 });
+
+				$("#projects").waypoint(function () {
+					$("#link-me, #link-thoughts").css("opacity", "0.1");
+					$("#link-projects").css("opacity", "1");
+				}, { offset: 100 });
+
+			});
+		</script>
+
+	</body>
+
+</html>
