@@ -174,7 +174,10 @@ h2 ~ small, img ~ small, a ~ small {
 	position: absolute;
 }
 
-// h2 ~ small ~ .inline-list { margin: 1rem 0 0 0.2rem; }
+span {
+	small { display: block; }
+}
+
 h2 ~ .inline-list { margin: -1rem 0 0 0.2rem; }
 
 p, .inline-list {
