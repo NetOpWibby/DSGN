@@ -94,15 +94,19 @@ $purple:		rgba(179, 86, 214, 1);	// #b356d6;
 
 /** [-] Mixins ****************************************************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
-@import url(http://fonts.googleapis.com/css?family=Poly:400,400italic);
+// @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic);
+// @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+// @import url(http://fonts.googleapis.com/css?family=Poly:400,400italic);
+
+@import url(http://brick.a.ssl.fastly.net/Source+Sans+Pro:300,300i,400,400i,600,700);
+@import url(http://brick.a.ssl.fastly.net/Source+Code+Pro:400);
+@import url(http://brick.a.ssl.fastly.net/Alegreya:400,400i,700);
 
 @mixin unicode { font-family: Arial, Verdana, Geneva, sans-serif; }
 
 @mixin mono { font-family: "Source Code Pro", "Courier New", monospace; }
 @mixin sans { font-family: "Source Sans Pro", "freight-sans-pro", Arial, sans-serif; }
-@mixin serif { font-family: "Poly", "Hoefler Text", Georgia, serif; }
+@mixin serif { font-family: Alegreya, "Poly", "Hoefler Text", Georgia, serif; }
 
 @mixin hide-text {
   border: 0;
