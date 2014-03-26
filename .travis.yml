@@ -1,0 +1,8 @@
+env:
+  global:
+  - secure: b8dagbTZvxbYXf1xut8m7EKLnFaA9j53pkreGsFK0lGzZByTVsvIBlJVIqIqcYA7uI7kwlJIuHareUecBzEFX0AxKnJD2F6xxiq3xpNo+WDVcGTcDat1cSvpViqtk5EdQIkF327jxPoO1d+arRsO4w5kbdiBPZ3bMJP3t1jv/ZM=
+  - secure: YqZpy8t0eDXfYliocIggkWm3nRYCCyhtTukDU024WVzujLb0OQ6pICWzkffsk2TL6og3i8lykL/V3r9v1b1/zQEs7GzPHK9TkOrFzM0LJT/lZt6uVW+evG1EK40dwRi2+6ys6KXcra4ht99E+X2mC2bBAZ5TOLsm9j5dF6oq3wk=
+  - secure: bcWWexC0qxnucoTBpRvtl6Pkf5FjN6Op89G2u3eFAOEQ+IRSHZ9S//Kw+SA6K/RAXG54Log5uoKl/jM54rhmh4wtzx9yB6sPd00vz0bSPkFQSDeITlvwoKF94RWq9CT18kW3W7yonZtc6EDkIsSociYCc2UqnQyn31ii6TOK08g=
+  - secure: FjWtJ9gqi0OZXFP2QyLOEZCtwjhTrIhQijhOXunN410POdG2/3vjQq8o1Ty5d0OQm4LohEKmu1W+BZeH8IQrK6luq+sSdU4MTi7LSc6NQbpO1R4elxZmoHbnOkE6ukNocmwPAb086+eszXyfz6WIF8Q8XsEgb8ejjHCP8A205Gk=
+
+after_success: bundle exec travis-custom-deploy sftp service:jekyll
