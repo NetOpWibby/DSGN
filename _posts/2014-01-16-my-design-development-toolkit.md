@@ -45,7 +45,8 @@ I discovered this browser sometime in 2006 and have been a faithful user ever si
 
 I use Opera because at the time I discovered it, it was the most standards-compliant (HTML, CSS, &c) browser, and it pioneered a lot of cool features that are now defaults in the other popular browsers. I am not sure if Opera is still the most standards-compliant, but even if it isn't, I'm a creature of habit. It's pretty difficult to get me to try something else if I'm comfortable with what I've got.
 
-For long-time Opera users, I'll write a future post detailing how I make the new Opera feel like version 12.
+<del>For long-time Opera users, I'll write a future post detailing how I make the new Opera feel like version 12.</del>
+<span><small>Updated 03.29.14 to add <a href="/thoughts/bringing-back-opera-classic">this</a>, a post where I detail how to make the new Opera feel like version 12.</small></span>
 
 ### Notepad++ <a href="http://www.notepad-plus-plus.org" style="color: #07d0eb">*</a>
 
