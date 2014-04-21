@@ -365,10 +365,12 @@
 	$(window).resize(browser_resize);
 	*/
 
-	if (navigator.appVersion.indexOf("Win")!=-1) {
+	$("header").css("background-image", "url('/images/portrait-01.jpg')");
+
+	if (navigator.appVersion.indexOf("Win")!= -1) {
 		$(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
 		$(".desktop-preview").css("background", "url('/images/taskbar-windows.jpg') no-repeat");
-	} else if (navigator.appVersion.indexOf("Mac")!=-1) {
+	} else if (navigator.appVersion.indexOf("Mac")!= -1) {
 		$(".browser-preview").css("background", "url('/images/chrome-mac.png') no-repeat");
 		$(".desktop-preview").css("background", "url('/images/taskbar-mac.png') no-repeat");
 	} else {
