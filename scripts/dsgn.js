@@ -365,7 +365,8 @@
 	$(window).resize(browser_resize);
 	*/
 
-	$("header").css("background-image", "url('/images/portrait-01.jpg')");
+	// This is interfereing with mobile view at the moment
+	// $("header").css("background-image", "url('/images/portrait-01.jpg')");
 
 	if (navigator.appVersion.indexOf("Win")!= -1) {
 		$(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
