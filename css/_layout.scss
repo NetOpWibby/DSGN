@@ -129,6 +129,11 @@ header {
 		}
 
 		ul {
+			font-family: inherit !important;
+			font-size: inherit !important;
+			line-height: inherit !important;
+			margin: inherit !important;
+
 			&:nth-child(2) {
 				color: $black;
 				font-size: 18px;
@@ -165,6 +170,14 @@ header {
 		margin: 0 20.66667%;
 		// padding: 0 10rem 0 18rem;
 	}
+	
+	ul, ol {
+		@include serif;
+	  font-size: 1.3rem;
+		line-height: 2.2rem;
+		margin: 0 0 2.5rem 2rem;
+		text-align: left;
+	}
 }
 
 h2 ~ small, img ~ small, a ~ small {
@@ -180,7 +193,7 @@ span {
 
 h2 ~ .inline-list { margin: -1rem 0 0 0.2rem; }
 
-p, .inline-list {
+p, ol, ul {
 	a {
 		color: $cyan;
 		&:hover { opacity: 0.3; }
