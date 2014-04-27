@@ -18,4 +18,15 @@ layout: thoughts
 							<span>&middot;</span>
 							<span>&middot;</span>
 						</div>
+
+						<ul id="pagination">
+
+							{% if page.next %}
+							<li><a href="{{ page.next.url }}">Next Post</a></li>
+							{% endif %}
+							{% if page.previous %}
+							<li><a href="{{ page.previous.url }}">Previous Post</a></li>
+							{% endif %}
+
+						</ul>
 					</section>

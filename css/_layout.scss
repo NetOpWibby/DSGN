@@ -8,7 +8,7 @@ html, body {
 
 body {
   background-color: $white;
-  color: $black;
+  color: rgba($black, 0.9);
 	@include sans;
 	font-size: 16px;
 	overflow-x: hidden; // overflow: hidden;
@@ -136,9 +136,9 @@ header {
 
 			&:nth-child(2) {
 				color: $black;
-				font-size: 18px;
-				line-height: 1rem;
-				margin: 3rem 0 0 0;
+				font-size: 18px !important;
+				line-height: 1rem !important;
+				margin: 3rem 0 0 0 !important;
 				opacity: 0;
 				transition: all 0.5s ease;
 			}
@@ -200,7 +200,7 @@ p, ol, ul {
 	}
 }
 
-h2 { font-weight: 100; }
+h2 { font-weight: 400; }
 
 small {
 	@include serif;
