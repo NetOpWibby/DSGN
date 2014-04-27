@@ -51,6 +51,13 @@
 							{% if paginator.next_page %}
 							<li id="next-content"><a href="/thoughts/page{{ paginator.next_page }}" class="next">Next Page</a>
 							{% endif %}
+
+							{% if page.previous %}
+							<li id="previous-content"><a href="{{ page.previous.url }}">Previous Post</a></li>
+							{% endif %}
+							{% if page.next %}
+							<li id="next-content"><a href="{{ page.next.url }}">Next Post</a></li>
+							{% endif %}
 						</ul>
 					</nav>
 				</div>
