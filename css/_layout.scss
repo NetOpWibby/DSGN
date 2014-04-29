@@ -364,18 +364,36 @@ code {
 	}
 }
 
+.phone-preview {
+	bottom: 3rem; left: 2rem;
+
+	position: absolute;
+	z-index: 1;
+
+	img {
+		// width: 135px; height: 239px;
+		top: 45px; left: 9px;
+
+		// background-color: $cyan;
+		// overflow: hidden;
+		position: absolute;
+	}
+
+	// img { margin: 0 0 0 -12px; }
+}
+
 .iphone-preview, .iphone-wall-preview {
-	width: 154px; height: 329px;
+	width: 153px; height: 328px;
 	bottom: 3rem; left: 2rem;
 
 	background-image: url("../images/iphone-body.png");
-	background-size: 154px 329px;
+	background-size: 153px 328px;
 	position: absolute;
 	z-index: 1;
 
 	.content-wrapper {
-		width: 135px; height: 239px;
-		top: 45px; left: 9px;
+		width: 136px; height: 239px;
+		top: 45px; left: 10px;
 
 		background-color: $cyan;
 		overflow: hidden;
