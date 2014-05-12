@@ -43,7 +43,7 @@ Everyone. I could not be happier.
 
 Clearly, I am on the right track and I am <strong>so</strong> glad there are like-minded people at these great companies. To where these improvements and jumps in computing will take us is anyone's guess. This will only make computing better for everyone, which will make the 'Net a better place to be.
 
-P.S. I will be <em>slowly</em> churning out updates on hikari and they <strong>will</strong> be slow. You can check the progress on the <a href="http://hikari.pw-software.com">official site</a> (just a placeholder for now), and also on <a href="http://dribbble.com/nokadota/projects/127021-hikari-OS">Dribbble</a>. I may post things here (and on <a href="http://twitter.com/tadashihikari">Twitter</a>!) as well.
+P.S. I will be <em>slowly</em> churning out updates on hikari and they <strong>will</strong> be slow. You can check the progress on the <a href="http://hikar.io">official site</a> (just a placeholder for now), and also on <a href="http://dribbble.com/nokadota/projects/127021-hikari-OS">Dribbble</a>. I may post things here (and on <a href="http://twitter.com/tadashihikari">Twitter</a>!) as well.
 
 EDIT: Created a <a href="https://github.com/IdeasNeverCease/hikari">GitHub repo</a>!
 <span><small>Updated 03.25.14 to correct a year and update repo link</small></span>

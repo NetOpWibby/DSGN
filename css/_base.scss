@@ -110,6 +110,11 @@ $key:       rgba(25, 25, 25, 1);    // #191919;
 	white-space: nowrap;
 }
 
+.mono {
+	@include mono;
+	font-size: 80%;
+}
+
 /// GENERAL ///////////////////////////////////////////////////////////////////////////////////////////
 
 ::-webkit-scrollbar {
@@ -250,6 +255,11 @@ blockquote {
 	font-style: italic;
 	line-height: 2rem;
 	quotes: "\201C""\201D""\2018""\2019";
+
+	a {
+		color: $cyan;
+		&:hover { opacity: 0.3; }
+	}
 
 	/*
   &:before {
