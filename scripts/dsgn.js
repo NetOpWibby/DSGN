@@ -365,18 +365,30 @@
 	$(window).resize(browser_resize);
 	*/
 
-	// This is interfereing with mobile view at the moment
+	// This is interfering with mobile view at the moment
 	// $("header").css("background-image", "url('/images/portrait-01.jpg')");
 
 	if (navigator.appVersion.indexOf("Win")!= -1) {
-		$(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
-		$(".desktop-preview").css("background", "url('/images/taskbar-windows.jpg') no-repeat");
+
+		// $(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
+		// $(".desktop-preview").css("background", "url('/images/taskbar-windows.jpg') no-repeat");
+
+    $(".browser-preview .content-wrapper, .desktop-preview .content-wrapper").addClass("is-win");
+
 	} else if (navigator.appVersion.indexOf("Mac")!= -1) {
-		$(".browser-preview").css("background", "url('/images/chrome-mac.png') no-repeat");
-		$(".desktop-preview").css("background", "url('/images/taskbar-mac.png') no-repeat");
+
+		// $(".browser-preview").css("background", "url('/images/chrome-mac.png') no-repeat");
+		// $(".desktop-preview").css("background", "url('/images/taskbar-mac.png') no-repeat");
+
+    $(".browser-preview .content-wrapper, .desktop-preview .content-wrapper").addClass("is-mac");
+
 	} else {
-		$(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
-		$(".desktop-preview").css("background", "url('/images/taskbar-windows.jpg') no-repeat");
+
+		// $(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
+		// $(".desktop-preview").css("background", "url('/images/taskbar-windows.jpg') no-repeat");
+
+    $(".browser-preview .content-wrapper, .desktop-preview .content-wrapper").addClass("is-win");
+
 	}
 
 	$(".top").click(function (e) {

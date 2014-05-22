@@ -386,8 +386,8 @@ code {
 	width: 153px; height: 328px;
 	bottom: 3rem; left: 2rem;
 
-	background-image: url("../images/iphone-body.png");
-	background-size: 153px 328px;
+  background-color: $black;
+  border-radius: 15px;
 	position: absolute;
 	z-index: 1;
 
@@ -418,11 +418,51 @@ code {
 		top: 38px; left: 0;
 
 		position: absolute;
+
+    &:before {
+      width: 100%; height: 38px;
+      top: -38px; left: 0;
+
+      background-color: $gray;
+      content: "";
+      position: absolute;
+    }
 	}
 }
 
-.browser-preview { background: url("../images/chrome-windows.jpg") no-repeat; }
-.desktop-preview { background: url("../images/taskbar-windows.jpg") no-repeat; }
+.is-mac {
+  &:before {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  &:after {
+    top: -31px; left: 15px;
+
+    color: darken($gray, 20%);
+    content: "\f227";
+    @include icon;
+    font-size: 1.5rem;
+    line-height: 1;
+    position: absolute;
+  }
+}
+
+.is-win {
+  &:after {
+    top: -29px; left: 15px;
+
+    color: darken($gray, 20%);
+    content: "\f247";
+    @include icon;
+    font-size: 1.3rem;
+    line-height: 1;
+    position: absolute;
+  }
+}
+
+// .browser-preview { background: url("../images/chrome-windows.jpg") no-repeat; }
+// .desktop-preview { background: url("../images/taskbar-windows.jpg") no-repeat; }
 
 .thought {
 	img {
@@ -565,27 +605,42 @@ code {
 
 /// FOOTER ////////////////////////////////////////////////////////////////////////////////////////////
 
+.link-dribbble, .link-github, .link-twitter {
+  &:before {
+    color: $black;
+    @include icon;
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+.link-dribbble {
+  &:before {
+    content: "\f22c";
+  }
+}
+
+.link-github {
+  &:before {
+    content: "\f233";
+  }
+}
+
+.link-twitter {
+  &:before {
+    content: "\f243";
+  }
+}
+
 footer {
 	background-image: url("../images/portrait-02.jpg");
 	background-position: 0 -11rem;
 	color: #8d758d;
-	font-weight: 600;
 	height: 100px;
-	padding: 0 20.66667%; // 0 10rem 0 18rem
+	padding: 0 20.66667%;
 	position: relative;
 	text-transform: uppercase;
 	top: 510px;
-
-	a {
-		color: $black;
-		text-shadow: 0 0 1px rgba($black, 0.3);
-
-		&:hover {
-			border-bottom: 1px solid $black;
-			font-weight: inherit;
-			opacity: 1;
-		}
-	}
 
 	nav, #copy {
 		display: inline-block;
@@ -601,17 +656,23 @@ footer {
 
 	nav { float: right; }
 
+  ul { cursor: default; }
+
 	li {
 		display: inline-block;
+    margin-right: 1rem;
 
-		&:after {
-			content: " / ";
-			font-style: italic;
-			font-weight: 300;
-		}
-
-		&:last-child:after { content: ""; }
+    &:last-child { margin-right: 0; }
 	}
+
+  .link-dribbble, .link-github, .link-twitter {
+    &:before {
+      color: $black;
+      @include icon;
+      font-size: 2rem;
+      line-height: 1;
+    }
+  }
 
 	#copy { cursor: default; }
 }

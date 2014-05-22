@@ -96,6 +96,7 @@ $key:       rgba(25, 25, 25, 1);    // #191919;
 @mixin mono { font-family: "Source Code Pro", "Courier New", monospace; }
 @mixin sans { font-family: "Source Sans Pro", Arial, sans-serif; }
 @mixin serif { font-family: "Latin Modern", Alegreya, Georgia, serif; }
+@mixin icon { font-family: "Ionicons"; }
 
 @mixin hide-text {
   border: 0;
