@@ -2,7 +2,7 @@ name: DSGN
 description: "The portfolio of Paul Anthony Webb"
 url: "http://dsgn.io"
 markdown: rdiscount
-pygments: true
+highlighter: true
 paginate: 5
 paginate_path: "thoughts/page:num"
 permalink: /thoughts/:title
