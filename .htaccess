@@ -5,5 +5,8 @@ RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?dsgn.io [NC]
 RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
 
 # Block Semalt and their wack selves
-RewriteCond %{HTTP_REFERER} semalt\.com [NC]
-RewriteRule (.*) http://www.semalt.com [R=403,L]
+RewriteCond %{HTTP_REFERER} semalt\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} semalt\.semalt\.com
+RewriteCond %{HTTP_REFERER} kambasoft\.com
+RewriteCond %{HTTP_REFERER} 5\.kambasoft\.com
+RewriteRule .* - [F]
