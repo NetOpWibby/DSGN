@@ -16,10 +16,10 @@ This is probably my most prized set of tools, right before Notepad++ and Opera. 
 
 ### Photoshop <a href="http://adobe.com/photoshop" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/01.png"><img src="/images/thoughts/mddt/01.png" alt=""/></a>
-	<small>Adobe Photoshop</small>
-</div>
+	<figcaption>Adobe Photoshop</figcaption>
+</figure>
 
 The industry standard. I am keen to try <a href="http://www.pixelmator.com">Pixelmator</a>, but I am on a Windows machine and sadly, Pixelmator is Mac-exclusive. I do think the team behind Pixelmator could give Adobe a run for their money if they supported more platforms. Unfortunately, some of the core features in that awesome app rely on technologies provided by the Mac platform.
 
@@ -27,19 +27,19 @@ Anyhoo! For concepts that require a bit of finesse and optimizing, Photoshop get
 
 ### Axialis Icon Workshop <a href="http://www.axialis.com/iconworkshop" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/02.png"><img src="/images/thoughts/mddt/02.png" alt=""/></a>
-	<small>Axialis Icon Workshop</small>
-</div>
+	<figcaption>Axialis Icon Workshop</figcaption>
+</figure>
 
 I use this app to package 16px and 32px images of my favicons. Before this, I just made a single PNG (favicon.png) and called it a day. If you don't already know this, icons actually contain several different sizes of an image optimized for particular dimensions. Fun fact! High-DPI displays can take advantage of the 32x32px image inside your favicon.ico, whereas regular displays will still show the 16x16px icon. This is a small detail, but a detail nonetheless.
 
 ### Opera <a href="http://opera.com" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/03.png"><img src="/images/thoughts/mddt/03.png" alt=""/></a>
-	<small>Opera Developer</small>
-</div>
+	<figcaption>Opera Developer</figcaption>
+</figure>
 
 I discovered this browser sometime in 2006 and have been a faithful user ever since. I have three versions of Opera installed my computer: version <a href="http://www.opera.com/download/guide/?os=windows&ver=12.16&local=y">12.16</a>, the <a href="http://www.opera.com/computer">latest stable</a> version, and the <a href="http://www.opera.com/developer">latest developer</a> version.
 
@@ -50,10 +50,10 @@ I use Opera because at the time I discovered it, it was the most standards-compl
 
 ### Notepad++ <a href="http://www.notepad-plus-plus.org" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/04.png"><img src="/images/thoughts/mddt/04.png" alt=""/></a>
-	<small>Notepad++</small>
-</div>
+	<figcaption>Notepad++</figcaption>
+</figure>
 
 My dad used Dreamweaver back when it was owned by Macromedia (lol, old man!). I *may* have perused a "<a href="http://webdesign.about.com/cs/htmleditors/gr/aapr_dreamwvrmx.htm">Dreamweaver MX</a>" book back in the day. Even though I started coding in '06/'07, I actually dabbled in it when I was in 7th grade. I didn't like how bulky Dreamweaver felt back then (still don't), so I opted to use Windows' default simple text editor, Notepad.
 
@@ -63,10 +63,10 @@ I am using a custom theme based on a screenshot I saw on Dribbble. The font I us
 
 ### Console2 <a href="http://sourceforge.net/projects/console" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/05.png"><img src="/images/thoughts/mddt/05.png" alt=""/></a>
-	<small>Console2</small>
-</div>
+	<figcaption>Console2</figcaption>
+</figure>
 
 While I was an apprentice at thoughtbot in early 2012, I was required to use MacBook because that's what they used (I think I used <a href="http://macromates.com/download">TextMate</a> as my replacement for Notepad++). The team there uses Ruby a lot, so that meant learning how to use Terminal. It was intimidating at first, but I grew to love the command line.
 
@@ -74,10 +74,10 @@ When the apprenticeship was over, I was first disgusted, then saddened at the pr
 
 ### JS Beautifier <a href="http://jsbeautifier.org" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/06.png"><img src="/images/thoughts/mddt/06.png" alt=""/></a>
-	<small>JS Beautifier</small>
-</div>
+	<figcaption>JS Beautifier</figcaption>
+</figure>
 
 I often find useful code online, but it will be sloppily written. My coding style leans heavily on the side of readability, because looking at a screen all day gets really irritating and tiresome when you have to look at shit. I am also thinking about helping out the *future* me. Whatever I'm working on today may not last in 3 months or 6 years, but in the event it does? Well, I will be able to easily find what I'm looking for.
 
@@ -85,10 +85,10 @@ Besides, it helps me learn and become better at coding JavaScript.
 
 ### JS Hint <a href="http://jshint.com" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/07.png"><img src="/images/thoughts/mddt/07.png" alt=""/></a>
-	<small>JS Hint</small>
-</div>
+	<figcaption>JS Hint</figcaption>
+</figure>
 
 I use JS Hint immediately after using JS Beautifier. As I hinted earlier, I teach myself how to code JavaScript by looking at other code samples and integrating them into my own personal projects. JS Hint tells me how I *should* structure my JavaScript and I find the results enlightening. However, as with all recommendation engines, it is best to ensure the hinted code still works in your project.
 
@@ -96,10 +96,10 @@ Not all JavaScript is created equal.
 
 ### Stack Overflow <a href="http://stackoverflow.com" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/mddt/08.png"><img src="/images/thoughts/mddt/08.png" alt=""/></a>
-	<small>Stack Overflow</small>
-</div>
+	<figcaption>Stack Overflow</figcaption>
+</figure>
 
 This is the Google for coders. I really love this community, the majority of it is really nice and keen on helping people discover solutions to their problems. It feels good to give back to the community when I actually have an answer to a newbie's problem. I still consider myself intermediate, but I'm getting there.
 

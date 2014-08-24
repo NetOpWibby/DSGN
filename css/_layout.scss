@@ -22,16 +22,16 @@ body {
 
 /// HEADER ////////////////////////////////////////////////////////////////////////////////////////////
 
-header, footer {
-	background-position: center center;
+.dsgn-header, .dsgn-footer {
 	background-size: cover;
 	display: inline-block;
 	left: 0;
 	width: 100%;
 }
 
-header {
+.dsgn-header {
 	background-image: url("../images/portrait-01c.jpg");
+	background-position: center center;
 	height: 510px;
 	overflow: hidden;
 	position: fixed;
@@ -160,17 +160,13 @@ header {
 
 /// MAIN CONTENT //////////////////////////////////////////////////////////////////////////////////////
 
-#container {
+.layout-wrap {
 	background-color: $white;
 	padding: 50px 0;
 	position: relative;
 	top: 510px;
 
-	.wrapper {
-		margin: 0 20.66667%;
-		// padding: 0 10rem 0 18rem;
-	}
-	
+	/*
 	ul, ol {
 		@include serif;
 	  font-size: 1.3rem;
@@ -178,13 +174,24 @@ header {
 		margin: 0 0 2.5rem 2rem;
 		text-align: left;
 	}
+	*/
+}
+
+.layout { margin: 0 20.66667%; }
+
+h2 ~ small, img ~ small, a ~ small,
+a ~ figcaption, img ~ figcaption {
+	cursor: default;
+	opacity: 0.6;
+	position: absolute;
 }
 
 h2 ~ small, img ~ small, a ~ small {
-	cursor: default;
 	margin: -2rem 0 0 0.2rem;
-	opacity: 0.3;
-	position: absolute;
+}
+
+a ~ figcaption, img ~ figcaption {
+	margin: -1rem 0 0 0.2rem;
 }
 
 span {
@@ -202,7 +209,7 @@ p, ol, ul {
 
 h2 { font-weight: 400; }
 
-small {
+small, figcaption {
 	@include serif;
 	font-style: italic;
 }
@@ -371,15 +378,9 @@ code {
 	z-index: 1;
 
 	img {
-		// width: 135px; height: 239px;
 		top: 45px; left: 9px;
-
-		// background-color: $cyan;
-		// overflow: hidden;
 		position: absolute;
 	}
-
-	// img { margin: 0 0 0 -12px; }
 }
 
 .iphone-preview, .iphone-wall-preview {
@@ -407,7 +408,7 @@ code {
 
 .browser-preview, .desktop-preview {
 	width: 400px; height: 360px;
-	top: 0; left: 108px; // right: 0;
+	top: 0; left: 108px;
 
 	background-size: 400px 38px;
 	overflow: hidden;
@@ -460,9 +461,6 @@ code {
     position: absolute;
   }
 }
-
-// .browser-preview { background: url("../images/chrome-windows.jpg") no-repeat; }
-// .desktop-preview { background: url("../images/taskbar-windows.jpg") no-repeat; }
 
 .thought {
 	img {
@@ -605,34 +603,7 @@ code {
 
 /// FOOTER ////////////////////////////////////////////////////////////////////////////////////////////
 
-.link-dribbble, .link-github, .link-twitter {
-  &:before {
-    color: $black;
-    @include icon;
-    font-size: 1rem;
-    line-height: 1;
-  }
-}
-
-.link-dribbble {
-  &:before {
-    content: "\f22c";
-  }
-}
-
-.link-github {
-  &:before {
-    content: "\f233";
-  }
-}
-
-.link-twitter {
-  &:before {
-    content: "\f243";
-  }
-}
-
-footer {
+.dsgn-footer {
 	background-image: url("../images/portrait-02.jpg");
 	background-position: 0 -11rem;
 	color: #8d758d;
@@ -641,40 +612,45 @@ footer {
 	position: relative;
 	text-transform: uppercase;
 	top: 510px;
+}
 
-	nav, #copy {
-		display: inline-block;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
+.footer-link-wrap, .footer-copyright {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
-		-o-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-	}
+.footer-link-wrap { float: right; }
 
-	nav { float: right; }
+.footer-link-item {
+	display: inline-block;
+  margin-right: 1rem;
 
-  ul { cursor: default; }
+  &:last-child { margin-right: 0; }
+}
 
-	li {
-		display: inline-block;
-    margin-right: 1rem;
+.footer-copyright { cursor: default; }
 
-    &:last-child { margin-right: 0; }
-	}
-
-  .link-dribbble, .link-github, .link-twitter {
-    &:before {
-      color: $black;
-      @include icon;
-      font-size: 2rem;
-      line-height: 1;
-    }
+.icon-dribbble, .icon-github, .icon-twitter {
+  &:before {
+		@include icon;
+    color: $black;
+    font-size: 2rem;
+    line-height: 1;
   }
+}
 
-	#copy { cursor: default; }
+.icon-dribbble {
+  &:before { content: "\f22c"; }
+}
+
+.icon-github {
+  &:before { content: "\f233"; }
+}
+
+.icon-twitter {
+  &:before { content: "\f243"; }
 }
 
 // FLUIDBOX

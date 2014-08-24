@@ -13,15 +13,15 @@ Every one of these gadgets contain their own operating system, specifically desi
 
 This line of reasoning is how my operating system concept, <a href="http://dribbble.com/nokadota/projects/127021-hikari-OS">hikari OS</a> was born.
 
-<div>
+<figure>
 	<a href="/images/thoughts/tfotos/logo-full.jpg"><img src="/images/thoughts/tfotos/logo-full.jpg" alt=""/></a>
-	<small>Final logo and logotype</small>
-</div>
+	<figcaption>Final logo and logotype</figcaption>
+</figure>
 
-<div>
+<figure>
 	<a href="/images/thoughts/tfotos/tfotos-01.PNG"><img src="/images/thoughts/tfotos/tfotos-01.PNG" alt=""/></a>
-	<small>Fully coded snapshot of hikari</small>
-</div>
+	<figcaption>Fully coded snapshot of hikari</figcaption>
+</figure>
 
 There is a point to this post, but first, a story...
 

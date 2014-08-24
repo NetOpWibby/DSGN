@@ -18,31 +18,31 @@ I am using <a href="http://nodejs.org" target="_blank">node.js</a> for the struc
 
 I thought it clever to run the server on <span class="mono">localhost:1343</span> because of the main town in Megaman Battle Network is ACDC Town (think of the numbers as letters, you'll get it). <span class="mono">localhost:1343/s</span> is the URL you'll get it when you log in. This is future-proofing for when hikari will be hosted "in the cloud". The full URL will be <span class="mono">hikar.io/s</span>, for "hikari OS". I really like playing around with URLs, if you haven't noticed. Ooh, here are some screens of hikari at this time of writing!
 
-<div>
+<figure>
 	<a href="/images/thoughts/wnwhaa/01.jpg"><img src="/images/thoughts/wnwhaa/01.jpg" alt=""/></a>
-	<small>Login screen</small>
-</div>
+	<figcaption>Login screen</figcaption>
+</figure>
 
 I had the idea to use animated gifs that correspond with the weather in your area. Large animated gifs affect performance negatively on a Retina display. Check out that cursor though! I'm using SVG for it.
 
-<div>
+<figure>
 	<a href="/images/thoughts/wnwhaa/02.jpg"><img src="/images/thoughts/wnwhaa/02.jpg" alt=""/></a>
-	<small>Login panel expanded, opens with a nifty animation.</small>
-</div>
+	<figcaption>Login panel expanded, opens with a nifty animation.</figcaption>
+</figure>
 
 I have a theory that logins are going to become less important as the years go on. Still, for peace of mind (and as backup), standard login will be implemented.
 
-<div>
+<figure>
 	<a href="/images/thoughts/wnwhaa/03.jpg"><img src="/images/thoughts/wnwhaa/03.jpg" alt=""/></a>
-	<small>I'm logged in!</small>
-</div>
+	<figcaption>I'm logged in!</figcaption>
+</figure>
 
 You can tell from the upper-right corner that my avatar is being pulled via GitHub's oAuth, and the vertical green bar indicates I have an Internet connection.
 
-<div>
+<figure>
 	<a href="/images/thoughts/wnwhaa/04.jpg"><img src="/images/thoughts/wnwhaa/04.jpg" alt=""/></a>
-	<small>The main side menu opened. Battle Network fans will recognize this instantly.</small>
-</div>
+	<figcaption>The main side menu opened. Battle Network fans will recognize this instantly.</figcaption>
+</figure>
 
 <div class="hr">
 	<span>&middot;</span>

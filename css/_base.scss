@@ -4,10 +4,7 @@
 /// RESET /////////////////////////////////////////////////////////////////////////////////////////////
 
 * {
-	margin: 0; padding: 0;
-
 	box-sizing: border-box;
-	outline: none;
 	text-rendering: optimizeLegibility !important;
 	text-shadow: 1px 1px 1px rgba(25, 25, 25, 0.004);
 
@@ -26,10 +23,6 @@ header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, vi
 	font: inherit;
 	font-size: 100%;
 	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
 }
 
 input:focus { outline: 0; }
@@ -119,7 +112,7 @@ $key:       rgba(25, 25, 25, 1);    // #191919;
 /// GENERAL ///////////////////////////////////////////////////////////////////////////////////////////
 
 ::-webkit-scrollbar {
-  width: 10px; height: 3px;
+  width: 3px; height: 3px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -166,10 +159,7 @@ pre, code {
 	margin: 0 0.4rem;
 }
 
-small {
-	@include sans;
-	font-size: 80%;
-}
+small, figcaption { font-size: 80%; }
 
 .hide-text { @include hide-text; }
 .unicode-char { @include unicode; }

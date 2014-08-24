@@ -22,16 +22,16 @@ When Opera moved away from Presto, the first thing I noticed was that I no longe
 
 ### Smart RSS <a href="https://addons.opera.com/en/extensions/details/smart-rss" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/bboc/01.png"><img src="/images/thoughts/bboc/01.png" alt=""/></a>
-	<small>Smart RSS in action</small>
-</div>
+	<figcaption>Smart RSS in action</figcaption>
+</figure>
 
 ### RSS Detector <a href="https://addons.opera.com/en/extensions/details/rss-detector" style="color: #07d0eb">*</a>
 
-<div>
+<figure>
 	<a href="/images/thoughts/bboc/02.png"><img src="/images/thoughts/bboc/02.png" alt=""/></a>
-	<small>RSS Detector in action</small>
-</div>
+	<figcaption>RSS Detector in action</figcaption>
+</figure>
 
 This post is definitely incomplete, but it's a start. I discovered a way to remove some of the unsightly new additions to the Speed Dial page, but it would require an extension. If anyone knows how to modify the Speed Dial page via an extension, <a href="http://twitter.com/netopwibby">please let me know</a>.
