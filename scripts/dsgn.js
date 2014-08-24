@@ -14,9 +14,7 @@
 		});
 
 		if ($vW < "1025") {
-
 			$("#full-page-container").before('<div id="scroll-bg"></div>');
-
 		}
 
 		if ($vW < "321") {
@@ -369,26 +367,11 @@
 	// $("header").css("background-image", "url('/images/portrait-01.jpg')");
 
 	if (navigator.appVersion.indexOf("Win")!= -1) {
-
-		// $(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
-		// $(".desktop-preview").css("background", "url('/images/taskbar-windows.jpg') no-repeat");
-
     $(".browser-preview .content-wrapper, .desktop-preview .content-wrapper").addClass("is-win");
-
 	} else if (navigator.appVersion.indexOf("Mac")!= -1) {
-
-		// $(".browser-preview").css("background", "url('/images/chrome-mac.png') no-repeat");
-		// $(".desktop-preview").css("background", "url('/images/taskbar-mac.png') no-repeat");
-
     $(".browser-preview .content-wrapper, .desktop-preview .content-wrapper").addClass("is-mac");
-
 	} else {
-
-		// $(".browser-preview").css("background", "url('/images/chrome-windows.jpg') no-repeat");
-		// $(".desktop-preview").css("background", "url('/images/taskbar-windows.jpg') no-repeat");
-
     $(".browser-preview .content-wrapper, .desktop-preview .content-wrapper").addClass("is-win");
-
 	}
 
 	$(".top").click(function (e) {
