@@ -8,14 +8,14 @@ category: post
 I find this extremely unfair.
 
 <blockquote>
-	The Barbican marks the 50th anniversary of the James Bond franchise, from 1962's Dr No to this year's Skyfall, with a unique exhibition showcasing the inside story of the design and style of the world’s most influential and iconic movie brand.
+	The Barbican marks the 50th anniversary of the James Bond franchise, from 1962&rsquo;s Dr No to this year&rsquo;s Skyfall, with a unique exhibition showcasing the inside story of the design and style of the world&rsquo;s most influential and iconic movie brand.
 </blockquote>
 
 You know why this is unfair? <a href="https://www.barbican.org.uk/bond">The exhibition</a> will only be shown in London, England. Even better, there will be a martini bar as well!
 
-Bloody hell...at least I can enjoy these videos.
+Bloody hell&hellip;at least I can enjoy these videos.
 
-<h3>Bond’s World</h3>
+### Bond’s World
 
 <div class="video-container">
   <iframe src="http://player.vimeo.com/video/45067313?title=0&amp;byline=0&amp;portrait=0&amp;color=fefefe"></iframe>
@@ -28,7 +28,7 @@ Bloody hell...at least I can enjoy these videos.
 	<span>&middot;</span>
 </div>
 
-<h3>Bond’s Look</h3>
+### Bond’s Look
 
 <div class="video-container">
   <iframe src="http://player.vimeo.com/video/45066851?title=0&amp;byline=0&amp;portrait=0&amp;color=fefefe"></iframe>

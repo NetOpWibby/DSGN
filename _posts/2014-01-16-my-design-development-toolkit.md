@@ -5,14 +5,14 @@ date:   2014-01-16
 category: post
 ---
 
-When I started doing graphic design eight years ago (followed by web design a year later), I was like a distracted puppy. I had lots of imagination, and barely any skills so I wanted to try everything. A new application was released? I tested it. "10 Awesome New Fonts You Should Use"? Downloaded 'em. Web and graphic trends? Followed 'em (remember when grunge, textures, and glossy buttons were a thing? My site had coffee stain textures on it, and I don't even drink coffee).
+When I started doing graphic design eight years ago (followed by web design a year later), I was like a distracted puppy. I had lots of imagination, and barely any skills so I wanted to try everything. A new application was released? I tested it. &ldquo;10 Awesome New Fonts You Should Use&rdquo;? Downloaded &lsquo;em. Web and graphic trends? Followed &lsquo;em (remember when grunge, textures, and glossy buttons were a thing? My site had coffee stain textures on it, and I don&rsquo;t even drink coffee).
 
-As I matured into a more capable (front-end) web developer, I stopped paying attention to the "top list" headlines blogs are *still* continuing to use, and found myself returning to the same tools for every project I worked on. Subsequently, I released less and less graphic goodies (I used to make desktop wallpaper all the time). I intend to reverse that trend.
+As I matured into a more capable (front-end) web developer, I stopped paying attention to the &ldquo;top list&rdquo; headlines blogs are *still* continuing to use, and found myself returning to the same tools for every project I worked on. Subsequently, I released less and less graphic goodies (I used to make desktop wallpaper all the time). I intend to reverse that trend.
 
-This was going to be two different blog posts but most people are beginning the transition from designer to developer and vice-versa. I figured it would be helpful to show how my workflow is, so that you can learn something new and/or tell me how I could do something better! Also, I am on a Windows machine so some of the applications here won't apply to your system. Linux users, I commend you. Mac users...you guys get all the good stuff anyway.
+This was going to be two different blog posts but most people are beginning the transition from designer to developer and vice-versa. I figured it would be helpful to show how my workflow is, so that you can learn something new and/or tell me how I could do something better! Also, I am on a Windows machine so some of the applications here won&rsquo;t apply to your system. Linux users, I commend you. Mac users&hellip;you guys get all the good stuff anyway.
 
 ### Writing Utensil and Paper
-This is probably my most prized set of tools, right before Notepad++ and Opera. I own many <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Moleskine">Moleskine</a>s, sketch pads, notebooks, and <a href="http://www.creativesoutfitter.com/product/33/dot-grid-journal">DotGrid Journal</a>s. These many sources of paper are filled with layout sketches, HEX color codes, lyrics, plans for world domination, <a href="http://www.gamefaqs.com/gba/915457-mega-man-battle-network-3-blue/cheats">Numberman codes</a>, &c. Sketches are super essential for communicating ideas, complex and otherwise. Want proof? <a href="http://en.wikipedia.org/wiki/Hieroglyphics">Hieroglyphics</a>.
+This is probably my most prized set of tools, right before Notepad++ and Opera. I own many <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Moleskine">Moleskine</a>s, sketch pads, notebooks, and <a href="http://www.creativesoutfitter.com/product/33/dot-grid-journal">DotGrid Journal</a>s. These many sources of paper are filled with layout sketches, HEX color codes, lyrics, plans for world domination, <a href="http://www.gamefaqs.com/gba/915457-mega-man-battle-network-3-blue/cheats">Numberman codes</a>, &amp;c. Sketches are super essential for communicating ideas, complex and otherwise. Want proof? <a href="http://en.wikipedia.org/wiki/Hieroglyphics">Hieroglyphics</a>.
 
 ### Photoshop <a href="http://adobe.com/photoshop" style="color: #07d0eb">*</a>
 
@@ -32,7 +32,7 @@ Anyhoo! For concepts that require a bit of finesse and optimizing, Photoshop get
 	<figcaption>Axialis Icon Workshop</figcaption>
 </figure>
 
-I use this app to package 16px and 32px images of my favicons. Before this, I just made a single PNG (favicon.png) and called it a day. If you don't already know this, icons actually contain several different sizes of an image optimized for particular dimensions. Fun fact! High-DPI displays can take advantage of the 32x32px image inside your favicon.ico, whereas regular displays will still show the 16x16px icon. This is a small detail, but a detail nonetheless.
+I use this app to package 16px and 32px images of my favicons. Before this, I just made a single PNG (favicon.png) and called it a day. If you don&rsquo;t already know this, icons actually contain several different sizes of an image optimized for particular dimensions. Fun fact! High-DPI displays can take advantage of the 32x32px image inside your favicon.ico, whereas regular displays will still show the 16x16px icon. This is a small detail, but a detail nonetheless.
 
 ### Opera <a href="http://opera.com" style="color: #07d0eb">*</a>
 
@@ -43,9 +43,9 @@ I use this app to package 16px and 32px images of my favicons. Before this, I ju
 
 I discovered this browser sometime in 2006 and have been a faithful user ever since. I have three versions of Opera installed my computer: version <a href="http://www.opera.com/download/guide/?os=windows&ver=12.16&local=y">12.16</a>, the <a href="http://www.opera.com/computer">latest stable</a> version, and the <a href="http://www.opera.com/developer">latest developer</a> version.
 
-I use Opera because at the time I discovered it, it was the most standards-compliant (HTML, CSS, &c) browser, and it pioneered a lot of cool features that are now defaults in the other popular browsers. I am not sure if Opera is still the most standards-compliant, but even if it isn't, I'm a creature of habit. It's pretty difficult to get me to try something else if I'm comfortable with what I've got.
+I use Opera because at the time I discovered it, it was the most standards-compliant (HTML, CSS, &amp;c) browser, and it pioneered a lot of cool features that are now defaults in the other popular browsers. I am not sure if Opera is still the most standards-compliant, but even if it isn&rsquo;t, I&rsquo;m a creature of habit. It&rsquo;s pretty difficult to get me to try something else if I&rsquo;m comfortable with what I've got.
 
-<del>For long-time Opera users, I'll write a future post detailing how I make the new Opera feel like version 12.</del>
+<del>For long-time Opera users, I&rsquo;ll write a future post detailing how I make the new Opera feel like version 12.</del>
 <span><small>Updated 03.29.14 to add <a href="/thoughts/bringing-back-opera-classic">this</a>, a post where I detail how to make the new Opera feel like version 12.</small></span>
 
 ### Notepad++ <a href="http://www.notepad-plus-plus.org" style="color: #07d0eb">*</a>
@@ -55,11 +55,11 @@ I use Opera because at the time I discovered it, it was the most standards-compl
 	<figcaption>Notepad++</figcaption>
 </figure>
 
-My dad used Dreamweaver back when it was owned by Macromedia (lol, old man!). I *may* have perused a "<a href="http://webdesign.about.com/cs/htmleditors/gr/aapr_dreamwvrmx.htm">Dreamweaver MX</a>" book back in the day. Even though I started coding in '06/'07, I actually dabbled in it when I was in 7th grade. I didn't like how bulky Dreamweaver felt back then (still don't), so I opted to use Windows' default simple text editor, Notepad.
+My dad used Dreamweaver back when it was owned by Macromedia (lol, old man!). I *may* have perused a &ldquo;<a href="http://webdesign.about.com/cs/htmleditors/gr/aapr_dreamwvrmx.htm">Dreamweaver MX</a>&rdquo; book back in the day. Even though I started coding in &lsquo;06/&lsquo;07, I actually dabbled in it when I was in 7th grade. I didn&rsquo;t like how bulky Dreamweaver felt back then (still don&rsquo;t), so I opted to use Windows&rsquo; default simple text editor, Notepad.
 
-Maybe that's why I use Notepad++? I just wish it had native <a href="http://sass-lang.com">Sass</a> support! I've tried <a href="http://www.sublimetext.com">Sublime Text</a> and liked it *visually*, but I didn't like the auto-bracketing and other "auto" things. A pet peeve of mine is when programs try to tell me what to do (similarly, I also dislike Google's "Did you mean" suggestions, so I use <a href="https://duckduckgo.com">DuckDuckGo</a>. I also don't like getting tracked/spied on, but that's a different story). I'm sure the things that annoy me about Sublime can be disabled, but I didn't experience anything to make me think I should change text editors...also, Notepad++ is free.
+Maybe that&rsquo;s why I use Notepad++? I just wish it had native <a href="http://sass-lang.com">Sass</a> support! I&rsquo;ve tried <a href="http://www.sublimetext.com">Sublime Text</a> and liked it *visually*, but I didn&rsquo;t like the auto-bracketing and other &ldquo;auto" things. A pet peeve of mine is when programs try to tell me what to do (similarly, I also dislike Google&rsquo;s &ldquo;Did you mean&rdquo; suggestions, so I use <a href="https://duckduckgo.com">DuckDuckGo</a>. I also don&rsquo;t like getting tracked/spied on, but that&rsquo;s a different story). I&rsquo;m sure the things that annoy me about Sublime can be disabled, but I didn&rsquo;t experience anything to make me think I should change text editors&hellip;also, Notepad++ is free.
 
-I am using a custom theme based on a screenshot I saw on Dribbble. The font I use is "<a href="http://sourceforge.net/projects/sourcecodepro.adobe/files">Source Code Pro</a>" at 9 points.
+I am using a custom theme based on a screenshot I saw on Dribbble. The font I use is &ldquo;<a href="http://sourceforge.net/projects/sourcecodepro.adobe/files">Source Code Pro</a>&rdquo; at 9 points.
 
 ### Console2 <a href="http://sourceforge.net/projects/console" style="color: #07d0eb">*</a>
 
@@ -68,9 +68,9 @@ I am using a custom theme based on a screenshot I saw on Dribbble. The font I us
 	<figcaption>Console2</figcaption>
 </figure>
 
-While I was an apprentice at thoughtbot in early 2012, I was required to use MacBook because that's what they used (I think I used <a href="http://macromates.com/download">TextMate</a> as my replacement for Notepad++). The team there uses Ruby a lot, so that meant learning how to use Terminal. It was intimidating at first, but I grew to love the command line.
+While I was an apprentice at thoughtbot in early 2012, I was required to use MacBook because that&rsquo;s what they used (I think I used <a href="http://macromates.com/download">TextMate</a> as my replacement for Notepad++). The team there uses Ruby a lot, so that meant learning how to use Terminal. It was intimidating at first, but I grew to love the command line.
 
-When the apprenticeship was over, I was first disgusted, then saddened at the prospect of using Windows' default terminal, cmd.exe. Yuck. A quick search brought the existence of Console2 into my life. Using a screenshot of my temporary MacBook's Terminal, I customized Console2 to resemble it. The current look you see above is based on <a href="http://www.mangosango.us/new/amana2">Amana2</a> screenshots by the immaculate Sang Lee.
+When the apprenticeship was over, I was first disgusted, then saddened at the prospect of using Windows&rsquo; default terminal, cmd.exe. Yuck. A quick search brought the existence of Console2 into my life. Using a screenshot of my temporary MacBook&rsquo;s Terminal, I customized Console2 to resemble it. The current look you see above is based on <a href="http://www.mangosango.us/new/amana2">Amana2</a> screenshots by the immaculate <a href="http://www.sanglee.me">Sang Lee</a>.
 
 ### JS Beautifier <a href="http://jsbeautifier.org" style="color: #07d0eb">*</a>
 
@@ -79,7 +79,7 @@ When the apprenticeship was over, I was first disgusted, then saddened at the pr
 	<figcaption>JS Beautifier</figcaption>
 </figure>
 
-I often find useful code online, but it will be sloppily written. My coding style leans heavily on the side of readability, because looking at a screen all day gets really irritating and tiresome when you have to look at shit. I am also thinking about helping out the *future* me. Whatever I'm working on today may not last in 3 months or 6 years, but in the event it does? Well, I will be able to easily find what I'm looking for.
+I often find useful code online, but it will be sloppily written. My coding style leans heavily on the side of readability, because looking at a screen all day gets really irritating and tiresome when you have to look at shit. I am also thinking about helping out the *future* me. Whatever I&rsquo;m working on today may not last in 3 months or 6 years, but in the event it does? Well, I will be able to easily find what I&rsquo;m looking for.
 
 Besides, it helps me learn and become better at coding JavaScript.
 
@@ -101,7 +101,7 @@ Not all JavaScript is created equal.
 	<figcaption>Stack Overflow</figcaption>
 </figure>
 
-This is the Google for coders. I really love this community, the majority of it is really nice and keen on helping people discover solutions to their problems. It feels good to give back to the community when I actually have an answer to a newbie's problem. I still consider myself intermediate, but I'm getting there.
+This is the Google for coders. I really love this community, the majority of it is really nice and keen on helping people discover solutions to their problems. It feels good to give back to the community when I actually have an answer to a newbie&rsquo;s problem. I still consider myself intermediate, but I&rsquo;m getting there.
 
 <div class="hr">
 	<span>&middot;</span>
@@ -110,4 +110,4 @@ This is the Google for coders. I really love this community, the majority of it 
 	<span>&middot;</span>
 </div>
 
-And there you have it! I started to get carried away there, adding <a href="https://github.com">GitHub</a> and <a href="http://www.unheap.com">Unheap</a> to the list, but those two sites are more like "places where I can find some nice plugins".
+And there you have it! I started to get carried away there, adding <a href="https://github.com">GitHub</a> and <a href="http://www.unheap.com">Unheap</a> to the list, but those two sites are more like &ldquo;places where I can find some nice plugins&rdquo;.

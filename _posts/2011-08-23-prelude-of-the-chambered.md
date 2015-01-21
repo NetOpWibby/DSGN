@@ -5,12 +5,12 @@ date:   2011-08-23
 category: post
 ---
 
-This game was built in 48 hours (as is required by the game-making marathon, “Ludum Dare”).
+This game was built in 48 hours (as is required by the game-making marathon, &ldquo;Ludum Dare&rdquo;).
 
-I got stuck on a few parts, and died. That is where I ended my playtime (around 23 minutes…apparently, the game is beatable between 20 and 30 minutes). The only problem is, you have to start the game over when you die.
+I got stuck on a few parts, and died. That is where I ended my playtime (around 23 minutes&hellip;apparently, the game is beatable between 20 and 30 minutes). The only problem is, you have to start the game over when you die.
 
 Prelude of the Chambered reminds me a lot of Wolfenstein, and is even creepier at times.
 
-Java is required to play this game, as it is browser-based. What a marvelous time-waster. You’ll look productive while playing this, I know I did.
+Java is required to play this game, as it is browser-based. What a marvelous time-waster. You&rsquo;ll look productive while playing this, I know I did.
 
 <a href="http://s3.amazonaws.com/ld48/index.html" class="attribution">Prelude of the Chambered</a>

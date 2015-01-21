@@ -7,11 +7,11 @@ category: post
 
 I have wanted something like this since I was eight years old.
 
-As a kid, I was outside often, enjoying the beautiful colors and sounds of nature. I lived in Clarksville, Tennessee and I remember the autumn foliage fondly. It was <em>beautiful</em>. When I wasn't playing outside, I imagined being in the worlds I was exploring through fiction.
+As a kid, I was outside often, enjoying the beautiful colors and sounds of nature. I lived in Clarksville, Tennessee and I remember the autumn foliage fondly. It was <em>beautiful</em>. When I wasn&rsquo;t playing outside, I imagined being in the worlds I was exploring through fiction.
 
-I also loved to paint, draw, &amp;c. I remember mixing paint to try and get the <strong>exact</strong> shade of green I observed on a leaf, or the perfect brown for bark and pinecones. Of course, I never got there. Why wasn't there a device that could accurately give me a color found in nature? Even today, it is not super easy to find the perfect orange or brown in Photoshop.
+I also loved to paint, draw, &amp;c. I remember mixing paint to try and get the <strong>exact</strong> shade of green I observed on a leaf, or the perfect brown for bark and pinecones. Of course, I never got there. Why wasn&rsquo;t there a device that could accurately give me a color found in nature? Even today, it is not super easy to find the perfect orange or brown in Photoshop.
 
-Enter <a href="http://www.kickstarter.com/projects/657220568/swatchmate-color-capturing-cube">SwatchMate's Color Capturing Cube</a>!
+Enter <a href="http://www.kickstarter.com/projects/657220568/swatchmate-color-capturing-cube">SwatchMate&rsquo;s Color Capturing Cube</a>!
 
 <div class="video-container">
 	<iframe src="http://www.kickstarter.com/projects/657220568/swatchmate-color-capturing-cube/widget/video.html"></iframe>
@@ -23,4 +23,4 @@ Enter <a href="http://www.kickstarter.com/projects/657220568/swatchmate-color-ca
 
 Oh hells yeah!
 
-If the above wasn't enough, the Cube can output colors in the RGB, CMYK, and Lab color spaces. I pledged and am looking forward to receiving my Cube in the mail in about six months. I'm not thrilled about that, but all good things come to those to wait, right?
+If the above wasn&rsquo;t enough, the Cube can output colors in the RGB, CMYK, and Lab color spaces. I pledged and am looking forward to receiving my Cube in the mail in about six months. I&rsquo;m not thrilled about that, but all good things come to those to wait, right?

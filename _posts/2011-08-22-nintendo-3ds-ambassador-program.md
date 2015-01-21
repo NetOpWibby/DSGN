@@ -5,9 +5,9 @@ date:   2011-08-22
 category: post
 ---
 
-The Nintendo 3DS Ambassador Program is Nintendo's way of showing appreciation for consumers who purchased a Nintendo 3DS hand-held system during its first few months of availability.
+The Nintendo 3DS Ambassador Program is Nintendo&rsquo;s way of showing appreciation for consumers who purchased a Nintendo 3DS hand-held system during its first few months of availability.
 
-Basically, "Thank you for spending $250 on a handheld, even though we’re going to knock down the price by 80 bucks in a few months". I, of course, was one of the early adopters (I attended a midnight launch).
+Basically, &ldquo;Thank you for spending $250 on a handheld, even though we’re going to knock down the price by 80 bucks in a few months&rdquo;. I, of course, was one of the early adopters (I attended a midnight launch).
 
 Only five of the ten NES Virtual Console games have been announced so far. They are as follows:
 

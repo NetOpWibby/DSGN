@@ -9,6 +9,6 @@ One of my favorite deviantARTists and friends, Raindrop Memory, created this HTM
 
 The premise is pretty simple: jump around the stage with the SHIFT key and collect five floating heads while avoiding slow-moving blobs and normal-moving tiny blocks.
 
-This is quite a simple game that only has one level at the moment, but I enjoyed playing it. The dude's art style is just lovely, and I am always in awe...I wonder if he'll ever go into animation with short films and such.
+This is quite a simple game that only has one level at the moment, but I enjoyed playing it. The dude&rsquo;s art style is just lovely, and I am always in awe&hellip;I wonder if he&rsquo;ll ever go into animation with short films and such.
 
 <a href="http://dl.dropbox.com/u/363243/Construct%20Game/2011_8_TongHBD/index.html" class="attribution">Raindrop Memory</a>
