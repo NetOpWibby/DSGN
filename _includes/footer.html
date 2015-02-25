@@ -1,17 +1,31 @@
 
-			<footer class="dsgn-footer">
-				<span class="footer-copyright">&copy; Paul Anthony Webb</span>
+			<footer class="footer">
+				<span class="footer__copyright">&copy; Paul Anthony Webb</span>
 
-				<nav class="footer-link-wrap">
-					<a class="footer-link-item icon-dribbble" href="http://dribbble.com/nokadota"></a>
-					<a class="footer-link-item icon-github" href="http://github.com/NetOperatorWibby"></a>
-					<a class="footer-link-item icon-twitter" href="http://twitter.com/NetOpWibby"></a>
+				<nav class="footer__links">
+					<a class="footer__link icon-dribbble" href="http://dribbble.com/nokadota"></a>
+					<a class="footer__link icon-github" href="http://github.com/NetOperatorWibby"></a>
+					<a class="footer__link icon-twitter" href="http://twitter.com/NetOpWibby"></a>
 				</nav>
 			</footer>
 		</div>
 
-		<!--/ scripts /-->
+		<script src="/scripts/syntax/shCore.js"></script>
+		<script src="/scripts/syntax/shAutoloader.js"></script>
+		<script src="/scripts/syntax/main.js"></script>
 
+		<script src="/scripts/mousewheel.js"></script>
+		<script src="/scripts/waypoints.min.js"></script>
+		<script src="/scripts/scroll.js"></script>
+		<script src="/scripts/fluidbox.js"></script>
+
+		<script>
+			$(function () {
+				$("figure a").fluidbox();
+			});
+		</script>
+
+		<!--/
 		<script src="/scripts/mousewheel.js"></script>
 		<script src="/scripts/scrollpanel.js"></script>
 		<script src="/scripts/waypoints.min.js"></script>
@@ -20,7 +34,7 @@
 		<script>
 			$(function () {
 
-				$("#menu-home").css({
+				$("#menu-me").css({
 					"background-color": "#70d0eb",
 					"color": "#fcfcfc"
 				});
@@ -49,6 +63,7 @@
 
 			});
 		</script>
+		/-->
 
 	</body>
 

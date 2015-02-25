@@ -1,0 +1,19 @@
+.icon-dribbble:before,
+.icon-github:before,
+.icon-twitter:before {
+	@include icon;
+	color: $black;
+	line-height: 1;
+}
+
+.icon-dribbble:before {
+	content: "\f22c";
+}
+
+.icon-github:before {
+	content: "\f233";
+}
+
+.icon-twitter:before {
+	content: "\f243";
+}

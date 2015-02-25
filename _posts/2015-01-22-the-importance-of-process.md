@@ -17,4 +17,4 @@ Process improves productivity and productivity allows the team to gain a better 
 
 Be open to new ideas about process. If it does not make sense to you, apply it to your own work before completely dismissing it.
 
-<small>Originally posted December 12th, 2014 on [Reefpoints](http://reefpoints.dockyard.com/2014/12/12/importance-of-process.html), [DockYard](http://dockyard.com)&rsquo;s blog.</small>
+<small>Originally posted December 12th, 2014 on [Reefpoints](http://reefpoints.dockyard.com/2014/12/12/importance-of-process.html), [DockYard](http://dockyard.com)'s blog.</small>

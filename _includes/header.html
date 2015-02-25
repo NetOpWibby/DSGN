@@ -7,11 +7,11 @@
 		<title>DSGN &middot; {{ page.title }}</title>
 
 		<!--/ DESIGN SERVICES FOR THE GOOD NATURED
-			 _____    ______   ______   __   __    
+			 _____    ______   ______   __   __
 			/\  __-. /\  ___\ /\  ___\ /\ "-.\ \   *
-			\ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \  
-			 \ \____- \/\_____\\ \_____\\ \_\\"\_\ 
-			  \/____/  \/_____/ \/_____/ \/_/ \/_/ 
+			\ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \
+			 \ \____- \/\_____\\ \_____\\ \_\\"\_\
+			  \/____/  \/_____/ \/_____/ \/_/ \/_/
 
 			//////// 01000100010100110100011101001110
 
@@ -20,14 +20,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"/>
 		<meta name="description" content="I have a cool domain name. Oh, and I post my design work on it, you should check it out!"/>
 
-		<link href="/css/style.css?v=2" rel="stylesheet"/>
+		<link href="/css/style.css" rel="stylesheet"/>
 		<link href="/feed/atom.xml" rel="alternate" type="application/atom+xml" title="DSGN Feed"/>
 
 		<link href="/images/favicon.ico" rel="shortcut icon"/>
 		<link href="/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"/>
 
-		<script src="/scripts/prefixfree.min.js"></script>
+		<script async src="/scripts/smartquotes.js"></script>
+		<script async src="/scripts/prefixfree.min.js"></script>
 		<script src="/scripts/jquery-2.1.0.min.js"></script>
+		<script src="/scripts/first-text.js"></script>
 
 		<script>
 			var _gauges = _gauges || [];
@@ -45,11 +47,80 @@
 				s.parentNode.insertBefore(t, s);
 
 			})();
+
+			// via http://stackoverflow.com/a/7577970/1167646
+			// Cookie
+			var cookieName = "page_scroll";
+			var expdays = 365;
+
+			// An adaptation of Dorcht's cookie functions.
+
+			function setCookie(name, value, expires, path, domain, secure) {
+				if (!expires) {
+					expires = new Date();
+				}
+				document.cookie = name + "=" + escape(value) +
+					((expires == null) ? "" : "; expires=" + expires.toGMTString()) +
+					((path == null) ? "" : "; path=" + path) +
+					((domain == null) ? "" : "; domain=" + domain) +
+					((secure == null) ? "" : "; secure");
+			}
+
+			function getCookie(name) {
+				var arg = name + "=";
+				var alen = arg.length;
+				var clen = document.cookie.length;
+				var i = 0;
+				while (i < clen) {
+					var j = i + alen;
+					if (document.cookie.substring(i, j) == arg) {
+						return getCookieVal(j);
+					}
+					i = document.cookie.indexOf(" ", i) + 1;
+					if (i == 0) break;
+				}
+				return null;
+			}
+
+			function getCookieVal(offset) {
+				var endstr = document.cookie.indexOf(";", offset);
+				if (endstr == -1)
+					endstr = document.cookie.length;
+				return unescape(document.cookie.substring(offset, endstr));
+			}
+
+			function deleteCookie(name, path, domain) {
+				document.cookie = name + "=" +
+					((path == null) ? "" : "; path=" + path) +
+					((domain == null) ? "" : "; domain=" + domain) +
+					"; expires=Thu, 01-Jan-00 00:00:01 GMT";
+			}
+
+			function saveScroll() { // added function
+				var expdate = new Date();
+				expdate.setTime(expdate.getTime() + (expdays * 24 * 60 * 60 * 1000)); // expiry date
+
+				var x = (document.pageXOffset ? document.pageXOffset : document.body.scrollLeft);
+				var y = (document.pageYOffset ? document.pageYOffset : document.body.scrollTop);
+				Data = x + "_" + y;
+				setCookie(cookieName, Data, expdate);
+			}
+
+			function loadScroll() { // added function
+				inf = getCookie(cookieName);
+				if (!inf) {
+					return;
+				}
+				var ar = inf.split("_");
+				if (ar.length == 2) {
+					window.scrollTo(parseInt(ar[0]), parseInt(ar[1]));
+				}
+			}
 		</script>
 
 	</head>
 
-	<body>
+	<body onload="loadScroll()" onunload="saveScroll()">
 
 		<div id="full-page-container">
-			<header class="dsgn-header">
+			<header class="header">

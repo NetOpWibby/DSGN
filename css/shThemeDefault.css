@@ -1,0 +1,122 @@
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/SyntaxHighlighter
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
+ *
+ * @version
+ * 3.0.83 (July 02 2010)
+ *
+ * @copyright
+ * Copyright (C) 2004-2010 Alex Gorbatchev.
+ *
+ * @license
+ * Dual licensed under the MIT and GPL licenses.
+ */
+
+.syntaxhighlighter {
+	margin-bottom: 2.5rem; padding-top: 1rem; padding-bottom: 1rem;
+	background-color: #282a36;
+}
+
+.syntaxhighlighter::selection {
+	background-color: #363843 !important;
+}
+
+.syntaxhighlighter .line.alt1,
+.syntaxhighlighter .line.alt2 {
+	background-color: #282a36;
+}
+
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2 {
+	background-color: #363843;
+}
+
+.syntaxhighlighter .line.highlighted.number {
+  color: #fff !important;
+}
+
+.syntaxhighlighter table caption {
+  color: #fff;
+}
+
+.syntaxhighlighter .gutter {
+	color: #888;
+}
+
+.syntaxhighlighter .gutter .line {
+	border-right: 2px solid #2b2b2b;
+}
+
+.syntaxhighlighter .gutter .line.highlighted {
+  background-color: #6ce26c;
+  color: white;
+}
+
+.syntaxhighlighter .plain {
+	color: #535353;
+}
+
+.syntaxhighlighter .class {
+	color: #4ff579;
+}
+
+.syntaxhighlighter .element {
+	color: #ff79c6;
+}
+
+.syntaxhighlighter .default {
+	color: #fff;
+}
+
+.syntaxhighlighter .comments {
+	color: #6070a1;
+}
+
+.syntaxhighlighter .string {
+	color: #f1fa8c;
+}
+
+.syntaxhighlighter .keyword {
+	color: #8556ab;
+}
+
+.syntaxhighlighter .preprocessor {
+  color: gray;
+}
+
+.syntaxhighlighter .variable {
+  color: #aa7700;
+}
+
+.syntaxhighlighter .value {
+	color: #e38201;
+}
+
+.syntaxhighlighter .functions {
+  color: #ff1493;
+}
+
+.syntaxhighlighter .constants {
+  color: #0066cc;
+}
+
+.syntaxhighlighter .script {
+  color: #006699;
+  background-color: none;
+}
+
+.syntaxhighlighter .color1 {
+	color: #535353;
+}
+
+.syntaxhighlighter .color2 {
+  color: #ff1493;
+}
+
+.syntaxhighlighter .color3 {
+	color: #8be9fd;
+	font-style: italic;
+}

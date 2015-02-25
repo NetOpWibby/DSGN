@@ -1,15 +1,19 @@
-
 ///////////////////////////////////////////////////////////////////////////////////////// BASE/SCSS ///
 
 /// RESET /////////////////////////////////////////////////////////////////////////////////////////////
 
 * {
-	box-sizing: border-box;
 	text-rendering: optimizeLegibility !important;
 	text-shadow: 1px 1px 1px rgba(25, 25, 25, 0.004);
 
 	-moz-box-sizing: border-box;
 	-webkit-font-smoothing: antialiased !important;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
@@ -25,15 +29,20 @@ header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, vi
 	vertical-align: baseline;
 }
 
-input:focus { outline: 0; }
+input:focus {
+	outline: 0;
+}
 
-body { line-height: 1; }
-ol, ul { list-style: none; }
+body {
+	line-height: 1;
+}
 
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 
-	&:before, &:after {
+	&:before,
+	&:after {
 		content: "";
 		content: none;
 	}
@@ -42,19 +51,6 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-/// CLEARFIX //////////////////////////////////////////////////////////////////////////////////////////
-
-.cf {
-	zoom: 1;
-
-	&:before, &:after {
-		content: " ";
-		display: table;
-	}
-
-	&:after { clear: both; }
 }
 
 /// COLOURS ///////////////////////////////////////////////////////////////////////////////////////////
@@ -68,27 +64,25 @@ $gray:			rgba(228, 228, 228, 1);	// #e4e4e4;
 $cyan:      rgba(7, 208, 235, 1);   // #07d0eb;
 $magenta:   rgba(235, 7, 168, 1);   // #eb07a8;
 $yellow:    rgba(235, 232, 7, 1);   // #ebe807;
-$key:       rgba(25, 25, 25, 1);    // #191919;
 
 .cyan       { color: $cyan; }
 .magenta    { color: $magenta; }
 .yellow     { color: $yellow; }
-.key        { color: $key; }
+
+.key {
+	color: $white;
+	text-shadow: 0 0 1px $black;
+}
 
 .star				{ color: $white; }
 
 /// MIXINS ////////////////////////////////////////////////////////////////////////////////////////////
 
-@import url(http://brick.a.ssl.fastly.net/Source+Sans+Pro:300,300i,400,400i,600,700);
-@import url(http://brick.a.ssl.fastly.net/Source+Code+Pro:400);
-@import url(http://brick.a.ssl.fastly.net/Alegreya:400,400i,700);
-@import url(http://brick.a.ssl.fastly.net/Latin+Modern+Roman:400,400i,700,700i);
-
 @mixin unicode { font-family: Arial, Verdana, Geneva, sans-serif; }
 
-@mixin mono { font-family: "Source Code Pro", "Courier New", monospace; }
-@mixin sans { font-family: "Source Sans Pro", Arial, sans-serif; }
-@mixin serif { font-family: "Latin Modern Roman", Alegreya, Georgia, serif; }
+@mixin mono { font-family: "Courier New", monospace; }
+@mixin sans { font-family: "Texta", Arial, sans-serif; }
+@mixin serif { font-family: "Range Serif", Georgia, serif; }
 @mixin icon { font-family: "Ionicons"; }
 
 @mixin hide-text {
@@ -104,71 +98,81 @@ $key:       rgba(25, 25, 25, 1);    // #191919;
 	white-space: nowrap;
 }
 
-.mono {
+p code {
 	@include mono;
-	font-size: 80%;
+	font-size: 90%;
 }
 
 /// GENERAL ///////////////////////////////////////////////////////////////////////////////////////////
 
 ::-webkit-scrollbar {
-  width: 3px; height: 3px;
+  width: 5px; height: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
 	background-color: $black;
-	&:window-inactive { background-color: $cyan; }
+
+	&:window-inactive {
+		background-color: $cyan;
+	}
 }
 
-::-webkit-scrollbar-track { background: rgba($black, 0.1); }
-
-p {
-	@include serif;
-  font-size: 1.3rem;
-	line-height: 1.9rem;
-	margin: 0 0 2.5rem 0;
-	text-align: left;
+::-webkit-scrollbar-track {
+	background-color: rgba($black, 0.1);
 }
 
 a {
 	color: inherit;
-	cursor: pointer;
+	// cursor: pointer;
 	text-decoration: none;
-	transition: opacity 0.2s ease;
+	transition: all 0.2s ease;
 
-	&:hover { opacity: 0.7; }
+	&:hover {
+		opacity: 0.7;
+	}
 }
 
-em, i {
+em,
+i {
 	font-style: italic;
 
-	strong, .strong, b {
+	strong,
+	.strong,
+	b {
 		font-style: italic;
 		font-weight: 700;
 	}
 }
 
-strong, .strong, b {
+strong,
+.strong,
+b {
 	font-weight: 700;
-	em, i { font-style: italic; }
+
+	em,
+	i {
+		font-style: italic;
+	}
 }
 
-pre, code {
-	@include mono;
+small,
+figcaption {
 	font-size: 80%;
-	margin: 0 0.4rem;
 }
-
-small, figcaption { font-size: 80%; }
 
 .hide-text { @include hide-text; }
 .unicode-char { @include unicode; }
 
 /// TITLES ////////////////////////////////////////////////////////////////////////////////////////////
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 600;
-	a { font-weight: inherit; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	// font-weight: 600;
+	// a { font-weight: inherit; }
 }
 
 h1 {
@@ -177,14 +181,9 @@ h1 {
 	margin: 0 0 14px 0;
 }
 
-h2 {
-	font-size: 2rem;
-	line-height: 40px;
-	margin: 0 0 2rem 0;
-}
-
 h3 {
-	font-size: 1.7em; /* 28px */
+	font-size: 1.7em; // 28px
+	font-weight: 200;
 	line-height: 34px;
 	margin: 0 0 8px 0;
 }
@@ -205,82 +204,4 @@ h6 {
 	font-size: 14px;
 	line-height: 21px;
 	text-transform: uppercase;
-}
-
-/// LISTS /////////////////////////////////////////////////////////////////////////////////////////////
-
-ul, ol {
-	margin: 0; padding: 0;
-
-	ul, ol {
-		li {
-			margin: 0; padding: 0;
-			line-height: 1;
-		}
-	}
-}
-
-ul { list-style: none outside; }
-ol { list-style: decimal; }
-
-.square, .circle, .disc { margin-left: 30px; }
-
-.square { list-style: square outside; }
-.circle { list-style: circle outside; }
-.disc { list-style: disc outside; }
-
-hr {
-	border: 1px solid #ddd;
-	clear: both;
-	height: 0;
-	margin: 10px 0 30px;
-}
-
-/// QUOTES ////////////////////////////////////////////////////////////////////////////////////////////
-
-blockquote {
-	margin: 1.5rem -2rem 1.5rem 0; padding: 1rem 0 1rem 2rem;
-
-	background-color: transparent;
-	border-left: 10px solid $cyan;
-	@include serif;
-	font-size: 1.2rem;
-	font-style: italic;
-	line-height: 2rem;
-	quotes: "\201C""\201D""\2018""\2019";
-
-	a {
-		color: $cyan;
-		&:hover { opacity: 0.3; }
-	}
-
-	/*
-  &:before {
-    color: $cyan;
-    content: open-quote;
-		font-size: 6rem;
-		line-height: 0.1rem;
-		margin: 0 0.5rem 0 -0.5rem;
-		vertical-align: -2.5rem;
-  }
-	*/
-}
-
-/// VIDEO /////////////////////////////////////////////////////////////////////////////////////////////
-
-.video-container {
-	margin: 0 0 20px 0; padding-bottom: 56.25%; padding-top: 30px;
-
-	height: 0;
-	overflow: hidden;
-	position: relative;
-
-	iframe, object, embed {
-		width: 100%; height: 100%;
-		top: 0; left: 0;
-
-		border: none;
-		clear: left;
-		position: absolute;
-	}
 }

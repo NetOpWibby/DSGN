@@ -24,11 +24,13 @@
 	.split-left { height: auto; }
 	.split-right { height: 400px; }
 
-	.iphone-preview, .iphone-wall-preview {
+	.iphone-preview,
+	.iphone-wall-preview {
 		left: 3rem;
 	}
 
-	.browser-preview, .desktop-preview {
+	.browser-preview,
+	.desktop-preview {
 		left: inherit; right: 3rem;
 	}
 
@@ -44,15 +46,6 @@
 			text-decoration: none !important;
 		}
 	}
-
-	/*
-	.nav-wrapper {
-		nav {
-			font-size: 1.5rem !important;
-			line-height: 2rem;
-		}
-	}
-	*/
 
 	#scroll-bg {
 		width: 100%; height: 88px;
@@ -109,34 +102,9 @@
 	/// HEADER //////////////////////////////////////////////////////////////////////////////////////////
 
 	header {
-		// display: none;
-
-		// background-image: none;
-		// height: 95px;
-
-		/*
-		&:after {
-			top: 0; right: 0;
-			bottom: 0; left: 0;
-
-			background-image: linear-gradient(to bottom left, $magenta, $cyan);
-			content: "";
-			opacity: 0.6;
-			position: absolute;
-		}
-		*/
 	}
 
 	.nav-wrapper {
-		/*
-		width: 100%; height: 95px !important;
-		top: 0; left: 0;
-
-		margin: 0;
-		position: fixed;
-		z-index: 2 !important;
-		*/
-
 		#no-scroll, #work-availibility { display: none !important; }
 
 		#logo-text {
@@ -145,47 +113,6 @@
 				top: 2rem;
 			}
 		}
-
-		/*
-		#previous-content, #next-content {
-			position: absolute;
-			top: 12rem;
-			width: 200px;
-		}
-
-		#previous-content {
-			left: -17.55rem;
-			text-align: right;
-			transform: rotate(-90deg);
-
-			&:after { content: ""; }
-
-			-o-transform: rotate(-90deg);
-			-ms-transform: rotate(-90deg);
-			-moz-transform: rotate(-90deg);
-			-webkit-transform: rotate(-90deg);
-		}
-
-		#next-content {
-			right: -11rem;
-			transform: rotate(90deg);
-
-			-o-transform: rotate(90deg);
-			-ms-transform: rotate(90deg);
-			-moz-transform: rotate(90deg);
-			-webkit-transform: rotate(90deg);
-		}
-
-		&:after {
-			top: 0; right: 0;
-			bottom: 0; left: 0;
-
-			background-image: linear-gradient(to bottom left, $magenta, $cyan);
-			content: "";
-			opacity: 1; // 0.6
-			position: absolute;
-		}
-		*/
 	}
 
 	/// MAIN CONTENT ////////////////////////////////////////////////////////////////////////////////////
@@ -256,13 +183,6 @@
 
 		nav { display: none; }
 
-		/*
-		nav {
-			top: 0.85rem !important; left: 3.5rem !important;
-			font-size: 0.55em !important;
-		}
-		*/
-
 		#previous-content, #next-content {
 			bottom: 21.25rem;
 			display: none;
@@ -317,13 +237,6 @@
 		margin: 0 0 1.5rem 0;
 		text-align: left;
 	}
-
-	/*
-	h2 ~ small, img ~ small, a ~ small {
-		margin: -2rem 0 0 0;
-		width: 80%;
-	}
-	*/
 
 	/// FOOTER //////////////////////////////////////////////////////////////////////////////////////////
 

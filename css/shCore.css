@@ -1,0 +1,65 @@
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/SyntaxHighlighter
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
+ *
+ * @version
+ * 3.0.83 (July 02 2010)
+ *
+ * @copyright
+ * Copyright (C) 2004-2010 Alex Gorbatchev.
+ *
+ * @license
+ * Dual licensed under the MIT and GPL licenses.
+ */
+
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {
+	line-height: 1.4rem;
+	overflow: hidden; /* visible */
+	vertical-align: baseline;
+	font-family: "Source Code Pro", "Courier New", Courier, monospace;
+}
+
+.syntaxhighlighter {
+	overflow: auto;
+	width: 100%;
+}
+
+.syntaxhighlighter .bold {
+	font-weight: 600;
+}
+
+.syntaxhighlighter .italic {
+	font-style: italic;
+}
+
+.syntaxhighlighter .line {
+	white-space: pre;
+}
+
+.syntaxhighlighter table td.gutter .line {
+	padding-right: 0.5rem;
+	padding-left: 1rem;
+	text-align: right;
+}
+
+.syntaxhighlighter table td.code .line {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.syntaxhighlighter.nogutter td.code .container textarea,
+.syntaxhighlighter.nogutter td.code .line {
+	padding-left: 0;
+}

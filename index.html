@@ -4,28 +4,28 @@ title: "Portfolio of Paul Anthony Webb"
 ---
 
 <section id="me">
-						<p>I am a proud lefty, Aries, and space bandit. The only pencil I trust is a Ticonderoga. I was born on Easter Sunday, 1988. I used to be an &ldquo;Army-brat&rdquo;. My parents despised video games while I was growing up, so I am making up for it now. I make music under various aliases, the most used being &ldquo;the Wibby&rdquo; (followed by FRSH&times;BTS and Spaceman Fresh).</p>
+						<p>I am a proud lefty, Aries, and space bandit. The only pencil I trust is a Ticonderoga. I was born on Easter Sunday, 1988. I used to be an "Army-brat". My parents despised video games while I was growing up, so I am making up for it now. I make music under various aliases, the most used being "the Wibby" (followed by FRSH&times;BTS and Spaceman Fresh).</p>
 
-						<p>I named my portfolio &ldquo;Design Services for the Good Natured&rdquo; because no one likes a jerk. Every day brings about new opportunities, inspiration, and kick-ass &ldquo;whoah&rdquo; moments. Spread the love and do your part by inspiring others as you’ve been inspired! <strong>(:</strong> That’s what I try to do anyway.</p>
+						<p>I named my portfolio "Design Services for the Good Natured" because no one likes a jerk. Every day brings about new opportunities, inspiration, and kick-ass "whoah" moments. Spread the love and do your part by inspiring others as you’ve been inspired! <strong>(:</strong> That’s what I try to do anyway.</p>
 
 						<div class="more">
 							<a href="/me" class="read">Read more</a>
 							<a href="#" class="top">Top</a>
 						</div>
 
-						<div class="hr">
-							<span>&middot;</span>
-							<span>&middot;</span>
-							<span>&middot;</span>
-							<span>&middot;</span>
+						<div class="divider">
+							<span class="divider__shape-01"></span>
+							<span class="divider__shape-02"></span>
+							<span class="divider__shape-03"></span>
+							<span class="divider__shape-04"></span>
 						</div>
 					</section>
 
 					<section id="thoughts">
 						{% for post in site.posts limit: 1 %}
 						<div class="thought">
-							<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-							<small>Latest Post</small>
+							<h2 class="thought__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+							<small class="thought__meta">Latest Post</small>
 
 							<p>{{ post.content | strip_html | truncatewords: 75 }}</p>
 
@@ -35,19 +35,19 @@ title: "Portfolio of Paul Anthony Webb"
 							</div>
 						</div>
 
-						<div class="hr">
-							<span>&middot;</span>
-							<span>&middot;</span>
-							<span>&middot;</span>
-							<span>&middot;</span>
+						<div class="divider">
+							<span class="divider__shape-01"></span>
+							<span class="divider__shape-02"></span>
+							<span class="divider__shape-03"></span>
+							<span class="divider__shape-04"></span>
 						</div>
 						{% endfor %}
 					</section>
 
 					<section id="projects">
 						<div class="split-left">
-							<h2><a href="/projects/triangulace">Triangulace</a></h2>
-							<small>Freebie &middot; Wallpaper</small>
+							<h2 class="project__title"><a href="/projects/triangulace">Triangulace</a></h2>
+							<small class="project__meta">Freebie &middot; Wallpaper</small>
 
 							<p>I was inspired by a print piece for this. The problem? The piece had triangles on paper. That was okay, but I wanted triangles in space. BOOM.</p>
 

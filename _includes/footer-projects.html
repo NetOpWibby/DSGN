@@ -1,29 +1,25 @@
 
-			<footer class="dsgn-footer">
-				<span class="footer-copyright">&copy; Paul Anthony Webb</span>
+			<footer class="footer">
+				<span class="footer__copyright">&copy; Paul Anthony Webb</span>
 
-				<nav class="footer-link-wrap">
-					<a class="footer-link-item icon-dribbble" href="http://dribbble.com/nokadota"></a>
-					<a class="footer-link-item icon-github" href="http://github.com/NetOperatorWibby"></a>
-					<a class="footer-link-item icon-twitter" href="http://twitter.com/NetOpWibby"></a>
+				<nav class="footer__links">
+					<a class="footer__link icon-dribbble" href="http://dribbble.com/nokadota"></a>
+					<a class="footer__link icon-github" href="http://github.com/NetOperatorWibby"></a>
+					<a class="footer__link icon-twitter" href="http://twitter.com/NetOpWibby"></a>
 				</nav>
 			</footer>
 		</div>
 
-		<!--/ scripts /-->
-
+		<!--/
 		<script src="/scripts/mousewheel.js"></script>
 		<script src="/scripts/scrollpanel.js"></script>
 		<script src="/scripts/waypoints.min.js"></script>
 		<script src="/scripts/dsgn.js"></script>
-		<script src="/scripts/fluidbox.js"></script>
 
 		<script>
 			$(function () {
 
-				$(".gallery a").fluidbox();
-
-				$("#menu-projects").css({
+				$("#menu-me").css({
 					"background-color": "#70d0eb",
 					"color": "#fcfcfc"
 				});
@@ -35,13 +31,24 @@
 					$("#link-me, #link-thoughts, #link-projects").css("opacity", "1");
 				}, { offset: -100 });
 
+				$("#me").waypoint(function () {
+					$("#link-thoughts, #link-projects").css("opacity", "0.1");
+					$("#link-me").css("opacity", "1");
+				}, { offset: 410 });
+
+				$("#thoughts").waypoint(function () {
+					$("#link-me, #link-projects").css("opacity", "0.1");
+					$("#link-thoughts").css("opacity", "1");
+				}, { offset: 100 });
+
 				$("#projects").waypoint(function () {
 					$("#link-me, #link-thoughts").css("opacity", "0.1");
 					$("#link-projects").css("opacity", "1");
-				}, { offset: 410 });
+				}, { offset: 100 });
 
 			});
 		</script>
+		/-->
 
 	</body>
 

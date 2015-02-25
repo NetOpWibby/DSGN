@@ -1,0 +1,71 @@
+/// FOOTER ////////////////////////////////////////////////////////////////////////////////////////////
+
+.footer {
+	background-image: url("../images/portrait-02.jpg");
+	background-position: center;
+	color: #8d758d;
+	height: 100px;
+	position: relative;
+	text-transform: uppercase;
+
+	@media (max-width: 500px) {
+		padding-right: 6.66667%;
+		padding-left: 6.66667%;
+		top: 210px;
+	}
+
+	@media (min-width: 501px) and (max-width: 800px) {
+		top: 310px;
+	}
+
+	@media (min-width: 801px) {
+		top: 510px;
+	}
+
+	@media (min-width: 501px) and (max-width: 1200px) {
+		padding-right: 16.66667%;
+		padding-left: 16.66667%;
+	}
+
+	@media (min-width: 1201px) {
+		padding-right: 20.66667%;
+		padding-left: 20.66667%;
+	}
+}
+
+.footer__links,
+.footer__copyright {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.footer__links {
+	float: right;
+}
+
+.footer__link {
+	display: inline-block;
+
+	@media (max-width: 360px) {
+		font-size: 1.5rem;
+
+		&:not(:last-child) {
+			margin-right: 0.5rem;
+		}
+
+	}
+
+	@media (min-width: 361px) {
+		font-size: 2rem;
+
+		&:not(:last-child) {
+			margin-right: 1rem;
+		}
+	}
+}
+
+.footer__copyright {
+	cursor: default;
+}

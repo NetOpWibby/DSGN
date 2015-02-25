@@ -1,16 +1,21 @@
-
-/************************************************************************************ SCROLLBAR/SCSS **/
+//
+// _Scrollbar/
+// ///////////
 
 .jspContainer {
 	overflow: hidden;
 	position: relative;
 }
 
-.jspPane { position: absolute; }
-
-.jspVerticalBar, .jspHorizontalBar {
-	background: transparent;
+.jspPane,
+.jspVerticalBar,
+.jspHorizontalBar {
 	position: absolute;
+}
+
+.jspVerticalBar,
+.jspHorizontalBar {
+	background-color: transparent;
 }
 
 .jspVerticalBar {
@@ -19,7 +24,10 @@
 
 	.jspArrow {
 		height: 0;
-		&:focus { outline: none; }
+
+		&:focus {
+			outline: none;
+		}
 	}
 }
 
@@ -27,23 +35,36 @@
 	width: 100%; height: 1px;
 	bottom: -1px; left: 0;
 
-	.jspCap { float: left; }
-
-	.jspTrack, .jspDrag {
+	.jspCap,
+	.jspTrack,
+	.jspDrag,
+	.jspArrow {
 		float: left;
+	}
+
+	.jspTrack,
+	.jspDrag,
+	.jspArrow {
 		height: 100%;
 	}
 
 	.jspArrow {
-		width: 16px; height: 100%;
-		float: left;
+		width: 16px;
 	}
 }
 
-.jspCap { display: none; }
+.jspCap {
+	display: none;
+}
+
+.jspTrack,
+.jspArrow,
+.jspArrow.jspDisabled,
+.jspCorner {
+	background-color: rgba($white, 0.3);
+}
 
 .jspTrack {
-	background-color: rgba($white, 0.3);
 	position: relative;
 }
 
@@ -58,19 +79,16 @@
 .jspArrow {
 	margin: 0; padding: 0;
 
-	background-color: rgba($white, 0.3);
 	cursor: pointer;
 	display: block;
 	text-indent: -20000px;
 }
 
 .jspArrow.jspDisabled {
-	background-color: rgba($white, 0.3);
 	cursor: default;
 }
 
 .jspCorner {
-	background-color: rgba($white, 0.3);
 	float: left;
 	height: 100%;
 }

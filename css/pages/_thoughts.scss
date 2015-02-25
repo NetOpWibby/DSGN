@@ -1,0 +1,51 @@
+.thought {
+	position: relative;
+
+	img {
+		width: 100%; height: auto;
+	}
+
+	.attribution:before {
+		content: " / ";
+		font-style: italic;
+		font-weight: 300;
+	}
+}
+
+.title ~ .meta,
+.project__title ~ .project__meta,
+.thought__title ~ .thought__meta {
+	cursor: default;
+	opacity: 0.6;
+	margin-top: -2rem;
+	position: absolute;
+}
+
+.project__title ~ .project__meta,
+.thought__title ~ .thought__meta {
+	margin-left: 0.2rem;
+}
+
+.title {
+	@extend %layout;
+}
+
+.thought__title {
+	@extend %layout;
+	text-align: center;
+}
+
+.meta,
+.project__meta,
+.thought__meta {
+	position: absolute;
+	width: 100%;
+}
+
+.thought__meta {
+	text-align: center;
+}
+
+.meta {
+	@extend %layout;
+}
