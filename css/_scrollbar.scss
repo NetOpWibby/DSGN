@@ -3,92 +3,92 @@
 // ///////////
 
 .jspContainer {
-	overflow: hidden;
-	position: relative;
+  overflow: hidden;
+  position: relative;
 }
 
 .jspPane,
 .jspVerticalBar,
 .jspHorizontalBar {
-	position: absolute;
+  position: absolute;
 }
 
 .jspVerticalBar,
 .jspHorizontalBar {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .jspVerticalBar {
-	width: 3px; height: 100%;
-	top: 0; right: 0.5%;
+  width: 3px; height: 100%;
+  top: 0; right: 0.5%;
 
-	.jspArrow {
-		height: 0;
+  .jspArrow {
+    height: 0;
 
-		&:focus {
-			outline: none;
-		}
-	}
+    &:focus {
+      outline: none;
+    }
+  }
 }
 
 .jspHorizontalBar {
-	width: 100%; height: 1px;
-	bottom: -1px; left: 0;
+  width: 100%; height: 1px;
+  bottom: -1px; left: 0;
 
-	.jspCap,
-	.jspTrack,
-	.jspDrag,
-	.jspArrow {
-		float: left;
-	}
+  .jspCap,
+  .jspTrack,
+  .jspDrag,
+  .jspArrow {
+    float: left;
+  }
 
-	.jspTrack,
-	.jspDrag,
-	.jspArrow {
-		height: 100%;
-	}
+  .jspTrack,
+  .jspDrag,
+  .jspArrow {
+    height: 100%;
+  }
 
-	.jspArrow {
-		width: 16px;
-	}
+  .jspArrow {
+    width: 16px;
+  }
 }
 
 .jspCap {
-	display: none;
+  display: none;
 }
 
 .jspTrack,
 .jspArrow,
 .jspArrow.jspDisabled,
 .jspCorner {
-	background-color: rgba($white, 0.3);
+  background-color: rgba($white, 0.3);
 }
 
 .jspTrack {
-	position: relative;
+  position: relative;
 }
 
 .jspDrag {
-	top: 0; left: 0;
+  top: 0; left: 0;
 
-	background-color: $black;
-	cursor: pointer;
-	position: relative;
+  background-color: $black;
+  cursor: pointer;
+  position: relative;
 }
 
 .jspArrow {
-	margin: 0; padding: 0;
+  margin: 0; padding: 0;
 
-	cursor: pointer;
-	display: block;
-	text-indent: -20000px;
+  cursor: pointer;
+  display: block;
+  text-indent: -20000px;
 }
 
 .jspArrow.jspDisabled {
-	cursor: default;
+  cursor: default;
 }
 
 .jspCorner {
-	float: left;
-	height: 100%;
+  float: left;
+  height: 100%;
 }

@@ -2,156 +2,156 @@
 
 html,
 body {
-	width: 100%; height: 100%;
-	// overflow-scrolling: touch;
+  width: 100%; height: 100%;
+  // overflow-scrolling: touch;
 }
 
 body {
   background-color: $white;
   color: rgba($black, 0.9);
-	@include sans;
-	font-size: 16px;
-	overflow-x: hidden; // overflow: hidden;
-	position: relative;
+  @include sans;
+  font-size: 16px;
+  overflow-x: hidden; // overflow: hidden;
+  position: relative;
 }
 
 ::selection {
-	background-color: $yellow;
+  background-color: $yellow;
 }
 
 /// MAIN CONTENT //////////////////////////////////////////////////////////////////////////////////////
 
 .layout-wrap {
-	background-color: $white;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	position: relative;
+  background-color: $white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
 
-	&:before {
-		background-image: linear-gradient(to bottom, transparent, $white);
-		content: "";
-		left: 0;
-		position: absolute;
-		width: 100%;
+  &:before {
+    background-image: linear-gradient(to bottom, transparent, $white);
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
 
-		@media (max-width: 500px) {
-			height: 210px;
-			top: -210px;
-		}
+    @media (max-width: 500px) {
+      height: 210px;
+      top: -210px;
+    }
 
-		@media (min-width: 501px) and (max-width: 800px) {
-			height: 310px;
-			top: -310px;
-		}
+    @media (min-width: 501px) and (max-width: 800px) {
+      height: 310px;
+      top: -310px;
+    }
 
-		@media (min-width: 801px) {
-			height: 510px;
-			top: -510px;
-		}
-	}
+    @media (min-width: 801px) {
+      height: 510px;
+      top: -510px;
+    }
+  }
 
-	@media (max-width: 500px) {
-		top: 210px;
-	}
+  @media (max-width: 500px) {
+    top: 210px;
+  }
 
-	@media (min-width: 501px) and (max-width: 800px) {
-		top: 310px;
-	}
+  @media (min-width: 501px) and (max-width: 800px) {
+    top: 310px;
+  }
 
-	@media (min-width: 801px) {
-		top: 510px;
-	}
+  @media (min-width: 801px) {
+    top: 510px;
+  }
 }
 
 %layout {
-	@media (max-width: 500px) {
-		margin-right: 6.66667%;
-		margin-left: 6.66667%;
-	}
+  @media (max-width: 500px) {
+    margin-right: 6.66667%;
+    margin-left: 6.66667%;
+  }
 
-	@media (min-width: 501px) and (max-width: 1200px) {
-		margin-right: 16.66667%;
-		margin-left: 16.66667%;
-	}
+  @media (min-width: 501px) and (max-width: 1200px) {
+    margin-right: 16.66667%;
+    margin-left: 16.66667%;
+  }
 
-	@media (min-width: 1201px) {
-		margin-right: 20.66667%;
-		margin-left: 20.66667%;
-	}
+  @media (min-width: 1201px) {
+    margin-right: 20.66667%;
+    margin-left: 20.66667%;
+  }
 }
 
 blockquote {
-	// margin: 1.5rem -2rem 1.5rem 0;
-	margin-bottom: 1.5rem; padding: 2rem 2rem 1rem 2rem;
+  // margin: 1.5rem -2rem 1.5rem 0;
+  margin-bottom: 1.5rem; padding: 2rem 2rem 1rem 2rem;
 
-	background-color: $white;
-	border-left: 10px solid $cyan;
-	@include serif;
-	font-style: italic;
-	width: 100%;
+  background-color: $white;
+  border-left: 10px solid $cyan;
+  @include serif;
+  font-style: italic;
+  width: 100%;
 
-	a {
-		color: $cyan;
+  a {
+    color: $cyan;
 
-		&:hover {
-			opacity: 0.3;
-		}
-	}
+    &:hover {
+      opacity: 0.3;
+    }
+  }
 
-	p {
-		margin: 0; padding: 0;
-		margin-bottom: 2rem;
-	}
+  p {
+    margin: 0; padding: 0;
+    margin-bottom: 2rem;
+  }
 
-	@media (min-width: 1090px) {
-		padding-right: 16.66667%;
-		padding-left: 16.66667%;
-	}
+  @media (min-width: 1090px) {
+    padding-right: 16.66667%;
+    padding-left: 16.66667%;
+  }
 }
 
 .p-intro {
-	font-size: 80%;
-	font-weight: 700;
-	text-transform: uppercase;
+  font-size: 80%;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 img ~ small,
 a ~ small,
 a ~ figcaption,
 img ~ figcaption {
-	cursor: default;
-	opacity: 0.6;
-	position: absolute;
+  cursor: default;
+  opacity: 0.6;
+  position: absolute;
 }
 
 img ~ small,
 a ~ small {
-	margin-top: -2rem;
-	margin-left: 0.2rem;
+  margin-top: -2rem;
+  margin-left: 0.2rem;
 }
 
 a ~ figcaption,
 img ~ figcaption,
 h2 ~ .inline-list {
-	margin-top: -1rem;
-	text-align: center;
-	width: 100%;
+  margin-top: -1rem;
+  text-align: center;
+  width: 100%;
 }
 
 span small {
-	display: block;
+  display: block;
 }
 
 p,
 ol,
 ul {
-	a {
-		color: $cyan;
+  a {
+    color: $cyan;
 
-		&:hover {
-			opacity: 0.3;
-		}
-	}
+    &:hover {
+      opacity: 0.3;
+    }
+  }
 }
 
 // .header:not(.is-extended) .header__button
@@ -161,102 +161,102 @@ p,
 ul,
 ol,
 .more {
-	@extend %layout;
+  @extend %layout;
 }
 
 p,
 ul,
 ol {
-	@include serif;
-	margin-bottom: 2.5rem;
+  @include serif;
+  margin-bottom: 2.5rem;
 
-	@media (max-width: 650px) {
-		font-size: 1rem;
-		line-height: 2rem;
-		// text-align: justify;
-	}
+  @media (max-width: 650px) {
+    font-size: 1rem;
+    line-height: 2rem;
+    // text-align: justify;
+  }
 
-	@media (min-width: 651px) {
-		font-size: 1.3rem;
-		line-height: 1.9rem;
-	}
+  @media (min-width: 651px) {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+  }
 }
 
 ul,
 ol {
-	padding-left: 1.25rem;
+  padding-left: 1.25rem;
 }
 
 ul {
-	list-style-type: square;
+  list-style-type: square;
 }
 
 li {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 h2 {
-	font-weight: 200;
-	margin-bottom: 2.5rem;
+  font-weight: 200;
+  margin-bottom: 2.5rem;
 
-	@media (max-width: 650px) {
-		font-size: 2rem;
-		line-height: 2rem;
-	}
+  @media (max-width: 650px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
 
-	@media (min-width: 651px) {
-		font-size: 2.5rem;
-		line-height: 2.5rem;
-	}
+  @media (min-width: 651px) {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
 }
 
 h3 a {
-	color: $cyan;
+  color: $cyan;
 }
 
 figure {
-	margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 small,
 figcaption {
-	@include serif;
-	font-style: italic;
+  @include serif;
+  font-style: italic;
 }
 
 .inline-list {
   font-size: 1.3rem;
-	line-height: 2.2rem;
+  line-height: 2.2rem;
 
-	li {
-		display: inline;
+  li {
+    display: inline;
 
-		&:after {
-			content: "\00a0\00a0/\00a0";
-			font-style: italic;
-			font-weight: 300;
-		}
+    &:after {
+      content: "\00a0\00a0/\00a0";
+      font-style: italic;
+      font-weight: 300;
+    }
 
-		&:last-child:after {
-			content: "";
-		}
-	}
+    &:last-child:after {
+      content: "";
+    }
+  }
 }
 
 .split-left,
 .split-right {
-	display: table-cell;
-	position: relative;
-	vertical-align: top;
+  display: table-cell;
+  position: relative;
+  vertical-align: top;
 }
 
 .split-left {
-	width: 40%;
+  width: 40%;
 }
 
 .split-right {
-	padding: 1rem;
-	width: 60%;
+  padding: 1rem;
+  width: 60%;
 }
 
 
@@ -264,171 +264,171 @@ figcaption {
 /// CONTENT ///////////////////////////////////////////////////////////////////////////////////////////
 
 .more {
-	border-bottom: 3px solid $black;
-	font-weight: 600;
-	margin-bottom: 3rem;
-	position: relative;
-	text-transform: uppercase;
+  border-bottom: 3px solid $black;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  position: relative;
+  text-transform: uppercase;
 
-	.read,
-	.top {
-		margin-top: -1.1rem; padding: 0.2rem 0.5rem;
+  .read,
+  .top {
+    margin-top: -1.1rem; padding: 0.2rem 0.5rem;
 
-		font-size: 80%;
-		position: absolute;
-		transition: all 0.2s ease;
+    font-size: 80%;
+    position: absolute;
+    transition: all 0.2s ease;
 
-		&:hover {
-			opacity: 1;
-		}
-	}
+    &:hover {
+      opacity: 1;
+    }
+  }
 
-	.read {
-		background-color: $black;
-		color: $white;
-		left: 0;
+  .read {
+    background-color: $black;
+    color: $white;
+    left: 0;
 
-		&:hover {
-			padding-left: 1rem;
-		}
-	}
+    &:hover {
+      padding-left: 1rem;
+    }
+  }
 
-	.top {
-		right: 0;
+  .top {
+    right: 0;
 
-		&:hover {
-			padding-right: 1rem;
-		}
-	}
+    &:hover {
+      padding-right: 1rem;
+    }
+  }
 }
 
 .divider {
-	width: 92px; height: 1rem;
+  width: 92px; height: 1rem;
 
-	cursor: default;
-	font-size: 4em;
-	line-height: 0.5em;
-	margin-right: auto;
-	margin-bottom: 3rem;
-	margin-left: auto;
+  cursor: default;
+  font-size: 4em;
+  line-height: 0.5em;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
 }
 
 .divider__shape-01,
 .divider__shape-02,
 .divider__shape-03,
 .divider__shape-04 {
-	float: left;
+  float: left;
 }
 
 .divider__shape-01,
 .divider__shape-02,
 .divider__shape-03 {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .divider__shape-01 { // triangle down
-	width: 0; height: 0;
+  width: 0; height: 0;
 
-	border-left: 4px solid transparent;
-	border-right: 4px solid transparent;
-	border-top: 8px solid $cyan;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid $cyan;
 }
 
 .divider__shape-02 { // square
-	width: 8px; height: 8px;
-	background-color: $magenta;
+  width: 8px; height: 8px;
+  background-color: $magenta;
 }
 
 .divider__shape-03 { // circle
-	width: 8px; height: 8px;
+  width: 8px; height: 8px;
 
-	background-color: $yellow;
-	border-radius: 50%;
+  background-color: $yellow;
+  border-radius: 50%;
 }
 
 .divider__shape-04 { // triangle up
-	width: 0; height: 0;
+  width: 0; height: 0;
 
-	border-left: 4px solid transparent;
-	border-right: 4px solid transparent;
-	border-bottom: 8px solid $black;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid $black;
 }
 
 .gallery {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	margin-bottom: 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
 
-	-webkit-flex-flow: row wrap; // iOS fix
+  -webkit-flex-flow: row wrap; // iOS fix
 
-	div {
-		margin: 0 0 1rem 0;
+  div {
+    margin-bottom: 1rem;
 
-		a {
-			background-color: #eee;
-			border: none;
-			margin-bottom: 1.5rem;
+    a {
+      background-color: #eee;
+      border: none;
+      margin-bottom: 1.5rem;
 
-			cursor: -moz-zoom-in;
-			cursor: -webkit-zoom-in;
+      cursor: -moz-zoom-in;
+      cursor: -webkit-zoom-in;
 
-			&:hover {
-				opacity: 1;
-			}
+      &:hover {
+        opacity: 1;
+      }
 
-			img {
-				display: block;
-				margin: 0 auto;
-				max-width: 100%;
-				transition: all 0.25s ease-in-out;
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        transition: all 0.25s ease-in-out;
 
-				&:hover {
-					opacity: 1;
-				}
-			}
-		}
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
 
-		a.fluidbox-opened {
-			cursor: -webkit-zoom-out;
-			cursor: -moz-zoom-out;
-		}
-	}
+    a.fluidbox-opened {
+      cursor: -webkit-zoom-out;
+      cursor: -moz-zoom-out;
+    }
+  }
 
-	span {
-		bottom: 0; left: 0;
+  span {
+    bottom: 0; left: 0;
 
-		background-color: rgba($black, 0.6);
-		color: $white;
-		@include serif;
-		font-style: italic;
-		line-height: 0.8rem;
-		position: absolute;
-		width: 100%;
-		z-index: 1000;
-	}
+    background-color: rgba($black, 0.6);
+    color: $white;
+    @include serif;
+    font-style: italic;
+    line-height: 0.8rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+  }
 
-	.col-2,
-	.col-3 {
-		margin: 0;
-		position: relative;
-	}
+  .col-2,
+  .col-3 {
+    margin: 0;
+    position: relative;
+  }
 
-	.col-2 {
-		width: 49%;
+  .col-2 {
+    width: 49%;
 
-		span {
-			font-size: 0.5rem;
-			padding: 0.5rem;
-		}
-	}
+    span {
+      font-size: 0.5rem;
+      padding: 0.5rem;
+    }
+  }
 
-	.col-3 {
-		width: 32%;
+  .col-3 {
+    width: 32%;
 
-		span {
-			font-size: 0.5rem;
-			padding: 0.2rem 0.4rem;
-		}
-	}
+    span {
+      font-size: 0.5rem;
+      padding: 0.2rem 0.4rem;
+    }
+  }
 }
