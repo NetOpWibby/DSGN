@@ -3,19 +3,21 @@ layout: default
 ---
 
 <section id="thoughts">
-						<div class="thought">
 
-							<h2 class="thought__title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-							<small class="thought__meta">{{ page.date | date: "shared on %B %d, %Y" }}</small>
+            <div class="thought">
 
-							{{ content }}
+              <h2 class="thought__title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+              <small class="thought__meta">{{ page.date | date: "shared on %B %d, %Y" }}</small>
 
-						</div>
+              {{ content }}
 
-						<div class="divider">
-							<span class="divider__shape-01"></span>
-							<span class="divider__shape-02"></span>
-							<span class="divider__shape-03"></span>
-							<span class="divider__shape-04"></span>
-						</div>
-					</section>
+            </div>
+
+            <div class="divider">
+              <span class="divider__shape-01"></span>
+              <span class="divider__shape-02"></span>
+              <span class="divider__shape-03"></span>
+              <span class="divider__shape-04"></span>
+            </div>
+
+          </section>
