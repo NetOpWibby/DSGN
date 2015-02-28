@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "UTF-8 + Web Stacks"
 date:     2011-08-22
 category: post

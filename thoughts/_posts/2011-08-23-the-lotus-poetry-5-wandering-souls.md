@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "The Lotus Poetry + 5 Wandering Souls"
 date:     2011-08-23
 category: post

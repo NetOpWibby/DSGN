@@ -1,24 +1,24 @@
 {% include header.html %}
 
           <nav class="pagination">
-            {% if paginator.previous_page %}
+          {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-            {% capture previous_page %}/{% endcapture %}
+              {% capture previous_page %}/{% endcapture %}
             {% else %}
-            {% capture previous_page %}/page{{ paginator.previous_page }}{% endcapture %}
+              {% capture previous_page %}/page{{ paginator.previous_page }}{% endcapture %}
             {% endif %}
             <a class="pagination__item--previous" href="/thoughts{{ previous_page }}">Previous Page</a>
-            {% endif %}
+          {% endif %}
 
-            {% if paginator.next_page %}
+          {% if paginator.next_page %}
             <a class="pagination__item--next" href="/thoughts/page{{ paginator.next_page }}">Next Page</a>
-            {% endif %}
+          {% endif %}
 
-            {% if page.previous %}
-            <a class="pagination__item--previous" href="{{ page.previous.url }}">Previous Post</a>
-            {% endif %}
-            {% if page.next %}
-            <a class="pagination__item--next" href="{{ page.next.url }}">Next Post</a>
-            {% endif %}
+          {% if page.previous_in_category != nil %}
+            <a class="pagination__item--previous" href="{{ page.previous_in_category.url }}">Previous Post</a>
+          {% endif %}
+          {% if page.next_in_category != nil %}
+            <a class="pagination__item--next" href="{{ page.next_in_category.url }}">Next Post</a>
+          {% endif %}
           </nav>
 {% include footer.html %}

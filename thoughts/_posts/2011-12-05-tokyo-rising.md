@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Tokyo Rising"
 date:     2011-12-05
 category: post

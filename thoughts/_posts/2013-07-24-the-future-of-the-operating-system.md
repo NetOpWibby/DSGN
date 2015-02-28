@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "The Future of the Operating System"
 date:     2013-07-24
 category: post

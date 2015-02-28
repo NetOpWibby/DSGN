@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "My graphic design/web development toolkit"
 date:     2014-01-16
 category: post

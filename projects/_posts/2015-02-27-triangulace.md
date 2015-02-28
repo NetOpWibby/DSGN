@@ -1,8 +1,8 @@
 ---
-layout:   project
+layout:   post-project
 title:    "Triangulace"
 date:     2015-02-27
-category: post
+category: project
 ---
 
 I was inspired by a print piece for this. The problem? The piece had triangles on paper. That was okay, but I wanted triangles in space. BOOM.

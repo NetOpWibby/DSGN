@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Prelude of the Chambered"
 date:     2011-08-23
 category: post

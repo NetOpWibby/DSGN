@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Bringing back Opera classic"
 date:     2014-04-07
 category: post

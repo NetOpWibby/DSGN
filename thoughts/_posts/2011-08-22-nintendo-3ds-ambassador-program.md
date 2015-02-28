@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Nintendo 3DS Ambassador Program"
 date:     2011-08-22
 category: post

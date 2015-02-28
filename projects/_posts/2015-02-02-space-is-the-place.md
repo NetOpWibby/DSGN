@@ -1,8 +1,8 @@
 ---
-layout:   project
+layout:   post-project
 title:    "Space is the Place"
 date:     2015-02-02
-category: post
+category: project
 ---
 
 The funny thing about this wallpaper is, I wasn't even trying to create one. I just wanted to make examples of possible font usage for [Rainbow Fragments](Rainbow Fragments). Don't you love unintentional awesomeness? I know I do.

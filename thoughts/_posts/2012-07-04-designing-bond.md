@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Designing Bond"
 date:     2012-07-04
 category: post

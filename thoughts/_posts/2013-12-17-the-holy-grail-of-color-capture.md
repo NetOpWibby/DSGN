@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "The Holy Grail of Color Capture"
 date:     2013-12-17
 category: post

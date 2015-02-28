@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Using dashes in Rails 3 routes"
 date:     2012-10-22
 category: post

@@ -1,8 +1,8 @@
 ---
-layout:   project
+layout:   post-project
 title:    "Hikari Clock"
 date:     2015-02-01
-category: post
+category: project
 ---
 
 This clock is based upon a screensaver developed by a Japanese company, [Amana](http://amana.jp). There are people who created versions of this clock for Mac, but there was nothing available for Windows... **:(**

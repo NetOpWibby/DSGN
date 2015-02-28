@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "The Scythian Steppes"
 date:     2012-06-22
 category: post

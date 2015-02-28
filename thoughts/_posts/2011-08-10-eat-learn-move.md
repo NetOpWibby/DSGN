@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Eat, Learn, Move"
 date:     2011-08-10
 category: post

@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Using NTFS drives on Macs"
 date:     2014-04-26
 category: post

@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Portal &mdash; No Escape"
 date:     2011-08-25
 category: post

@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "UTF-8 issues in Jekyll (and how to fix them)"
 date:     2012-01-16
 category: post

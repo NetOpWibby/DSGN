@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "73 Questions with Anna Wintour"
 date:     2015-02-11
 category: post

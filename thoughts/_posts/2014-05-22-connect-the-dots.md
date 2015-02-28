@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Connect the Dots"
 date:     2014-05-22
 category: post

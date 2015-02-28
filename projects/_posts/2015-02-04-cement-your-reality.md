@@ -1,10 +1,9 @@
 ---
-layout:   project
+layout:   post-project
 title:    "Cement Your Reality"
 date:     2015-02-04
-category: post
+category: project
 ---
-<small class="project__meta">Freebie: Wallpaper</small>
 
 I found a hi-res image of some cement and decided I wanted to walk on space. Yeah, my mind works like that.
 

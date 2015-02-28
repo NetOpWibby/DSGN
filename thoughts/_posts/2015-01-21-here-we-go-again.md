@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Here we go again"
 date:     2015-01-21
 category: post

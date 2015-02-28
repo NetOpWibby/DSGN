@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   post-thought
 title:    "Slow Magic"
 date:     2011-08-12
 category: post
