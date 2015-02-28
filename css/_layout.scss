@@ -21,6 +21,12 @@ body {
 
 /// MAIN CONTENT //////////////////////////////////////////////////////////////////////////////////////
 
+.hp {
+  .pagination--thoughts {
+    display: none !important; // TODO
+  }
+}
+
 .layout-wrap {
   background-color: $white;
   padding-top: 50px;
@@ -31,6 +37,7 @@ body {
     background-image: linear-gradient(to bottom, transparent, $white);
     content: "";
     left: 0;
+    // overflow-x: hidden;
     position: absolute;
     width: 100%;
 
@@ -142,20 +149,6 @@ span small {
   display: block;
 }
 
-p,
-ol,
-ul {
-  a {
-    color: $cyan;
-
-    &:hover {
-      opacity: 0.3;
-    }
-  }
-}
-
-// .header:not(.is-extended) .header__button
-
 h3,
 p,
 ul,
@@ -170,10 +163,21 @@ ol {
   @include serif;
   margin-bottom: 2.5rem;
 
+  a {
+    color: $cyan;
+
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+
+  @media (max-width: 500px) {
+    text-align: justify;
+  }
+
   @media (max-width: 650px) {
     font-size: 1rem;
     line-height: 2rem;
-    // text-align: justify;
   }
 
   @media (min-width: 651px) {

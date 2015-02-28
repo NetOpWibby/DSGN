@@ -3,73 +3,55 @@ layout: default
 title: "Portfolio of Paul Anthony Webb"
 ---
 
-<section id="me">
-            <p>I am a proud lefty, Aries, and space bandit. The only pencil I trust is a Ticonderoga. I was born on Easter Sunday, 1988. I used to be an "Army-brat". My parents despised video games while I was growing up, so I am making up for it now. I make music under various aliases, the most used being "the Wibby" (followed by FRSH&times;BTS and Spaceman Fresh).</p>
+<section>
+        <p>I am a proud lefty, Aries, and space bandit. The only pencil I trust is a Ticonderoga. I was born on Easter Sunday, 1988. I used to be an "Army-brat". My parents despised video games while I was growing up, so I am making up for it now. I make music under various aliases, the most used being "the Wibby" (followed by FRSH&times;BTS and Spaceman Fresh).</p>
 
-            <p>I named my portfolio "Design Services for the Good Natured" because no one likes a jerk. Every day brings about new opportunities, inspiration, and kick-ass "whoah" moments. Spread the love and do your part by inspiring others as you’ve been inspired! <strong>(:</strong> That’s what I try to do anyway.</p>
+        <p>I named my portfolio "Design Services for the Good Natured" because no one likes a jerk. Every day brings about new opportunities, inspiration, and kick-ass "whoah" moments. Spread the love and do your part by inspiring others as you’ve been inspired! <strong>(:</strong> That’s what I try to do anyway.</p>
 
-            <div class="more">
-              <a href="/me" class="read">Read more</a>
-              <a href="#" class="top">Top</a>
-            </div>
+        <div class="more">
+          <a href="/me" class="read">Read more</a>
+          <a href="#" class="top">Top</a>
+        </div>
 
-            <div class="divider">
-              <span class="divider__shape-01"></span>
-              <span class="divider__shape-02"></span>
-              <span class="divider__shape-03"></span>
-              <span class="divider__shape-04"></span>
-            </div>
-          </section>
+        <div class="divider">
+          <span class="divider__shape-01"></span>
+          <span class="divider__shape-02"></span>
+          <span class="divider__shape-03"></span>
+          <span class="divider__shape-04"></span>
+        </div>
+      </section>
 
-          <section id="thoughts">
-            {% for post in site.posts limit: 1 %}<div class="thought">
-              <h2 class="thought__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <small class="thought__meta">Latest Post</small>
+      <section class="thought">{% for post in site.categories.thoughts limit: 1 %}
+        <h2 class="thought__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <small class="thought__meta">Latest Post</small>
 
-              <p>
-                {{ post.content | strip_html | truncatewords: 75 }}
-              </p>
+        <p>
+          {{ post.content | strip_html | truncatewords: 75 }}
+        </p>
 
-              <div class="more">
-                <a href="{{ post.url }}" class="read">Read more</a>
-                <a href="#" class="top">Top</a>
-              </div>
-            </div>
+        <div class="more">
+          <a href="{{ post.url }}" class="read">Read more</a>
+          <a href="#" class="top">Top</a>
+        </div>
 
-            <div class="divider">
-              <span class="divider__shape-01"></span>
-              <span class="divider__shape-02"></span>
-              <span class="divider__shape-03"></span>
-              <span class="divider__shape-04"></span>
-            </div>{% endfor %}
-          </section>
+        <div class="divider">
+          <span class="divider__shape-01"></span>
+          <span class="divider__shape-02"></span>
+          <span class="divider__shape-03"></span>
+          <span class="divider__shape-04"></span>
+        </div>{% endfor %}
+      </section>
 
-          <section id="projects">
-            <div class="split-left">
-              <h2 class="project__title"><a href="/projects/triangulace">Triangulace</a></h2>
-              <small class="project__meta">Freebie &middot; Wallpaper</small>
+      <section class="project">{% for post in site.categories.projects limit: 1 %}
+        <h2 class="project__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <small class="project__meta">Latest Project</small>
 
-              <p>I was inspired by a print piece for this. The problem? The piece had triangles on paper. That was okay, but I wanted triangles in space. BOOM.</p>
+        <p>
+          {{ post.content | strip_html | truncatewords: 75 }}
+        </p>
 
-              <p>There are four versions of this wallpaper with different glow colors: cyan, magenta, yellow, and black. I am quite partial to the black and magenta flavors.</p>
-            </div>
-
-            <div class="split-right">
-              <div class="iphone-wall-preview">
-                <div class="content-wrapper">
-                  <img src="/images/freebies/triangulace/iphone-01.jpg" alt=""/>
-                </div>
-              </div>
-
-              <div class="desktop-preview">
-                <div class="content-wrapper">
-                  <img src="/images/freebies/triangulace/desktop-01.jpg" alt=""/>
-                </div>
-              </div>
-            </div>
-
-            <div class="more">
-              <a href="/projects/triangulace" class="read">Read more + Download</a>
-              <a href="#" class="top">Top</a>
-            </div>
-          </section>
+        <div class="more">
+          <a href="{{ post.url }}" class="read">Read more</a>
+          <a href="#" class="top">Top</a>
+        </div>{% endfor %}
+      </section>

@@ -6,7 +6,6 @@
   text-rendering: optimizeLegibility !important;
   text-shadow: 1px 1px 1px rgba(25, 25, 25, 0.004);
 
-  -moz-box-sizing: border-box;
   -webkit-font-smoothing: antialiased !important;
 }
 
@@ -37,8 +36,7 @@ body {
   line-height: 1;
 }
 
-blockquote,
-q {
+blockquote {
   quotes: none;
 
   &:before,
@@ -103,21 +101,23 @@ p code {
 
 /// GENERAL ///////////////////////////////////////////////////////////////////////////////////////////
 
+/*
 ::-webkit-scrollbar {
-width: 5px; height: 5px;
+  width: 5px; height: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: $black;
 
   &:window-inactive {
-      background-color: $cyan;
+    background-color: $cyan;
   }
 }
 
 ::-webkit-scrollbar-track {
   background-color: rgba($black, 0.1);
 }
+*/
 
 a {
   color: inherit;
@@ -126,7 +126,7 @@ a {
   transition: all 0.2s ease;
 
   &:hover {
-      opacity: 0.7;
+    opacity: 0.7;
   }
 }
 

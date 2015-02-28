@@ -2,7 +2,6 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8"/>
     <title>DSGN &middot; {{ page.title }}</title>
 
@@ -125,10 +124,48 @@
         }
       }
     </script>
-
   </head>
 
   <body onload="loadScroll()" onunload="saveScroll()">
+    <header class="header"></header>
 
-    <div id="full-page-container">
-      <header class="header">
+    <main class="layout-wrap">
+      <div class="nav-wrapper">
+        <nav class="nav">
+          <div class="nav__logo">
+            <a class="nav__logo__default" href="/">Design<br/>Services <span>for the</span><br/>Good Natured&nbsp;&nbsp;</a>
+
+            <a class="nav__logo__scroll" href="/">
+              <span class="cyan">D</span><span class="magenta">S</span><span class="yellow">G</span><span class="key">N</span>
+              &nbsp;
+            </a>
+
+            <div class="nav__logo__meta">
+              <script>
+                //<![CDATA[
+                <!--
+                  var x = "function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+                    "=36){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+                    ".substr(0,ol);}f(\")89,\\\"_SYHBa?r`(.:==9'$s>=1\\\"\\\\=m>$,i-+$$(*#7100\\" +
+                    "\\100\\\\430\\\\a530\\\\SYLWC620\\\\[]320\\\\FTwr\\\\r020\\\\IG^@\\\\\\\\da" +
+                    "630\\\\$#Q_IORIJY720\\\\SQ[P530\\\\_WF]HH310\\\\ODGT600\\\\@WV200\\\\ELjq~<" +
+                    "R'm{r|wa`-~y!`j771\\\\oJe}fv?kwnha320\\\\_ F430\\\\430\\\\n\\\\730\\\\V420\\"+
+                    "\\HQZ730\\\\430\\\\n\\\\230\\\\400\\\\630\\\\430\\\\D530\\\\600\\\\200\\\\3" +
+                    "10\\\\020\\\\700\\\\410\\\\600\\\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(" +
+                    "edoCrahCmorf.gnirtS=+o;721=%y;i=+y)89==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\""+
+                    "\\\"=o,i rav{)y,x(f noitcnuf\")";
+
+                while(x = eval(x));
+                //-->
+                //]]>
+              </script>
+            </div>
+          </div>
+
+          <a class="nav__item" id="link-me" href="/me">Me&nbsp;&nbsp;</a>
+          <a class="nav__item" id="link-thoughts" href="/thoughts">Thoughts&nbsp;&nbsp;</a>
+          <a class="nav__item" id="link-projects" href="/projects">Projects&nbsp;&nbsp;</a>
+
+          <a class="nav__trigger__mobile-wrap" href="#">
+            <div class="nav__trigger__mobile"></div>
+          </a>
