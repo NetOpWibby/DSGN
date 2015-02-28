@@ -7,18 +7,23 @@
   }
 }
 
-.title ~ .meta,
+
+.title ~ p .meta,
 .project__title ~ .project__meta,
 .thought__title ~ .thought__meta {
   cursor: default;
   opacity: 0.6;
-  margin-top: -2rem;
   position: absolute;
 }
 
 .project__title ~ .project__meta,
 .thought__title ~ .thought__meta {
+  margin-top: -2rem;
   margin-left: 0.2rem;
+}
+
+.title ~ p .meta {
+  margin-top: -2.5rem;
 }
 
 .title {
@@ -44,5 +49,5 @@
 }
 
 .meta {
-  @extend %layout;
+  // @extend %layout;
 }

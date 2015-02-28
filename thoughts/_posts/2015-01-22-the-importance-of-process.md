@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   thought
 title:    "The Importance of Process, and Why It Matters"
 date:     2015-01-22
 category: post
