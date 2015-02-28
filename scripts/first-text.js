@@ -33,30 +33,6 @@ $(function () {
 
 
 
-  var url = location.pathname;
-
-  if (url.indexOf("/") > -1) {
-    $("body").addClass("hp");
-  }
-
-  if (url.indexOf("me") > -1) {
-    $("body").removeAttr("class");
-  }
-
-  if (url.indexOf("projects") > -1) {
-    $("body").removeAttr("class");
-  }
-
-  if (url.indexOf("resume") > -1) {
-    $("body").removeAttr("class");
-  }
-
-  if (url.indexOf("thoughts") > -1) {
-    $("body").removeAttr("class");
-  }
-
-
-
   // Change header background on DSGN* load
   var
   baseURL = "http://localhost:4000", // development

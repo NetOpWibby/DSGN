@@ -339,6 +339,7 @@
       background-color: $cyan;
       height: auto; // TODO
       padding-top: 5rem;
+      padding-bottom: 2rem;
 
       .nav__item {
         color: $white;
@@ -371,8 +372,10 @@
     transition: opacity 0.15s ease;
   }
 
-  &:hover:after {
-    opacity: 1;
+  @media (min-width: 801px) {
+    &:hover:after {
+      opacity: 1;
+    }
   }
 }
 
@@ -417,7 +420,7 @@
 //
 // Pagination
 
-.pagination--thoughts {
+.pagination {
   font-size: 1rem;
   margin-top: 1rem;
   text-transform: none;
