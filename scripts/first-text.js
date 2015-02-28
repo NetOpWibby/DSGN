@@ -35,8 +35,8 @@ $(function () {
 
   // Change header background on DSGN* load
   var
-  baseURL = "http://localhost:4000", // development
-  // baseURL = "http://dsgn.io",
+  // baseURL = "http://localhost:4000", // development
+  baseURL = "http://dsgn.io",
   images = ["portrait-01.jpg", "portrait-01b.jpg", "portrait-01c.jpg", "portrait-02.jpg", "portrait-03.jpg"];
 
   $(".header").css({"background-image": "url(" + baseURL + "/images/" + images[Math.floor(Math.random() * images.length)] + ")"});

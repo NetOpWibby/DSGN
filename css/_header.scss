@@ -151,7 +151,7 @@
 
   position: fixed;
 
-  &:hover {
+  &.is-clicked {
     opacity: 1;
 
     .nav__trigger__mobile {
@@ -333,19 +333,21 @@
     top: 0; left: 0;
 
     background-image: linear-gradient(to top, transparent, $white);
+    padding-top: 5rem;
+    padding-bottom: 2rem;
     width: 100%;
 
     &.is-open {
       background-color: $cyan;
-      height: auto; // TODO
-      padding-top: 5rem;
-      padding-bottom: 2rem;
 
       .nav__item {
         color: $white;
-        display: block; // TODO
-        padding: 1rem 2rem 0 2rem;
-        width: 100%; // TODO
+        // display: block; // TODO
+        display: flex; //
+        padding-top: 1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        // width: 100%; // TODO
         z-index: 1;
       }
     }
@@ -399,7 +401,12 @@
 
 .nav__item {
   position: relative;
-  transition: all 0.2s ease;
+  // -webkit-transform: translate3d(0, 0, 0);
+  /*
+  -webkit-transform: translateZ(0);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  */
 
   @media (min-width: 801px) {
     display: block;
