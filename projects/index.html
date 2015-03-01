@@ -4,7 +4,7 @@ title: "Projects"
 category: projects
 ---
 
-{% for post in paginator.posts %}<div class="project">
+{% for post in paginator.posts %}<section class="project" role="article">
         <h2 class="project__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <!--/ <small class="project__meta">{{ post.date | date: "shared on %B %d, %Y" }}</small> /-->
 
@@ -16,7 +16,7 @@ category: projects
           <a href="{{ post.url }}" class="read">Read more</a>
           <a href="#" class="top">Top</a>
         </div>
-      </div>
+      </section>
 
       <div class="divider">
         <span class="divider__shape-01"></span>

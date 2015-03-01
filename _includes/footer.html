@@ -1,10 +1,17 @@
-        </nav>
-      </div>
+      </nav>
+    </div>
 
+    <main class="layout-wrap" role="main">
       {{ content }}
+      <div class="ugh">
+        <!--/
+Ideally, this would be done via the :before pseudo-selector, but there
+was an annoying overflow issue going on that wasn't easily fixed. Welp.
+/-->
+      </div>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <span class="footer__copyright">&copy; Paul Anthony Webb</span>
 
       <nav class="footer__links">
@@ -18,15 +25,9 @@
     <script src="/scripts/syntax/shAutoloader.js"></script>
     <script src="/scripts/syntax/main.js"></script>
 
-    <script src="/scripts/mousewheel.js"></script>
-    <script src="/scripts/scroll.js"></script>
-    <script src="/scripts/fluidbox.js"></script>
-
-    <script>
-      $(function () {
-        $("figure a").fluidbox();
-      });
-    </script>
+    <script async src="/scripts/plugins/mousewheel.js"></script>
+    <script src="/scripts/plugins/fluidbox.js"></script>
+    <script src="/scripts/dsgn.js"></script>
   </body>
 
 </html>

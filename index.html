@@ -3,7 +3,7 @@ layout: default
 title: "Portfolio of Paul Anthony Webb"
 ---
 
-<section>
+<section role="article">
         <p>I am a proud lefty, Aries, and space bandit. The only pencil I trust is a Ticonderoga. I was born on Easter Sunday, 1988. I used to be an "Army-brat". My parents despised video games while I was growing up, so I am making up for it now. I make music under various aliases, the most used being "the Wibby" (followed by FRSH&times;BTS and Spaceman Fresh).</p>
 
         <p>I named my portfolio "Design Services for the Good Natured" because no one likes a jerk. Every day brings about new opportunities, inspiration, and kick-ass "whoah" moments. Spread the love and do your part by inspiring others as you’ve been inspired! <strong>(:</strong> That’s what I try to do anyway.</p>
@@ -21,7 +21,7 @@ title: "Portfolio of Paul Anthony Webb"
         </div>
       </section>
 
-      <section class="thought">{% for post in site.categories.thoughts limit: 1 %}
+      <section class="thought" role="article">{% for post in site.categories.thoughts limit: 1 %}
         <h2 class="thought__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <small class="thought__meta">Latest Post</small>
 
@@ -42,7 +42,7 @@ title: "Portfolio of Paul Anthony Webb"
         </div>{% endfor %}
       </section>
 
-      <section class="project">{% for post in site.categories.projects limit: 1 %}
+      <section class="project" role="article">{% for post in site.categories.projects limit: 1 %}
         <h2 class="project__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <small class="project__meta">Latest Project</small>
 

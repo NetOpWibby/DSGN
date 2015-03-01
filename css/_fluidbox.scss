@@ -1,5 +1,90 @@
-// FLUIDBOX
+.fluidbox {
+  outline: none;
+}
 
+.fluidbox-overlay {
+  top: 0; left: 0;
+  bottom: 0; right: 0;
+
+  background-color: transparent;
+  background-image: linear-gradient(to top left, rgba($yellow, 0.85), rgba($cyan, 0.85));
+  cursor: pointer;
+  cursor: zoom-out;
+  opacity: 0;
+  position: fixed;
+  // Transition time for overlay is halved to ensure that flickering doesn't happen
+  transition: all 0.25s/2 ease-in-out 0.25s/2;
+  z-index: 9999;
+}
+
+.fluidbox-wrap,
+.fluidbox-ghost {
+  background-position: center center;
+
+  @media (min-width: 1090px) {
+    padding-right: 16.66667%;
+    padding-left: 16.66667%;
+  }
+}
+
+.fluidbox-opened .fluidbox-wrap {
+  z-index: 600;
+}
+
+.fluidbox-wrap {
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+
+  // To prevent flickering, we delay the showing of the image
+  .fluidbox-closed & img {
+    transition: opacity 0s ease-in-out 0.25s;
+  }
+}
+
+.fluidbox-ghost {
+  background-size: 100% 100%;
+  position: absolute;
+  transition-delay: 0.25s, 0s;
+  transition-duration: 0s, 0.25s;
+  transition-property: opacity, transform;
+
+  .fluidbox-opened & {
+    transition-delay: 0s, 0s;
+  }
+}
+
+.fluidbox-loader {
+  top: 0; left: 0;
+  bottom: 0; right: 0;
+
+  perspective: 200px;
+  position: absolute;
+
+  &:before {
+    top: 50%; left: 50%;
+
+    animation: fluidboxLoading 1s infinite;
+    background-color: $magenta;
+    content: "";
+    opacity: 0;
+    padding-bottom: 20%;
+    position: absolute;
+    // Delay disappearing of loader for graceful transition
+    transform-style: preserve-3d;
+    transition: all 0.25s ease-in-out;
+    transition-delay: 0.25s/2;
+    width: 20%;
+  }
+}
+
+.fluidbox-loading .fluidbox-loader:before {
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+/*
 .fluidbox {
   outline: none;
   cursor: zoom-in;
@@ -47,3 +132,4 @@
 .fluidbox-ghost {
   position: absolute;
 }
+*/

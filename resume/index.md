@@ -95,6 +95,8 @@ August 2007 — Present
 
 HTML5 and CSS3/Sass, wire-framing, responsive-first design, working knowledge of vanilla JavaScript, jQuery, and several JavaScript frameworks. Why are there so many?
 
+I've also been getting into NW.js (node-webkit). It has allowed me to get some of my crazy ideas off the ground.
+
 ### Adobe Photoshop
 
 Simply put, I know how to design a website in Photoshop and code it afterwards. Nowadays, I tend to just sketch a wireframe with pen/cil and paper. Affinity Designer may replace Photoshop for me soon though.
