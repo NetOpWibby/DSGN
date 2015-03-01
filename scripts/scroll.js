@@ -1,4 +1,5 @@
 var $vW = $(window).width();
+var $vH = $(window).height();
 
 $(function () {
 
@@ -34,6 +35,19 @@ $(function () {
           "position": "absolute",
           "top": "0"
         });
+
+        $(".pagination").css({
+          "position": "absolute",
+          "top": "0"
+        });
+
+        /*
+        $(".pagination").css({
+          "background-color": "red",
+          "position": "absolute",
+          "bottom": "0"
+        });
+        */
       }
 
     }, 10);

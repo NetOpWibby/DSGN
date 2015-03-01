@@ -11,7 +11,7 @@ body {
   color: rgba($black, 0.9);
   @include sans;
   font-size: 16px;
-  overflow-x: hidden; // overflow: hidden;
+  overflow-x: hidden !important;
   position: relative;
 }
 

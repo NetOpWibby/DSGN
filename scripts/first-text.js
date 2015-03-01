@@ -2,6 +2,8 @@ var $vW = $(window).width();
 
 $(function () {
 
+  // $(".header").css("width", $vW);
+
   // TODO:
   // Make this work with HTML tags
 
@@ -53,10 +55,12 @@ $(function () {
 
 
 
+  /*
   // Prevent hover on iOS devices
   // via https://medium.com/@ennsu/disabling-hover-interactions-on-ios-acb034f32325
   if (!("ontouchstart" in document.documentElement)) {
     document.documentElement.className += "no-touch";
   }
+  */
 
 });
