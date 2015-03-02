@@ -1,5 +1,0 @@
-// SyntaxHighlighter 3.083
-// Alex Gorbatchev (http://alexgorbatchev.com/SyntaxHighlighter)
-// MIT and GPL licensed
-
-!function(){var t=SyntaxHighlighter;t.autoloader=function(){function a(t,a){for(var e=0;e<t.length;e++)o[t[e]]=a}function e(t){var a=document.createElement("script"),e=!1;a.src=t,a.type="text/javascript",a.language="javascript",a.onload=a.onreadystatechange=function(){if(!(e||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState)){e=!0,l[t]=!0;t:{for(var n in l)if(l[n]===!1)break t;h&&SyntaxHighlighter.highlight(d)}a.onload=a.onreadystatechange=null,a.parentNode.removeChild(a)}},document.body.appendChild(a)}var n,r=arguments,i=t.findElements(),o={},l={},h=!1,d=null;for(SyntaxHighlighter.all=function(t){d=t,h=!0},n=0;n<r.length;n++){var c=r[n].pop?r[n]:r[n].split(/\s+/),g=c.pop();a(c,g)}for(n=0;n<i.length;n++)(g=o[i[n].params.brush])&&(l[g]=!1,e(g))}}();

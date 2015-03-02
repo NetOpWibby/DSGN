@@ -185,13 +185,30 @@ ol {
   }
 }
 
-ul,
-ol {
+ul {
+  list-style-type: square;
   padding-left: 1.25rem;
 }
 
-ul {
-  list-style-type: square;
+ol {
+  counter-reset: dsgn-counter;
+  list-style-type: none;
+  padding-left: 2rem;
+
+  li {
+    text-indent: -1.27rem;
+
+    &:before {
+      content: counter(dsgn-counter,upper-roman);
+      counter-increment: dsgn-counter;
+      display: inline-block;
+      font-size: 0.8rem;
+      position: relative;
+      text-align: center;
+      top: -0.1rem;
+      width: 20px;
+    }
+  }
 }
 
 li {
@@ -225,25 +242,6 @@ small,
 figcaption {
   @include serif;
   font-style: italic;
-}
-
-.inline-list {
-  font-size: 1.3rem;
-  line-height: 2.2rem;
-
-  li {
-    display: inline;
-
-    &:after {
-      content: "\00a0\00a0/\00a0";
-      font-style: italic;
-      font-weight: 300;
-    }
-
-    &:last-child:after {
-      content: "";
-    }
-  }
 }
 
 figcaption {

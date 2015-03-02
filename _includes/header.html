@@ -28,8 +28,7 @@
     <link href="/images/favicon.ico" rel="shortcut icon"/>
     <link href="/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed"/>
 
-    <script async src="/scripts/plugins/smartquotes.js"></script>
-    <script async src="/scripts/plugins/prefixfree.min.js"></script>
+    <script async src="/scripts/plugins/smartprefix.js"></script>
     <script src="/scripts/vendor/jquery-2.1.3.min.js"></script>
 
     <script>
@@ -37,98 +36,22 @@
 
       (function () {
 
-        var t = document.createElement("script");
-        t.type = "text/javascript";
-        t.async = true;
-        t.id = "gauges-tracker";
-        t.setAttribute("data-site-id", "4f21b348613f5d3a41000001");
-        t.src = "//secure.gaug.es/track.js";
+        if (document.location.hostname != "localhost") {
+          var t = document.createElement("script");
+          t.async = true;
+          t.id = "gauges-tracker";
+          t.setAttribute("data-site-id", "4f21b348613f5d3a41000001");
+          t.src = "//secure.gaug.es/track.js";
 
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(t, s);
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(t, s);
+        }
 
       })();
-
-      // via http://stackoverflow.com/a/7577970/1167646
-      // Cookie
-      var cookieName = "page_scroll";
-      var expdays = 365;
-
-      // An adaptation of Dorcht's cookie functions.
-
-      function setCookie(name, value, expires, path, domain, secure) {
-        if (!expires) {
-          expires = new Date();
-        }
-
-        document.cookie = name + "=" + escape(value) +
-        ((expires == null) ? "" : "; expires=" + expires.toGMTString()) +
-        ((path == null) ? "" : "; path=" + path) +
-        ((domain == null) ? "" : "; domain=" + domain) +
-        ((secure == null) ? "" : "; secure");
-      }
-
-      function getCookie(name) {
-        var arg = name + "=";
-        var alen = arg.length;
-        var clen = document.cookie.length;
-        var i = 0;
-
-        while (i < clen) {
-          var j = i + alen;
-
-          if (document.cookie.substring(i, j) == arg) {
-            return getCookieVal(j);
-          }
-
-          i = document.cookie.indexOf(" ", i) + 1;
-          if (i == 0) break;
-        }
-
-        return null;
-      }
-
-      function getCookieVal(offset) {
-        var endstr = document.cookie.indexOf(";", offset);
-        if (endstr == -1)
-        endstr = document.cookie.length;
-        return unescape(document.cookie.substring(offset, endstr));
-      }
-
-      function deleteCookie(name, path, domain) {
-        document.cookie = name + "=" +
-        ((path == null) ? "" : "; path=" + path) +
-        ((domain == null) ? "" : "; domain=" + domain) +
-        "; expires=Thu, 01-Jan-00 00:00:01 GMT";
-      }
-
-      function saveScroll() { // added function
-        var expdate = new Date();
-        expdate.setTime(expdate.getTime() + (expdays * 24 * 60 * 60 * 1000)); // expiry date
-
-        var x = (document.pageXOffset ? document.pageXOffset : document.body.scrollLeft);
-        var y = (document.pageYOffset ? document.pageYOffset : document.body.scrollTop);
-        Data = x + "_" + y;
-        setCookie(cookieName, Data, expdate);
-      }
-
-      function loadScroll() { // added function
-        inf = getCookie(cookieName);
-
-        if (!inf) {
-          return;
-        }
-
-        var ar = inf.split("_");
-
-        if (ar.length == 2) {
-          window.scrollTo(parseInt(ar[0]), parseInt(ar[1]));
-        }
-      }
     </script>
   </head>
 
-  <body onload="loadScroll()" onunload="saveScroll()">
+  <body><!--/ onload="loadScroll()" onunload="saveScroll()" /-->
     <header class="header" role="banner">
     </header>
 
@@ -157,7 +80,7 @@
                   "edoCrahCmorf.gnirtS=+o;721=%y;i=+y)89==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\""+
                   "\\\"=o,i rav{)y,x(f noitcnuf\")";
 
-              while(x = eval(x));
+                while(x = eval(x));
               //-->
               //]]>
             </script>
