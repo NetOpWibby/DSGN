@@ -57,7 +57,7 @@ $(function () {
   $(window).on("scroll", function () {
     var
     value = $(this).stop().scrollTop(),
-        scrollPerc = Math.ceil($(this).scrollTop());
+    scrollPerc = Math.ceil($(this).scrollTop());
 
     setTimeout(function () {
       if (value > 1) {
@@ -88,6 +88,7 @@ $(function () {
       }
     }, 10);
 
+    // Could be better...
     $(".ugh").css({
       top : "-" + scrollPerc + "px"
     });
@@ -109,12 +110,37 @@ $(function () {
   if (navigator.userAgent.match(/iPhone|iPad|iPod/i)) {
     $(".header").css("position", "absolute");
     $(".nav").css("transition", "initial");
+    $(".ugh").css("display", "none");
   }
 
 
 
   // Enable Fluidbox
   $("figure a").fluidbox();
+
+
+
+  // Swipe navigation
+  $("#main").on("swipe", function (event) {
+    if (event.direction === "left") {
+      // previous page/post
+      if ($(".pagination__item--previous").length > 0) {
+        window.location = $(".pagination__item--previous").attr("href");
+      }
+    }
+
+    if (event.direction === "right") {
+      // next page/post
+      if ($(".pagination__item--next").length > 0) {
+        window.location = $(".pagination__item--next").attr("href");
+      }
+    }
+  });
+
+  // console.log("Prev: " + $(".pagination__item--previous").attr("href"));
+  // console.log("Next: " + $(".pagination__item--next").attr("href"));
+
+
 
   /*
   // Prevent hover on iOS devices
