@@ -1,33 +1,20 @@
-/**
- * SyntaxHighlighter
- * http://alexgorbatchev.com/SyntaxHighlighter
- *
- * SyntaxHighlighter is donationware. If you are using it, please donate.
- * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
- *
- * @version
- * 3.0.83 (July 02 2010)
- *
- * @copyright
- * Copyright (C) 2004-2010 Alex Gorbatchev.
- *
- * @license
- * Dual licensed under the MIT and GPL licenses.
- */
-;(function()
-{
-	// CommonJS
-	typeof(require) != 'undefined' ? SyntaxHighlighter = require('shCore').SyntaxHighlighter : null;
+// SyntaxHighlighter 3.083
+// Alex Gorbatchev (http://alexgorbatchev.com/SyntaxHighlighter)
+// MIT and GPL licensed
 
-	function Brush()
-	{
-	};
+(function() {
 
-	Brush.prototype	= new SyntaxHighlighter.Highlighter();
-	Brush.aliases	= ['text', 'plain'];
+  // CommonJS
+  typeof(require) != "undefined" ? SyntaxHighlighter = require("shCore").SyntaxHighlighter: null;
 
-	SyntaxHighlighter.brushes.Plain = Brush;
+  function Brush() {}
 
-	// CommonJS
-	typeof(exports) != 'undefined' ? exports.Brush = Brush : null;
+  Brush.prototype = new SyntaxHighlighter.Highlighter();
+  Brush.aliases = ["text", "plain"];
+
+  SyntaxHighlighter.brushes.Plain = Brush;
+
+  // CommonJS
+  typeof(exports) != "undefined" ? exports.Brush = Brush: null;
+
 })();
