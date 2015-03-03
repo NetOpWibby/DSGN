@@ -30,6 +30,7 @@
 
     <script async src="/scripts/plugins/smartprefix.js"></script>
     <script src="/scripts/vendor/jquery-2.1.3.min.js"></script>
+    <script src="/scripts/plugins/animsition.js"></script>
 
     <script>
       var _gauges = _gauges || [];
@@ -48,10 +49,16 @@
         }
 
       })();
+
+      $(function () {
+        $(".animsition").animsition();
+      });
     </script>
   </head>
 
-  <body><!--/ onload="loadScroll()" onunload="saveScroll()" /-->
+  <body class="animsition">
+    <!--/  data-animsition-in="fade-in-down-sm" data-animsition-out="fade-out-down-sm" /-->
+    <!--/ onload="loadScroll()" onunload="saveScroll()" /-->
     <header class="header" role="banner">
     </header>
 
