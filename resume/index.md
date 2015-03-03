@@ -116,7 +116,9 @@ Simply put, I know how to design a website in Photoshop and code it afterwards. 
 
 ### The Internet
 
-Seriously. I *did* go to college for Software Engineering, but a series of unfortunate events forced me to leave so I taught myself design and code. Thank goodness the Internet exists.
+I am being serious here.
+
+I *did* go to college for Software Engineering, but a series of unfortunate events forced me to leave so I taught myself design and code. Thank goodness the Internet exists.
 
 *Timeframe:*
 April 2007 — Present
