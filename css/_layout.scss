@@ -254,24 +254,6 @@ figcaption {
   padding-right: 2rem;
 }
 
-.split-left,
-.split-right {
-  display: table-cell;
-  position: relative;
-  vertical-align: top;
-}
-
-.split-left {
-  width: 40%;
-}
-
-.split-right {
-  padding: 1rem;
-  width: 60%;
-}
-
-
-
 .more {
   border-bottom: 3px solid $black;
   font-weight: 600;

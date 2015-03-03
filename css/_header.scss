@@ -2,14 +2,12 @@
 //////// _header.scss
 
 .header {
-  // background-color: blue; // TODO
   background-image: url("../images/placeholder.jpg");
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
   position: fixed;
   width: 100%;
-  // width: calc(100% - 3px);
 
   @media (max-width: 500px) {
     height: 210px;

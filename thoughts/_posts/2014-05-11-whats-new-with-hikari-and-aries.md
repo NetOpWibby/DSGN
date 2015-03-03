@@ -5,7 +5,7 @@ date:     2014-05-11
 category: post
 ---
 
-Almost a year ago, [I wrote](/thoughts/the-future-of-the-operating-system) about my operating system concept, hikari OS, and how excited I was to work on it. It's about time you got some updates, right?
+Almost a year ago, <a href="/thoughts/post/the-future-of-the-operating-system" class="animsition-link" data-animsition-out="zoom-out-sm">I wrote</a> about my operating system concept, hikari OS, and how excited I was to work on it. It's about time you got some updates, right?
 
 <div class="divider">
   <span class="divider__shape-01"></span>

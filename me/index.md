@@ -9,7 +9,7 @@ I could not decide if I preferred graphic or web design more than the other, so 
 
 I was self-taught for almost 5 years before I received formal training in the form of an apprenticeship. It was then that I learned about [Sass](http://sass-lang.com) (goodbye regular CSS!), the importance of iteration, top-level design thinking, and so on.
 
-The web industry is constantly changing and I love being at the forefront of new technologies. Take a look through my portfolio to see what I do with this awesomeness. If you would like to work with me on your project, [drop me a line](http://twitter.com/NetOpWibby) (you can also check out [my resume](/resume)).
+The web industry is constantly changing and I love being at the forefront of new technologies. Take a look through my portfolio to see what I do with this awesomeness. If you would like to work with me on your project, [drop me a line](http://twitter.com/NetOpWibby) (you can also check out <a href="/resume" class="animsition-link" data-animsition-out="zoom-out-sm">my resume</a>.
 
 <h2 class="title">Miscellaneous</h2>
 

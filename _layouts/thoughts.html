@@ -2,7 +2,7 @@
 
           <nav class="pagination">
           {% if paginator.next_page %}
-            <a class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm" href="/thoughts/page{{ paginator.next_page }}">Previous Page</a>
+            <a href="/thoughts/page{{ paginator.next_page }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm">Previous Page</a>
           {% endif %}
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
@@ -10,14 +10,14 @@
             {% else %}
               {% capture previous_page %}/page{{ paginator.previous_page }}{% endcapture %}
             {% endif %}
-            <a class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm" href="/thoughts{{ previous_page }}">Next Page</a>
+            <a href="/thoughts{{ previous_page }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm">Next Page</a>
           {% endif %}
 
           {% if page.next_in_category != nil %}
-            <a class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm" href="{{ page.previous_in_category.url }}">Previous Post</a>
+            <a href="{{ page.next_in_category.url }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm">Previous Post</a>
           {% endif %}
           {% if page.previous_in_category != nil %}
-            <a class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm" href="{{ page.next_in_category.url }}">Next Post</a>
+            <a href="{{ page.previous_in_category.url }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm">Next Post</a>
           {% endif %}
           </nav>
 {% include footer.html %}

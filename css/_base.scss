@@ -86,11 +86,10 @@ $yellow:  rgba(235, 232, 7, 1);   // #ebe807;
 //
 
 @mixin unicode  { font-family: Arial, Verdana, Geneva, sans-serif; }
-
+@mixin bold     { font-family: "Grota Sans", Arial, sans-serif; }
 @mixin mono     { font-family: "Courier New", monospace; }
 @mixin sans     { font-family: "Texta", Arial, sans-serif; }
 @mixin serif    { font-family: "Range Serif", Georgia, serif; }
-@mixin icon     { font-family: "Ionicons"; }
 
 @mixin hide-text {
   border: 0;
@@ -143,29 +142,6 @@ a {
   }
 }
 
-em,
-i {
-  font-style: italic;
-
-  strong,
-  .strong,
-  b {
-      font-style: italic;
-      font-weight: 700;
-  }
-}
-
-strong,
-.strong,
-b {
-  font-weight: 700;
-
-  em,
-  i {
-      font-style: italic;
-  }
-}
-
 small,
 figcaption {
   font-size: 80%;
@@ -186,8 +162,6 @@ h3,
 h4,
 h5,
 h6 {
-  // font-weight: 600;
-  // a { font-weight: inherit; }
 }
 
 h1 {

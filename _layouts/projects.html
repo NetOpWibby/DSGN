@@ -7,18 +7,18 @@
             {% else %}
               {% capture previous_page %}/page{{ paginator.previous_page }}{% endcapture %}
             {% endif %}
-            <a class="pagination__item--previous animsition-link" data-animsition-out="fade-out-left-sm" href="/projects{{ previous_page }}">Next Page</a>
+            <a href="/projects{{ previous_page }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-left-sm">Next Page</a>
           {% endif %}
 
           {% if paginator.next_page %}
-            <a class="pagination__item--next animsition-link" data-animsition-out="fade-out-right-sm" href="/projects/page{{ paginator.next_page }}">Previous Page</a>
+            <a href="/projects/page{{ paginator.next_page }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-right-sm">Previous Page</a>
           {% endif %}
 
           {% if page.next_in_category != nil %}
-            <a class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm" href="{{ page.next_in_category.url }}">Previous Project</a>
+            <a href="{{ page.next_in_category.url }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm">Previous Project</a>
           {% endif %}
           {% if page.previous_in_category != nil %}
-            <a class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm" href="{{ page.previous_in_category.url }}">Next Project</a>
+            <a href="{{ page.previous_in_category.url }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm">Next Project</a>
           {% endif %}
           </nav>
 {% include footer.html %}

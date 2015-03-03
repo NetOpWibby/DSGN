@@ -5,7 +5,7 @@ date:     2014-04-07
 category: post
 ---
 
-In my last [post](/thoughts/my-design-development-toolkit), I mentioned making Opera feel like Opera 12.16. That particular version of Opera is what I will refer to as Opera Classic. It used Opera's proprietary rendering engine, Presto. After Opera Classic, Opera decided to ditch its own engine to use Chromium (like Google's Chrome). In the near future, Chromium will be replaced with Blink.
+In my last <a href="/thoughts/post/my-design-development-toolkit" class="animsition-link" data-animsition-out="zoom-out-sm">post</a>, I mentioned making Opera feel like Opera 12.16. That particular version of Opera is what I will refer to as Opera Classic. It used Opera's proprietary rendering engine, Presto. After Opera Classic, Opera decided to ditch its own engine to use Chromium (like Google's Chrome). In the near future, Chromium will be replaced with Blink.
 
 A lot of people (read: Opera fans) were displeased when this change happened, myself included. To reiterate something I said in my last post, Opera pioneered a lot of cool features that are now defaults in the other popular browsers. In addition to being the most standards-compliant browser, I felt like Opera was compromising themselves by changing their codebase to use Chromium in place on Presto.
 

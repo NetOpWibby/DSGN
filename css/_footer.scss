@@ -51,16 +51,12 @@
   display: inline-block;
 
   @media (max-width: 360px) {
-    font-size: 1.5rem;
-
     &:not(:last-child) {
       margin-right: 0.5rem;
     }
   }
 
   @media (min-width: 361px) {
-    font-size: 2rem;
-
     &:not(:last-child) {
       margin-right: 1rem;
     }

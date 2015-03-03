@@ -1,12 +1,15 @@
       </nav>
     </div>
 
-    <main class="layout-wrap" id="main" role="main">
+    <main class="layout-wrap" role="main">
       {{ content }}
       <div class="ugh">
         <!--/
           Ideally, this would be done via the :before pseudo-selector, but there
           was an annoying overflow issue going on that wasn't easily fixed. Welp.
+
+          This, along with the JS solution I cooked up needs refining, but it
+          looks damn good.
         /-->
       </div>
     </main>
@@ -15,9 +18,9 @@
       <span class="footer__copyright">&copy; Paul Anthony Webb</span>
 
       <nav class="footer__links">
-        <a class="footer__link icon-dribbble" href="http://dribbble.com/nokadota"></a>
-        <a class="footer__link icon-github" href="http://github.com/NetOperatorWibby"></a>
-        <a class="footer__link icon-twitter" href="http://twitter.com/NetOpWibby"></a>
+        <a href="http://dribbble.com/nokadota" class="footer__link icon-dribbble"></a>
+        <a href="http://github.com/NetOperatorWibby" class="footer__link icon-github"></a>
+        <a href="http://twitter.com/NetOpWibby" class="footer__link icon-twitter"></a>
       </nav>
     </footer>
 
