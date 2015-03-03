@@ -88,9 +88,16 @@ $(function () {
     }, 10);
 
     // Could be better...
-    $(".ugh").css({
-      top : "-" + scrollPerc + "px"
-    });
+    $(".ugh").css("top", "-" + scrollPerc + "px");
+  });
+
+
+
+  // Prevent `ugh` from changing position on reload when scrolled
+  var ughTop = document.body.scrollTop;
+
+  $(window).on("load", function() {
+    $(".ugh").css("top", ughTop);
   });
 
 
