@@ -4,12 +4,11 @@
 .thought,
 .project {
   position: relative;
-
-  img {
-    width: 100%; height: auto;
-  }
 }
 
+figure img {
+  width: 100%; height: auto;
+}
 
 .title ~ p .meta,
 .project__title ~ .project__meta,

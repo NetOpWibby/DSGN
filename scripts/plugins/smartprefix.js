@@ -17,4 +17,75 @@
 // Cookie
 // via http://stackoverflow.com/a/7577970/1167646
 
-function setCookie(e,o,n,t,i,c){n||(n=new Date),document.cookie=e+"="+escape(o)+(null==n?"":"; expires="+n.toGMTString())+(null==t?"":"; path="+t)+(null==i?"":"; domain="+i)+(null==c?"":"; secure")}function getCookie(e){for(var o=e+"=",n=o.length,t=document.cookie.length,i=0;t>i;){var c=i+n;if(document.cookie.substring(i,c)==o)return getCookieVal(c);if(i=document.cookie.indexOf(" ",i)+1,0==i)break}return null}function getCookieVal(e){var o=document.cookie.indexOf(";",e);return-1==o&&(o=document.cookie.length),unescape(document.cookie.substring(e,o))}function deleteCookie(e,o,n){document.cookie=e+"="+(null==o?"":"; path="+o)+(null==n?"":"; domain="+n)+"; expires=Thu, 01-Jan-00 00:00:01 GMT"}function saveScroll(){var e=new Date;e.setTime(e.getTime()+24*expdays*60*60*1e3);var o=document.pageXOffset?document.pageXOffset:document.body.scrollLeft,n=document.pageYOffset?document.pageYOffset:document.body.scrollTop;Data=o+"_"+n,setCookie(cookieName,Data,e)}function loadScroll(){if(inf=getCookie(cookieName),inf){var e=inf.split("_");2==e.length&&window.scrollTo(parseInt(e[0]),parseInt(e[1]))}}var cookieName="page_scroll",expdays=365;
+// function setCookie(e,o,n,t,i,c){n||(n=new Date),document.cookie=e+"="+escape(o)+(null==n?"":"; expires="+n.toGMTString())+(null==t?"":"; path="+t)+(null==i?"":"; domain="+i)+(null==c?"":"; secure")}function getCookie(e){for(var o=e+"=",n=o.length,t=document.cookie.length,i=0;t>i;){var c=i+n;if(document.cookie.substring(i,c)==o)return getCookieVal(c);if(i=document.cookie.indexOf(" ",i)+1,0==i)break}return null}function getCookieVal(e){var o=document.cookie.indexOf(";",e);return-1==o&&(o=document.cookie.length),unescape(document.cookie.substring(e,o))}function deleteCookie(e,o,n){document.cookie=e+"="+(null==o?"":"; path="+o)+(null==n?"":"; domain="+n)+"; expires=Thu, 01-Jan-00 00:00:01 GMT"}function saveScroll(){var e=new Date;e.setTime(e.getTime()+24*expdays*60*60*1e3);var o=document.pageXOffset?document.pageXOffset:document.body.scrollLeft,n=document.pageYOffset?document.pageYOffset:document.body.scrollTop;Data=o+"_"+n,setCookie(cookieName,Data,e)}function loadScroll(){if(inf=getCookie(cookieName),inf){var e=inf.split("_");2==e.length&&window.scrollTo(parseInt(e[0]),parseInt(e[1]))}}var cookieName="page_scroll",expdays=365;
+
+//==
+
+/*
+cookieName = "page_scroll";
+expdays = 365;
+
+// An adaptation of Dorcht's cookie functions.
+
+function setCookie(name, value, expires, path, domain, secure) {
+  if (!expires) {
+    expires = new Date();
+  }
+  document.cookie = name + "=" + escape(value) +
+    ((expires == null) ? "" : "; expires=" + expires.toGMTString()) +
+    ((path == null) ? "" : "; path=" + path) +
+    ((domain == null) ? "" : "; domain=" + domain) +
+    ((secure == null) ? "" : "; secure");
+}
+
+function getCookie(name) {
+  var arg = name + "=";
+  var alen = arg.length;
+  var clen = document.cookie.length;
+  var i = 0;
+  while (i < clen) {
+    var j = i + alen;
+    if (document.cookie.substring(i, j) == arg) {
+      return getCookieVal(j);
+    }
+    i = document.cookie.indexOf(" ", i) + 1;
+    if (i == 0) break;
+  }
+  return null;
+}
+
+function getCookieVal(offset) {
+  var endstr = document.cookie.indexOf(";", offset);
+  if (endstr == -1)
+    endstr = document.cookie.length;
+  return unescape(document.cookie.substring(offset, endstr));
+}
+
+function deleteCookie(name, path, domain) {
+  document.cookie = name + "=" +
+    ((path == null) ? "" : "; path=" + path) +
+    ((domain == null) ? "" : "; domain=" + domain) +
+    "; expires=Thu, 01-Jan-00 00:00:01 GMT";
+}
+
+function saveScroll() { // added function
+  var expdate = new Date();
+  expdate.setTime(expdate.getTime() + (expdays * 24 * 60 * 60 * 1000)); // expiry date
+
+  var x = (document.pageXOffset ? document.pageXOffset : document.body.scrollLeft);
+  var y = (document.pageYOffset ? document.pageYOffset : document.body.scrollTop);
+  Data = x + "_" + y;
+  setCookie(cookieName, Data, expdate);
+}
+
+function loadScroll() { // added function
+  inf = getCookie(cookieName);
+  if (!inf) {
+    return;
+  }
+  var ar = inf.split("_");
+  if (ar.length == 2) {
+    window.scrollTo(parseInt(ar[0]), parseInt(ar[1]));
+  }
+}
+*/
