@@ -4,6 +4,18 @@ RewriteCond %{HTTP_REFERER} !^$
 RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?dsgn.io [NC]
 RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
 
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/x-ico "access plus 1 year"
+  ExpiresByType image/jpg "access plus 14 days"
+  ExpiresByType image/jpeg "access plus 14 days"
+  ExpiresByType image/gif "access plus 14 days"
+  ExpiresByType image/png "access plus 14 days"
+  ExpiresByType text/css "access plus 14 days"
+</IfModule>
+
 # Block Semalt and their wack selves
 RewriteCond %{HTTP_REFERER} semalt\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} semalt\.semalt\.com
