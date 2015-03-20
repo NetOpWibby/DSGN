@@ -54,24 +54,55 @@
     top: 36px; left: 10px;
     width: 128px;
   }
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 }
 
 .project__iphone ~ .project__macbook {
-  float: right;
-  left: -7rem;
+  @media (min-width: 1201px) {
+    float: right;
+    left: -7rem;
+  }
 }
 
 .project__macbook {
-  width: 500px; height: 500px; // height: 287px;
-
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1024 1024' style='fill-rule:evenodd;'><path d='M1021.93,793.169C1018.57,795.122 1010.79,799.252 1001.56,801.586C989.366,804.682 974.661,804.553 974.661,804.553L49.3393,804.553C49.3393,804.553 35.3437,804.617 23.283,801.586C13.9472,799.203 5.74784,795.098 2.18671,793.169L1.03193,793.169C0.451471,793.169 0,792.718 0,792.138L0,775.24C0,774.724 0.451471,774.208 1.03193,774.208L94.9563,774.208L94.8088,773.95C93.5834,770.789 92.874,767.436 92.874,763.824L92.874,253.211C92.874,235.603 107.128,221.35 124.735,221.35L899.33,221.35C916.937,221.35 931.191,235.603 931.191,253.211L931.191,763.888C931.191,767.436 930.481,770.854 929.256,774.014L929.145,774.208L1023.03,774.208C1023.61,774.208 1024.06,774.659 1024.06,775.24L1024.06,792.138C1024.06,792.718 1023.61,793.169 1023.03,793.169L1021.93,793.169ZM121.962,254.242L902.038,254.242L902.038,742.153L121.962,742.153Z' style='fill:rgba(25, 25, 25, 0.15);'/></svg>");
-  // float: right;
-  // left: -7rem;
-  left: calc(50% - 250px);
-  margin-top: -6rem;
 
-  img {
-    top: 124px; left: 59px;
-    width: 382px;
+  @media (max-width: 350px) {
+    width: 200px; height: 200px;
+
+    left: calc(50% - 100px);
+    margin-top: -2rem;
+
+    img {
+      top: 49px; left: 24px;
+      width: 153px;
+    }
+  }
+
+  @media (min-width: 351px) and (max-width: 755px) {
+    width: 300px; height: 300px;
+
+    left: calc(50% - 150px);
+    margin-top: -3rem;
+
+    img {
+      top: 74px; left: 35px;
+      width: 230px;
+    }
+  }
+
+  @media (min-width: 756px) {
+    width: 500px; height: 500px;
+
+    left: calc(50% - 250px);
+    margin-top: -6rem;
+
+    img {
+      top: 124px; left: 59px;
+      width: 382px;
+    }
   }
 }
