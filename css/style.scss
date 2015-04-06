@@ -1,18 +1,20 @@
+---
+---
 @charset "utf-8";
 
-@import "fonts";
-@import "base";
-@import "animation";
-@import "animsition";
-
-@import "articles";
-@import "codeview";
-@import "fluidbox";
-@import "footer";
-@import "header";
-@import "icons";
-@import "media";
-@import "navigation";
-@import "shared";
-
-@import "layout";
+@import
+  "fonts",
+  "base",
+  "animation",
+  "animsition",
+  "articles",
+  "codeview",
+  "fluidbox",
+  "footer",
+  "header",
+  "icons",
+  "media",
+  "navigation",
+  "shared",
+  "layout"
+;

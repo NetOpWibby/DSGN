@@ -17,7 +17,10 @@
         width: 100%;
         top: 0; left: 0;
 
-        background-image: linear-gradient(to top, transparent, $white);
+        // background-image: linear-gradient(to top, transparent, $white);
+        background-image: url("../images/fade.png");
+        background-repeat: no-repeat;
+        background-size: 100% 140px;
         padding-top: 2rem;
         padding-bottom: 0.7rem;
 
@@ -29,7 +32,10 @@
       &.is-open {
         top: 0; left: 0;
 
-        background-image: linear-gradient(to top, transparent, $white);
+        // background-image: linear-gradient(to top, transparent, $white);
+        background-image: url("../images/fade.png");
+        background-repeat: no-repeat;
+        background-size: 100% 140px;
         width: 100%;
       }
 
@@ -315,7 +321,10 @@
   @media (max-width: 800px) {
     top: 0; left: 0;
 
-    background-image: linear-gradient(to top, transparent, $white);
+    // background-image: linear-gradient(to top, transparent, $white);
+    background-image: url("../images/fade.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80px;
     padding-top: 5rem;
     width: 100%;
 
