@@ -5,7 +5,7 @@ title: "Resume"
 
 <h2 class="title">Colophon</h2>
 
-My focus is to learn as much as I can, preferably in a position that can challenge and excite my brain on a regular basis, if not daily.
+My focus is to learn as much as I can, preferably in a position that can challenge and excite my brain on a regular basis, if not daily. You can also [find me on LinkedIn](http://linkedin.com/in/paulanthonywebb), if you're into the sort of thing.
 
 
 
@@ -19,6 +19,16 @@ My focus is to learn as much as I can, preferably in a position that can challen
 
 
 <h2 class="title">Experience</h2>
+
+### Queralt [*](http://queraltinc.com)
+
+*Solutions Architect:*
+I design and make exquisite interfaces for the Internet of Things.
+
+*Timeframe:*
+April 2015 — Present
+
+
 
 ### DockYard [*](http://dockyard.com)
 

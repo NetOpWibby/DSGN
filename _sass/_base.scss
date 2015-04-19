@@ -147,6 +147,10 @@ figcaption {
   font-size: 80%;
 }
 
+em {
+  font-style: italic;
+}
+
 .hide-text { @include hide-text; }
 .unicode-char { @include unicode; }
 
