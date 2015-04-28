@@ -5,7 +5,7 @@ date:     2015-04-27
 category: post
 ---
 
-As a longtime [Notepad++](http://www.notepad-plus-plus.org) user in my PC days, I have found [Brackets](http://brackets.io) to be a suitable replacement...I would even call it an upgrade. I was screensharing with a remote co-worker today and he kept asking me what I use for several plugins, so I thought I would whip up a quick blog post to share with everyone.
+As a longtime [Notepad++](http://www.notepad-plus-plus.org) user in my PC days, I have found [Brackets](http://brackets.io) to be a suitable replacement for editing and viewing code...I would even call it an upgrade. I was screensharing with a remote co-worker today and he kept asking me what I use for several plugins, so I thought I would whip up a quick blog post to share with everyone.
 
 You can search for these plugins (and install!) within Brackets itself by bringing up the Extension Manager and copy/pasting the titles below.
 
