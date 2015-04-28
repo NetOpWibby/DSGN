@@ -51,7 +51,7 @@ At a high level, I am quite pleased with how version 8 of this site came out\*, 
 
 Announcement! There is another project I'm working on, and a full write-up will come later, but the name of it is "WEÖM" (pronounced, "wee-oohm"). It is a streetwear (for lack of a better word) brand whose focus is space. Not the Dieter Rams designer-y "space", but that place Neil deGrasse Tyson likes to talk about so much.
 
-You can reach it at [weöm.com](http://weöm.com) and also [weom.co](http://weom.co). The plan is to launch it on my birthday, April 3rd, and even though that's just a month away, I have faith that my team and I can get it done. Unfortunately, we are only able to launch with one product due to manufacturer issues, but more is in the pipeline.
+You can reach it at [weöm.com](https://weöm.com) and also [weom.co](http://weom.co). The plan is to launch it on my birthday, April 3rd, and even though that's just a month away, I have faith that my team and I can get it done. Unfortunately, we are only able to launch with one product due to manufacturer issues, but more is in the pipeline.
 
 Til' next time!
 

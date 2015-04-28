@@ -106,7 +106,14 @@ $yellow:  rgba(235, 232, 7, 1);   // #ebe807;
 
 p code {
   @include mono;
-  font-size: 90%;
+  margin-right: 0.1rem; padding: 0.1rem 0.7rem;
+
+  border: 1px solid rgba($black, 0.1);
+  border-radius: 0.3rem;
+  cursor: default;
+  font-size: 80%;
+  position: relative;
+  top: -0.17rem;
 }
 
 
@@ -149,6 +156,10 @@ figcaption {
 
 em {
   font-style: italic;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .hide-text { @include hide-text; }
