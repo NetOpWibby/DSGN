@@ -12,6 +12,7 @@ $(function () {
   // TODO:
   // Make this work with HTML tags
 
+
   $("p:first-of-type:not(blockquote p)").html(function (i, text) {
     //// Four word sets
     // The quick brown fox
@@ -26,17 +27,46 @@ $(function () {
     //// Single word
     // The
 
-    return text.replace(/^(\w+\s\w+\s\w+\s\w+)|^(\w+\W\w+\s\w+\s\w+\s\w+)|^(\w+\s\w+\W\w+\s\w+\s\w+)|^(\w+\s\w+\s\w+\W\w+\s\w+)|^(\w+\s\w+\s\w+\s\w+\W\w+)|^(\w+\s\w+\s\w+)|^(\w+)/i, function (match) {
+    /*
+    var dsgnEX = [
+      "/^",
+      "(/\w+/\s\/w+/\s/\w+/\s/\w+)|^",
+      "(/\w+/\W/\w+/\s/\w+/\s/\w+/\s/\w+)|^",
+      "(/\w+/\s/\w+/\W/\w+/\s/\w+/\s/\w+)|^",
+      "(/\w+/\s/\w+/\s/\w+/\W/\w+/\s/\w+)|^",
+      "(/\w+/\s/\w+/\s/\w+/\s/\w+/\W/\w+)|^",
+      "(/\w+/\s/\w+/\s/\w+)|^",
+      "(/\w+)",
+      "/i"
+    ].join("");
+
+    console.log(dsgnEX);
+    */
+
+
+
+    // /^(\w+\s\w+\s\w+\s\w+)|^(\w+\W\w+\s\w+\s\w+\s\w+)|^(\w+\s\w+\W\w+\s\w+\s\w+)|^(\w+\s\w+\s\w+\W\w+\s\w+)|^(\w+\s\w+\s\w+\s\w+\W\w+)|^(\w+\s\w+\s\w+)|^(\w+)/i
+
+    return text.replace(
+      /^(\w+\s\w+\s\w+\s\w+)|^(\w+\W\w+\s\w+\s\w+\s\w+)|^(\w+\s\w+\W\w+\s\w+\s\w+)|^(\w+\s\w+\s\w+\W\w+\s\w+)|^(\w+\s\w+\s\w+\s\w+\W\w+)|^(\w+\s\w+\s\w+)|^(\w+)/i,
+      function (match) {
+        return "<span class='p-intro'>" + match + "</span>";
+      }
+    );
+
+    /*
+    return text.replace(dsgnEX, function (match) {
       return "<span class='p-intro'>" + match + "</span>";
     });
+    */
   });
 
 
 
   // Change header background on DSGN* load
   var
-  host = window.location.protocol + "//" + window.location.host + "/",
-  images = ["portrait-01.jpg", "portrait-01b.jpg", "portrait-01c.jpg", "portrait-02.jpg", "portrait-03.jpg"];
+    host = window.location.protocol + "//" + window.location.host + "/",
+    images = ["portrait-01.jpg", "portrait-01b.jpg", "portrait-01c.jpg", "portrait-02.jpg", "portrait-03.jpg"];
 
   $(".header").css({"background-image": "url(" + host + "images/" + images[Math.floor(Math.random() * images.length)] + ")"});
 
