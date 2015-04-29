@@ -42,6 +42,13 @@ I still hit `Cmd + S` (sometimes) even though I don't need to. You're going to l
 
 
 
+### Brackets Sass[*](https://github.com/jasonsanjose/brackets-sass)
+* Compiles Sass (sass/scss) files when changed. Updates styles during Live Preview. Experimental support for Quick Edit.
+
+**NOTE:** [Joshua Miller](https://twitter.com/Josh_AM) informed me of this plugin and I must say, it's a hell of a lot better than trying to remember Terminal commands. Getting this setup was a little tricky, so I'll make a post detailing the process later.
+
+
+
 ### Code Folding[*](https://github.com/thehogfather/brackets-code-folding)
 * Brackets extension that provides simple code folding for files edited in brackets. Supports brace folding, tag folding, indent folding and multi-line comment folding.
 
@@ -129,9 +136,22 @@ When I refactor components and optimize code in my browser and OS projects, I te
 
 
 
-And there you have it! Here's a screenshot of my setup, where you can see some of the plugins mentioned, in action:
+And there you have it! I will keep this post updated as I change my setup. Here's a screenshot of it, where you can see some of the plugins mentioned, in action:
 
 <figure>
   [![](/images/thoughts/mbs/01.png)](/images/thoughts/mbs/01.png)
   <figcaption>Aww yiss, kinda like Inception, right?</figcaption>
 </figure>
+
+
+
+<div class="divider">
+  <span class="divider__shape-01"></span>
+  <span class="divider__shape-02"></span>
+  <span class="divider__shape-03"></span>
+  <span class="divider__shape-04"></span>
+</div>
+
+
+
+<span><small>Updated 04.28.15 to add Brackets Sass</small></span>
