@@ -3,57 +3,97 @@
 
 
 
-//
-// Core
-//
+// I'll port my Dracula theme at a later date.
+// For now, let's use my second favorite theme! (=
 
-.syntaxhighlighter {
-  overflow: auto;
+// Tomorrow Night Eighties Theme
+// Original theme - https://github.com/chriskempson/tomorrow-theme
+// http://jmblog.github.com/color-themes-for-google-code-highlightjs
+
+// Tomorrow Comment
+.hljs-comment {
+  color: #999;
+}
+
+// Tomorrow Red
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #f2777a;
+}
+
+// Tomorrow Orange
+.hljs-number,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #f99157;
+}
+
+// Tomorrow Yellow
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #ffcc66;
+}
+
+// Tomorrow Green
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.hljs-name,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #99cc99;
+}
+
+// Tomorrow Aqua
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #66cccc;
+}
+
+// Tomorrow Blue
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #6699cc;
+}
+
+// Tomorrow Purple
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #cc99cc;
+}
+
+.hljs {
+  margin-bottom: 3rem; padding-bottom: 1.5rem;
+
+  background-color: #2d2d2d;
+  color: #ccc;
+  display: block;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  line-height: 1.4rem;
+  overflow-x: auto;
+  vertical-align: baseline;
   width: 100%;
-
-  .bold {
-    font-weight: 600;
-  }
-
-  .italic {
-    font-style: italic;
-  }
-
-  .line {
-    white-space: pre;
-  }
-
-  a,
-  div,
-  code,
-  table,
-  table td,
-  table tr,
-  table tbody,
-  table thead,
-  table caption,
-  textarea {
-    line-height: 1.4rem;
-    overflow: hidden; /* visible */
-    vertical-align: baseline;
-    font-family: "Source Code Pro", "Courier New", Courier, monospace;
-  }
-
-  table td.gutter .line {
-    padding-right: 0.5rem;
-    padding-left: 1rem;
-    text-align: right;
-  }
-
-  table td.code .line {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
-
-  &.nogutter td.code .container textarea,
-  &.nogutter td.code .line {
-    padding-left: 0;
-  }
 
   @media (min-width: 511px) and (max-width: 1089px) {
     padding-left: 11.66667%;
@@ -64,110 +104,12 @@
   }
 }
 
-
-
-//
-// Theme
-//
-
-.syntaxhighlighter {
-  margin-bottom: 2.5rem; padding-top: 1rem; padding-bottom: 1rem;
-  background-color: #282a36;
-
-  .line.alt1,
-  .line.alt2 {
-    background-color: #282a36;
-  }
-
-  .line.highlighted.alt1,
-  .line.highlighted.alt2 {
-    background-color: #363843;
-  }
-
-  .line.highlighted.number {
-    color: #fff !important;
-  }
-
-  table caption {
-    color: #fff;
-  }
-
-  .gutter {
-    color: #888;
-  }
-
-  .gutter .line {
-    border-right: 2px solid #2b2b2b;
-  }
-
-  .gutter .line.highlighted {
-    background-color: #6ce26c;
-    color: white;
-  }
-
-  .plain {
-    color: #535353;
-  }
-
-  .class {
-    color: #4ff579;
-  }
-
-  .element {
-    color: #ff79c6;
-  }
-
-  .default {
-    color: #fff;
-  }
-
-  .comments {
-    color: #6070a1;
-  }
-
-  .string {
-    color: #f1fa8c;
-  }
-
-  .keyword {
-    color: #8556ab;
-  }
-
-  .preprocessor {
-    color: gray;
-  }
-
-  .variable {
-    color: #aa7700;
-  }
-
-  .value {
-    color: #e38201;
-  }
-
-  .functions {
-    color: #ff1493;
-  }
-
-  .constants {
-    color: #0066cc;
-  }
-
-  .script {
-    background-color: none;
-    color: #006699;
-  }
-
-  .color1 {
-    color: #535353;
-  }
-
-  .color2 {
-    color: #ff1493;
-  }
-
-  .color3 {
-    color: #8be9fd;
-    font-style: italic;
-  }
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
 }
