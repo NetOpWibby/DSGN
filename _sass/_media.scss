@@ -28,6 +28,16 @@
   }
 }
 
+section > iframe {
+  @media (min-width: 800px) and (max-width: 1200px) {
+    padding-left: 4%;
+  }
+
+  @media (min-width: 1201px) {
+    padding-left: 20.66667%;
+  }
+}
+
 .project__iphone,
 .project__macbook {
   margin: 0;

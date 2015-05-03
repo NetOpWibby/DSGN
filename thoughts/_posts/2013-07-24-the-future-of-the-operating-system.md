@@ -14,12 +14,12 @@ Every one of these gadgets contain their own operating system, specifically desi
 This line of reasoning is how my operating system concept, [hikari OS](http://dribbble.com/nokadota/projects/127021-hikari-OS) was born.
 
 <figure>
-  [![](/images/thoughts/tfotos/logo-full.jpg)](/images/thoughts/tfotos/logo-full.jpg)
+  [![](/images/thoughts/2013-07-24/logo-full.jpg)](/images/thoughts/2013-07-24/logo-full.jpg)
   <figcaption>Final logo and logotype</figcaption>
 </figure>
 
 <figure>
-  [![](/images/thoughts/tfotos/tfotos-01.PNG)](/images/thoughts/tfotos/tfotos-01.PNG)
+  [![](/images/thoughts/2013-07-24/01.PNG)](/images/thoughts/2013-07-24/01.PNG)
   <figcaption>Fully coded snapshot of hikari</figcaption>
 </figure>
 

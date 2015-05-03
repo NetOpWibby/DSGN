@@ -162,6 +162,12 @@ strong {
   font-weight: 700;
 }
 
+sup {
+  font-size: 60%;
+  position: relative;
+  top: -0.4rem;
+}
+
 .hide-text { @include hide-text; }
 .unicode-char { @include unicode; }
 

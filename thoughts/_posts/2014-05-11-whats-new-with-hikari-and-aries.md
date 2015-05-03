@@ -19,28 +19,28 @@ I am using [node.js](http://nodejs.org) for the structure and foundation of hika
 I thought it clever to run the server on `localhost:1343` because of the main town in Megaman Battle Network is ACDC Town (think of the numbers as letters, you'll get it). `localhost:1343/s` is the URL you'll get it when you log in. This is future-proofing for when hikari will be hosted "in the cloud". The full URL will be `hikar.io/s`, for "hikari OS". I really like playing around with URLs, if you haven't noticed. Ooh, here are some screens of hikari at this time of writing!
 
 <figure>
-  [![](/images/thoughts/wnwhaa/01.jpg)](/images/thoughts/wnwhaa/01.jpg)
+  [![](/images/thoughts/2014-05-11/01.jpg)](/images/thoughts/2014-05-11/01.jpg)
   <figcaption>Login screen</figcaption>
 </figure>
 
 I had the idea to use animated gifs that correspond with the weather in your area. Large animated gifs affect performance negatively on a Retina display. Check out that cursor though! I'm using SVG for it.
 
 <figure>
-  [![](/images/thoughts/wnwhaa/02.jpg)](/images/thoughts/wnwhaa/02.jpg)
+  [![](/images/thoughts/2014-05-11/02.jpg)](/images/thoughts/2014-05-11/02.jpg)
   <figcaption>Login panel expanded, opens with a nifty animation.</figcaption>
 </figure>
 
 I have a theory that logins are going to become less important as the years go on. Still, for peace of mind (and as backup), standard login will be implemented.
 
 <figure>
-  [![](/images/thoughts/wnwhaa/03.jpg)](/images/thoughts/wnwhaa/03.jpg)
+  [![](/images/thoughts/2014-05-11/03.jpg)](/images/thoughts/2014-05-11/03.jpg)
   <figcaption>I'm logged in!</figcaption>
 </figure>
 
 You can tell from the upper-right corner that my avatar is being pulled via GitHub's oAuth, and the vertical green bar indicates I have an Internet connection.
 
 <figure>
-  [![](/images/thoughts/wnwhaa/04.jpg)](/images/thoughts/wnwhaa/04.jpg)
+  [![](/images/thoughts/2014-05-11/04.jpg)](/images/thoughts/2014-05-11/04.jpg)
   <figcaption>The main side menu opened. Battle Network fans will recognize this instantly.</figcaption>
 </figure>
 

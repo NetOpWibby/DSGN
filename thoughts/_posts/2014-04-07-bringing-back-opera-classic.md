@@ -23,14 +23,14 @@ When Opera moved away from Presto, the first thing I noticed was that I no longe
 ### Smart RSS [*](https://addons.opera.com/en/extensions/details/smart-rss)
 
 <figure>
-  [![](/images/thoughts/bboc/01.png)](/images/thoughts/bboc/01.png)
+  [![](/images/thoughts/2014-04-07/01.png)](/images/thoughts/2014-04-07/01.png)
   <figcaption>Smart RSS in action</figcaption>
 </figure>
 
 ### RSS Detector [*](https://addons.opera.com/en/extensions/details/rss-detector)
 
 <figure>
-  [![](/images/thoughts/bboc/02.png)](/images/thoughts/bboc/02.png)
+  [![](/images/thoughts/2014-04-07/02.png)](/images/thoughts/2014-04-07/02.png)
   <figcaption>RSS Detector in action</figcaption>
 </figure>
 

@@ -139,7 +139,7 @@ When I refactor components and optimize code in my browser and OS projects, I te
 And there you have it! I will keep this post updated as I change my setup. Here's a screenshot of it, where you can see some of the plugins mentioned, in action:
 
 <figure>
-  [![](/images/thoughts/mbs/01.png)](/images/thoughts/mbs/01.png)
+  [![](/images/thoughts/2015-04-27/01.png)](/images/thoughts/2015-04-27/01.png)
   <figcaption>Aww yiss, kinda like Inception, right?</figcaption>
 </figure>
 

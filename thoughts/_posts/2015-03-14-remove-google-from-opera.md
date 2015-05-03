@@ -12,7 +12,7 @@ When Opera initially diverged from Presto to work on Blink with Google, they gav
 Anyhoo, simply get to the Preferences screen in Opera and input the Konami code (just leave out the `START`). For those that don't know the code, it is `up`, `up`, `down`, `down`, `left`, `right`, `left`, `right`, `b`, `a`. You'll be presented with this screen:
 
 <figure>
-  [![](/images/thoughts/rgfo/02.png)](/images/thoughts/rgfo/02.png)
+  [![](/images/thoughts/2015-03-14/02.png)](/images/thoughts/2015-03-14/02.png)
   <figcaption>Yes, salvation!</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Anyhoo, simply get to the Preferences screen in Opera and input the Konami code 
 Now, you can go from this:
 
 <figure>
-  [![](/images/thoughts/rgfo/01.png)](/images/thoughts/rgfo/01.png)
+  [![](/images/thoughts/2015-03-14/01.png)](/images/thoughts/2015-03-14/01.png)
   <figcaption>Yuck, WTF</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Now, you can go from this:
 To this:
 
 <figure>
-  [![](/images/thoughts/rgfo/03.png)](/images/thoughts/rgfo/03.png)
+  [![](/images/thoughts/2015-03-14/03.png)](/images/thoughts/2015-03-14/03.png)
   <figcaption>Ahhhhh, much better</figcaption>
 </figure>
 

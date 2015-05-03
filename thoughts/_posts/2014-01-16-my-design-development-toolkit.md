@@ -17,7 +17,7 @@ This is probably my most prized set of tools, right before Notepad++ and Opera. 
 ### Photoshop [*](http://adobe.com/photoshop)
 
 <figure>
-  [![](/images/thoughts/mddt/01.png")](/images/thoughts/mddt/01.png)
+  [![](/images/thoughts/2014-01-16/01.png")](/images/thoughts/2014-01-16/01.png)
   <figcaption>Adobe Photoshop</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Anyhoo! For concepts that require a bit of finesse and optimizing, Photoshop get
 ### Axialis Icon Workshop [*](http://www.axialis.com/iconworkshop)
 
 <figure>
-  [![](/images/thoughts/mddt/02.png)](/images/thoughts/mddt/02.png)
+  [![](/images/thoughts/2014-01-16/02.png)](/images/thoughts/2014-01-16/02.png)
   <figcaption>Axialis Icon Workshop</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ I use this app to package 16px and 32px images of my favicons. Before this, I ju
 ### Opera [*](http://opera.com)
 
 <figure>
-  [![](/images/thoughts/mddt/03.png)](/images/thoughts/mddt/03.png)
+  [![](/images/thoughts/2014-01-16/03.png)](/images/thoughts/2014-01-16/03.png)
   <figcaption>Opera Developer</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ I use Opera because at the time I discovered it, it was the most standards-compl
 ### Notepad++ [*](http://www.notepad-plus-plus.org)
 
 <figure>
-  [![](/images/thoughts/mddt/04.png)](/images/thoughts/mddt/04.png)
+  [![](/images/thoughts/2014-01-16/04.png)](/images/thoughts/2014-01-16/04.png)
   <figcaption>Notepad++</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ I am using a custom theme based on a screenshot I saw on Dribbble. The font I us
 ### Console2 [*](http://sourceforge.net/projects/console)
 
 <figure>
-  [![](/images/thoughts/mddt/05.png)](/images/thoughts/mddt/05.png)
+  [![](/images/thoughts/2014-01-16/05.png)](/images/thoughts/2014-01-16/05.png)
   <figcaption>Console2</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ When the apprenticeship was over, I was first disgusted, then saddened at the pr
 ### JS Beautifier [*](http://jsbeautifier.org)
 
 <figure>
-  [![](/images/thoughts/mddt/06.png)](/images/thoughts/mddt/06.png)
+  [![](/images/thoughts/2014-01-16/06.png)](/images/thoughts/2014-01-16/06.png)
   <figcaption>JS Beautifier</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Besides, it helps me learn and become better at coding JavaScript.
 ### JS Hint [*](http://jshint.com)
 
 <figure>
-  [![](/images/thoughts/mddt/07.png)](/images/thoughts/mddt/07.png)
+  [![](/images/thoughts/2014-01-16/07.png)](/images/thoughts/2014-01-16/07.png)
   <figcaption>JS Hint</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ Not all JavaScript is created equal.
 ### Stack Overflow [*](http://stackoverflow.com)
 
 <figure>
-  [![](/images/thoughts/mddt/08.png)](/images/thoughts/mddt/08.png)
+  [![](/images/thoughts/2014-01-16/08.png)](/images/thoughts/2014-01-16/08.png)
   <figcaption>Stack Overflow</figcaption>
 </figure>
 

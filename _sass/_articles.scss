@@ -35,6 +35,7 @@ figure img {
 .thought__title,
 .project__title {
   @extend %layout;
+  max-width: 600px !important;
   text-align: center;
 }
 
