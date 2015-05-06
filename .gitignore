@@ -6,6 +6,7 @@ config
 # OS garbage
 .DS_Store
 Thumbs.db
+.brackets.json
 
 # &c
 *.lock
