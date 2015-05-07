@@ -1,12 +1,16 @@
-# Don't need to upload this generated stuff
-_site
-config
-.sass-cache
-
 # OS garbage
 .DS_Store
 Thumbs.db
-.brackets.json
 
-# &c
+
+
+# Folders
+_site
+config
+.sass-cache
+Capfile
+
+
+
+# Files
 *.lock
