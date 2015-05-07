@@ -4,3 +4,6 @@ url: "http://dsgn.io"
 markdown: rdiscount
 paginate: 5
 permalink: /:categories/:title
+exclude:
+  - Capfile
+  - config
