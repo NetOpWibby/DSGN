@@ -2,6 +2,9 @@
 // Paul Anthony Webb (https://github.com/NetOperatorWibby/DSGN)
 // MIT licensed
 
+/* jshint undef: true, unused: true */
+/* global $, document, window, setTimeout, navigator */
+
 $(function () {
 
   "use strict";
