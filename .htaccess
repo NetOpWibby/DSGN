@@ -1,7 +1,7 @@
 RewriteEngine on
 
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?dsgn.io [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://?dsgn.io [NC]
 RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
 
 <IfModule mod_expires.c>
