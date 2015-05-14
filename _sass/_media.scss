@@ -1,5 +1,15 @@
-// DSGN* 8.0
-//////// _media.scss
+/*
+  2015
+   _____    ______   ______   __   __
+  /\  __-. /\  ___\ /\  ___\ /\ "-.\ \
+  \ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \
+   \ \____- \/\_____\\ \_____\\ \_\\"\_\
+    \/____/  \/_____/ \/_____/ \/_/ \/_/ 8.0
+
+  _media.scss
+*/
+
+
 
 .video-container {
   margin-bottom: 4rem; padding-top: 30px;
@@ -8,7 +18,9 @@
   overflow: hidden;
   position: relative;
 
-  iframe, object, embed {
+  iframe,
+  object,
+  embed {
     width: 100%; height: 100%;
     top: 0; left: 0;
 

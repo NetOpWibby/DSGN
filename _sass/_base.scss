@@ -1,11 +1,22 @@
-// DSGN* 8.0
-//////// _base.scss
+/*
+  2015
+   _____    ______   ______   __   __
+  /\  __-. /\  ___\ /\  ___\ /\ "-.\ \
+  \ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \
+   \ \____- \/\_____\\ \_____\\ \_\\"\_\
+    \/____/  \/_____/ \/_____/ \/_/ \/_/ 8.0
+
+  _base.scss
+*/
+
+
 
 //
 // Reset
 //
 
 * {
+  cursor: default;
   text-rendering: optimizeLegibility !important;
   text-shadow: 1px 1px 1px rgba(25, 25, 25, 0.004);
 
@@ -140,7 +151,7 @@ p code {
 
 a {
   color: inherit;
-  // cursor: pointer;
+  cursor: pointer;
   text-decoration: none;
   transition: all 0.2s ease;
 
@@ -177,14 +188,6 @@ sup {
 // Titles
 //
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-}
-
 h1 {
   font-size: 3rem;
   line-height: 50px;
@@ -205,7 +208,7 @@ h4 {
 }
 
 h5 {
-  font-size: 17px;
+  font-size: 1.05rem;
   line-height: 24px;
   text-transform: uppercase;
 }

@@ -7,3 +7,5 @@ permalink: /:categories/:title
 exclude:
   - Capfile
   - config
+sass:
+  style: :compressed

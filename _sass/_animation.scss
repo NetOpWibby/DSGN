@@ -1,5 +1,15 @@
-// DSGN* 8.0
-//////// _animation.scss
+/*
+  2015
+   _____    ______   ______   __   __
+  /\  __-. /\  ___\ /\  ___\ /\ "-.\ \
+  \ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \
+   \ \____- \/\_____\\ \_____\\ \_\\"\_\
+    \/____/  \/_____/ \/_____/ \/_/ \/_/ 8.0
+
+  _animation.scss
+*/
+
+
 
 @keyframes spin {
   0% {
@@ -48,6 +58,8 @@
   100%  { opacity: 0; }
 }
 
+
+
 // Fade In/Out Up
 @keyframes fade-in-up-sm {
   0% {
@@ -72,6 +84,8 @@
     transform: translateY(-100px);
   }
 }
+
+
 
 // Fade In/Out Down
 @keyframes fade-in-down-sm {
@@ -98,6 +112,8 @@
   }
 }
 
+
+
 // Fade In/Out Left
 @keyframes fade-in-left-sm {
   0% {
@@ -122,6 +138,8 @@
     transform: translateX(-100px);
   }
 }
+
+
 
 // Fade In/Out Right
 @keyframes fade-in-right-sm {

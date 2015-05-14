@@ -16,20 +16,50 @@
     </div>
 
     <footer class="footer" role="contentinfo">
-      <span class="footer__copyright">&copy; Paul Anthony Webb</span>
+      <div class="footer__section">
+        <h5>Sitemap</h5>
 
-      <nav class="footer__links">
-        <a href="http://dribbble.com/nokadota" class="footer__link icon-dribbble"></a>
-        <a href="http://github.com/NetOperatorWibby" class="footer__link icon-github"></a>
-        <a href="http://twitter.com/NetOpWibby" class="footer__link icon-twitter"></a>
-      </nav>
+        <nav class="footer__links--sitemap">
+          <a class="footer__link--sitemap" href="/">Home</a>
+          <a class="footer__link--sitemap" href="/me">Me</a>
+          <a class="footer__link--sitemap" href="/thoughts">Thoughts</a>
+          <a class="footer__link--sitemap" href="/projects">Projects</a>
+          <a class="footer__link--sitemap" href="/resume">Résumé</a>
+        </nav>
+      </div>
+
+      <div class="footer__section">
+        <h5>Latest Tweet</h5>
+
+        <blockquote id="netopwibby">
+        </blockquote>
+      </div>
+
+      <div class="footer__section">
+        <h5>Elsewhere</h5>
+
+        <nav class="footer__links--social">
+          <a class="footer__link--social" target="_blank" href="https://dribbble.com/nokadota">Dribbble</a>
+          <a class="footer__link--social" target="_blank" href="https://ello.co/netoperatorwibby">Ello</a>
+          <!--/
+            <a href="">the Network</a> Coming soon, hehe!
+          /-->
+          <a class="footer__link--social" target="_blank" href="https://github.com/NetOperatorWibby">GitHub</a>
+          <a class="footer__link--social" target="_blank" href="https://twitter.com/NetOpWibby">Twitter</a>
+          <a class="footer__link--social" target="_blank" href="https://xn--wem-tna.com">WEÖM</a>
+        </nav>
+      </div>
     </footer>
 
     <script src="/scripts/plugins/highlight.js"></script>
     <script src="/scripts/plugins/fluidtoewheel.js"></script>
+    <script src="/scripts/plugins/twitterFetcher.js"></script>
+
     <script src="/scripts/dsgn.js"></script>
 
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </body>
 
 </html>

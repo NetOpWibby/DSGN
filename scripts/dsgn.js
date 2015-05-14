@@ -3,7 +3,7 @@
 // MIT licensed
 
 /* jshint undef: true, unused: true */
-/* global $, document, window, setTimeout, navigator */
+/* global $, document, window, setTimeout, navigator, twitterFetcher */
 
 $(function () {
 
@@ -188,5 +188,17 @@ $(function () {
     document.documentElement.className += "no-touch";
   }
   */
+
+
+
+  // Render latest tweet
+  var config1 = {
+    "id": "255342260382732288",
+    "domId": "netopwibby",
+    "maxTweets": 1,
+    "enableLinks": true
+  };
+
+  twitterFetcher.fetch(config1);
 
 });

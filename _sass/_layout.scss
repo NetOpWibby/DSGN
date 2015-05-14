@@ -1,5 +1,15 @@
-// DSGN* 8.0
-//////// _layout.scss
+/*
+  2015
+   _____    ______   ______   __   __
+  /\  __-. /\  ___\ /\  ___\ /\ "-.\ \
+  \ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \
+   \ \____- \/\_____\\ \_____\\ \_\\"\_\
+    \/____/  \/_____/ \/_____/ \/_/ \/_/ 8.0
+
+  _layout.scss
+*/
+
+
 
 html,
 body {
@@ -105,7 +115,7 @@ body {
   overflow: auto;
 }
 
-blockquote {
+p blockquote {
   // margin: 1.5rem -2rem 1.5rem 0;
   margin-bottom: 1.5rem; padding: 2rem 2rem 1rem 2rem;
 

@@ -1,14 +1,33 @@
-// DSGN* 8.0
-//////// _footer.scss
+/*
+  2015
+   _____    ______   ______   __   __
+  /\  __-. /\  ___\ /\  ___\ /\ "-.\ \
+  \ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \
+   \ \____- \/\_____\\ \_____\\ \_\\"\_\
+    \/____/  \/_____/ \/_____/ \/_/ \/_/ 8.0
+
+  _footer.scss
+*/
+
+
 
 .footer {
   background-image: url("../images/portrait-02.jpg");
   background-position: center;
-  color: #8d758d;
-  height: 100px;
+  color: rgba($white, 0.75);
+  height: 200px;
+  overflow: auto;
   position: relative;
-  text-transform: uppercase;
   width: 100%;
+
+  &:before {
+    width: 100%; height: 100%;
+
+    background-color: rgba($black, 0.25);
+    content: "";
+    left: 0;
+    position: absolute;
+  }
 
   @media (max-width: 500px) {
     padding-right: 6.66667%;
@@ -35,12 +54,112 @@
   }
 }
 
+
+
+.footer__section {
+  float: left;
+  padding-top: 2rem;
+  position: relative;
+  z-index: 1;
+
+  &:first-of-type,
+  &:last-of-type {
+    @media (max-width: 800px) {
+      width: 50%;
+    }
+
+    @media (min-width: 801px) {
+      width: 25%;
+    }
+  }
+
+  &:nth-of-type(2) {
+    width: 50%;
+
+    h5 {
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+
+  &:last-of-type {
+    h5 {
+      text-align: right;
+    }
+  }
+
+  h5 {
+    color: $white;
+    @include bold;
+    letter-spacing: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  blockquote {
+    .user,
+    .interact {
+      display: none;
+    }
+
+    .tweet {
+      width: 90%;
+      word-wrap: break-word;
+    }
+
+    .timePosted {
+      display: block;
+      font-size: 0.7rem;
+      letter-spacing: 0.1rem;
+      padding-top: 1rem;
+      text-align: right;
+      text-transform: uppercase;
+      width: 95%;
+    }
+
+    a {
+      font-weight: 600;
+    }
+  }
+}
+
+.footer__link--sitemap,
+.footer__link--social {
+  display: block;
+
+  &:not(:last-of-type) {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.footer__links--social {
+  // position: relative;
+  text-align: right;
+  // top: -0.8rem;
+}
+
+.footer__link--social {
+  // width: 2rem; height: 2rem;
+  // @include hide-text;
+
+  // display: inline-block;
+  // position: relative;
+
+  &:not(:last-of-type) {
+    // margin-left: 0.5rem;
+  }
+}
+
+
+
 .footer__links,
 .footer__copyright {
   display: inline-block;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  // top: 50%;
+  // transform: translateY(-50%);
 }
 
 .footer__links {

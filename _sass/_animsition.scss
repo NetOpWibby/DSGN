@@ -1,5 +1,15 @@
-// DSGN* 8.0
-//////// _animsition.scss
+/*
+  2015
+   _____    ______   ______   __   __
+  /\  __-. /\  ___\ /\  ___\ /\ "-.\ \
+  \ \ \/\ \\ \___  \\ \ \__ \\ \ \-.  \
+   \ \____- \/\_____\\ \_____\\ \_\\"\_\
+    \/____/  \/_____/ \/_____/ \/_/ \/_/ 8.0
+
+  _animsition.scss
+*/
+
+
 
 .animsition,
 .animsition-overlay {
@@ -38,6 +48,8 @@
   z-index: 1;
 }
 
+
+
 // Fade In/Out
 .fade-in {
   animation-name: fade-in;
@@ -46,6 +58,8 @@
 .fade-out {
   animation-name: fade-out;
 }
+
+
 
 // Fade In/Out Up
 .fade-in-up-sm {
@@ -56,6 +70,8 @@
   animation-name: fade-out-up-sm;
 }
 
+
+
 // Fade In/Out Down
 .fade-in-down-sm {
   animation-name: fade-in-down-sm;
@@ -64,6 +80,8 @@
 .fade-out-down-sm {
   animation-name: fade-out-down-sm;
 }
+
+
 
 // Fade In/Out Left
 .fade-in-left-sm {
@@ -74,6 +92,8 @@
   animation-name: fade-out-left-sm;
 }
 
+
+
 // Fade In/Out Right
 .fade-in-right-sm {
   animation-name: fade-in-right-sm;
@@ -82,6 +102,8 @@
 .fade-out-right-sm {
   animation-name: fade-out-right-sm;
 }
+
+
 
 // Zoom In/Out
 .zoom-in-sm {
