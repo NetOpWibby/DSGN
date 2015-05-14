@@ -15,6 +15,14 @@
   outline: none;
 }
 
+.fluidbox-loader {
+  cursor: -webkit-zoom-in;
+}
+
+.fluidbox-opened .fluidbox-loader {
+  cursor: -webkit-zoom-out;
+}
+
 .fluidbox-overlay {
   top: 0; left: 0;
   bottom: 0; right: 0;
