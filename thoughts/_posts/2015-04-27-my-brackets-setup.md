@@ -82,6 +82,11 @@ I use [JSHint](http://jshint.com) usually, but when I remember I have this plugi
 
 
 
+### Markdown Preview[*](https://github.com/gruehle/MarkdownPreview)
+* Live preview of markdown documents
+
+
+
 ### Open .gitignore[*](https://github.com/danielmahon/brackets-opengitignore)
 * This extension will try to find and open the .gitignore file which Brackets hides by default.
 
@@ -154,4 +159,7 @@ And there you have it! I will keep this post updated as I change my setup. Here'
 
 
 
-<span><small>Updated 04.28.15 to add Brackets Sass</small></span>
+<span>
+  <small>Updated 04.28.15 to add Brackets Sass</small>
+  <small>Updated 05.14.15 to add Markdown Preview</small>
+</span>

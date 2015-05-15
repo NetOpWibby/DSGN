@@ -1,11 +1,13 @@
-name: DSGN
+title: DSGN
 description: "The portfolio of Paul Anthony Webb"
 url: "http://dsgn.io"
 markdown: rdiscount
 paginate: 5
 permalink: /:categories/:title
+
 exclude:
   - Capfile
   - config
+
 sass:
   style: :compressed

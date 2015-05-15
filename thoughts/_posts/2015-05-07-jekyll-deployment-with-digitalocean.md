@@ -64,6 +64,10 @@ You probably don't need to edit anything in your `Capfile`, but I like to change
 
   before "deploy:update", "deploy:update_jekyll"
 
+  # your images and CSS may not appear to work after the symlink process
+  # this rule and subsequent code fixes this issue
+  after "deploy:create_symlink", "deploy:fix_permissions"
+
   namespace :deploy do
     [:start, :stop, :restart, :finalize_update].each do |t|
       desc "#{t} task is a no-op with jekyll"
@@ -76,6 +80,13 @@ You probably don't need to edit anything in your `Capfile`, but I like to change
       # build site using jekyll
       # remove Capistrano stuff from build
       %x(rm -rf _site/* && jekyll build && rm _site/Capfile && rm -rf _site/config)
+    end
+
+    desc "Fix permissions"
+    task :fix_permissions do
+      # chmod files on the server
+      run "chmod 775 -R #{current_path}"
+      run "chmod 644 -R #{current_path}/.htaccess"
     end
   end
 </code></pre>
@@ -123,3 +134,9 @@ P.S: I noticed that the deploy script didn't exclude the Capistrano files in the
     - Capfile
     - config
 </code></pre>
+
+
+
+<span>
+  <small>Updated 05.14.15 to update `deploy.rb` script with `chmod` rules</small>
+</span>
