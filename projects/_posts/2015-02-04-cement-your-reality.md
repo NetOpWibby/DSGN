@@ -21,6 +21,6 @@ There are six versions of this, with star clusters and light hues. So you can, y
 
 ### Download
 
-* [Desktop](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/desktop/dsgn-cement-your-reality.zip)
-* [iPad](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/ipad/dsgn-cement-your-reality.zip)
-* [iPhone](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/iphone/dsgn-cement-your-reality.zip)
+* [Desktop](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/desktop/dsgn-cement-your-reality.zip)
+* [iPad](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/ipad/dsgn-cement-your-reality.zip)
+* [iPhone](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/iphone/dsgn-cement-your-reality.zip)

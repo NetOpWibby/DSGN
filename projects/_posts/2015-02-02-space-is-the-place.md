@@ -17,4 +17,4 @@ You can find 6 versions of awesome space explosion mindmeld absolution architect
 
 ### Download
 
-* [Desktop](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/desktop/dsgn-space-is-the-place.zip)
+* [Desktop](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/desktop/dsgn-space-is-the-place.zip)

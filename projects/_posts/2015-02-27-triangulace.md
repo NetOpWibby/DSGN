@@ -21,6 +21,6 @@ There are four versions of this wallpaper with different glow colors: cyan, mage
 
 ### Download
 
-* [Desktop](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/desktop/dsgn-triangulace.zip)
-* [iPad](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/ipad/dsgn-triangulace.zip)
-* [iPhone](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/iphone/dsgn-triangulace.zip)
+* [Desktop](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/desktop/dsgn-triangulace.zip)
+* [iPad](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/ipad/dsgn-triangulace.zip)
+* [iPhone](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/iphone/dsgn-triangulace.zip)

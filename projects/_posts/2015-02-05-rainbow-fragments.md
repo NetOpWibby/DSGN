@@ -15,4 +15,4 @@ If you stare at something long enough, recognizable shapes appear. Such was the 
 
 ### Download
 
-* [Desktop](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/desktop/dsgn-rainbow-fragments.zip)
+* [Desktop](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/desktop/dsgn-rainbow-fragments.zip)

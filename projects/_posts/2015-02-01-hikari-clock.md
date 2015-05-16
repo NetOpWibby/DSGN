@@ -19,4 +19,4 @@ Note: you will require [Rainmeter](htp://rainmeter.net/cms) and a Windows OS to 
 
 ### Download
 
-* [Desktop](http://inc.ideasnevercease.netdna-cdn.com/dsgn/downloads/desktop/dsgn-hikari-clock.zip)
+* [Desktop](https://s3-us-west-2.amazonaws.com/ideasnevercease/dsgn/downloads/desktop/dsgn-hikari-clock.zip)
