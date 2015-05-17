@@ -5,12 +5,13 @@ Thumbs.db
 
 
 # Folders
-_site
-config
 .sass-cache
+_site
 Capfile
+config
 
 
 
 # Files
+*.css.map
 *.lock
