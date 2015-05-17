@@ -88,8 +88,8 @@ $(function () {
   // More scrolling fun!
   $(window).on("scroll", function () {
     var
-    value = $(this).stop().scrollTop(),
-    scrollPerc = Math.ceil($(this).scrollTop());
+      value = $(this).stop().scrollTop(),
+      scrollPerc = Math.ceil($(this).scrollTop());
 
     setTimeout(function () {
       if (value > 1) {
@@ -98,10 +98,13 @@ $(function () {
         if ($(".nav").hasClass("is-open")) {
           $(".nav").removeClass("is-open");
         }
+
+        $(".header").css("background-size", "150%");
       }
 
       if (value < 1) {
         $(".nav-wrapper").removeClass("is-scrolled");
+        $(".header").css("background-size", "100%");
       }
 
       $(".nav__trigger__mobile-wrap").removeClass("is-clicked");
