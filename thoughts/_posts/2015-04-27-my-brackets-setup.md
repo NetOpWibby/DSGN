@@ -85,6 +85,8 @@ I use [JSHint](http://jshint.com) usually, but when I remember I have this plugi
 ### Markdown Preview[*](https://github.com/gruehle/MarkdownPreview)
 * Live preview of markdown documents
 
+I used to have keep a separate app for viewing and editing Markdown files, but that immediately seemed silly once I learned the existence of this plugin.
+
 
 
 ### Open .gitignore[*](https://github.com/danielmahon/brackets-opengitignore)
