@@ -68,9 +68,9 @@ This one is by your's truly! I love the Dracula theme, but the [original Bracket
 
 I modify this in my preferences file to show as dotted lines. Just looks cleaner IMO, than the default solid line. Note that after you install this plugin and restart Brackets, you will have to enable Indent Guides via the `View` menu. To make the guides dotted, go to the `Debug` menu and select `Open Preferences File`. Add this line to that file and it will update immediately:
 
-<code><pre>
+<pre><code>
 	"brackets-indent-guides.guideStyle": "dotted"
-</pre></code>
+</code></pre>
 
 
 
