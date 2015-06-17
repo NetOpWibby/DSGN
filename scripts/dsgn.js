@@ -98,13 +98,11 @@ $(function () {
         if ($(".nav").hasClass("is-open")) {
           $(".nav").removeClass("is-open");
         }
-
-        $(".header").css("background-size", "150%");
       }
 
       if (value < 1) {
         $(".nav-wrapper").removeClass("is-scrolled");
-        $(".header").css("background-size", "100%");
+        $(".header").css("background-size", "cover");
       }
 
       $(".nav__trigger__mobile-wrap").removeClass("is-clicked");
