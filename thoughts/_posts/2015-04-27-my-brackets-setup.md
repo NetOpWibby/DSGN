@@ -64,7 +64,7 @@ As of release 1.3 (Brackets notified me of an update as I began writing this pos
 
 
 ### Dracula[*](https://github.com/NetOperatorWibby/DraculaBrackets)
-* Improved Dracula theme.
+* A theme of terrible evil, for your coding pleasure, bwahahahahahaaa-cough-haaaa. Oh yeah, you will need to install the Brackets UI Theming Enable plugin too, for the full Dracula experience.
 
 This one is by your's truly! I love the Dracula theme, but the [original Brackets theme](https://github.com/Jacse/themes-for-brackets) I was using wasn't 100% to my liking, so I fixed some things and optimized a lot of other things.
 
