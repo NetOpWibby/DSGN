@@ -45,7 +45,14 @@ I still hit `Cmd + S` (sometimes) even though I don't need to. You're going to l
 ### Brackets Sass[*](https://github.com/jasonsanjose/brackets-sass)
 * Compiles Sass (sass/scss) files when changed. Updates styles during Live Preview. Experimental support for Quick Edit.
 
-**NOTE:** [Joshua Miller](https://twitter.com/Josh_AM) informed me of this plugin and I must say, it's a hell of a lot better than trying to remember Terminal commands. Getting this setup was a little tricky, so I'll make a post detailing the process later.
+**NOTE:** [Joshua Miller](https://twitter.com/Josh_AM) informed me of this plugin and I must say, it's a hell of a lot better than trying to remember Terminal commands. Getting this setup was a little tricky~~, so I'll make a post detailing the process later~~. New [post](/thoughts/post/how-to-use-brackets-sass) explaining how to use Brackets Sass!
+
+
+
+### Brackets UI Theming Enable[*](https://github.com/notasz/brackets-uitheming)
+* A simple extension to allow native Brackets themes to theme any available UI elements.
+
+Recently, I have become interested in customizing my setup even more than just the code window. This plugin allows you to override the Brackets UI with your own brand of awesome.
 
 
 
@@ -154,6 +161,34 @@ And there you have it! I will keep this post updated as I change my setup. Here'
   <figcaption>Aww yiss, kinda like Inception, right?</figcaption>
 </figure>
 
+P.S. I figured it might even be useful to see my Preferences File. My directories not showing up before my files irritated me to no end before realizing I could enable that functionality. I also do *not* like tags closing automatically, and that is something else you can configure. Anyhoo, here it is:
+
+<pre><code>
+  {
+    "me.drewh.jsbeautify.on_save": false,
+    "themes.theme": "dsgn.dracula-theme",
+    "sortDirectoriesFirst": true,
+    "scientech-com-ua.brackets-trailingspaces.checked": true,
+    "closeTags": {
+      "whenOpening": false,
+      "whenClosing": true,
+      "indentTags": []
+    },
+    "useTabChar": false,
+    "spaceUnits": 2,
+    "tabSize": 2,
+    "linting.collapsed": true,
+    "brackets-indent-guides.enabled": true,
+    "brackets-paste-and-indent.enabled": true,
+    "brackets-indent-guides.guideStyle": "dotted",
+    "styleActiveLine": true,
+    "brackets-css-color-preview.enabled": true,
+    "fonts.fontFamily": "\"SourceCodePro-Medium\", ＭＳ ゴシック, 'MS Gothic', monospace",
+    "fonts.fontSize": "12px",
+    "markdown-preview.useGFM": true
+  }
+</code></pre>
+
 
 
 <div class="divider">
@@ -168,4 +203,5 @@ And there you have it! I will keep this post updated as I change my setup. Here'
 <span>
   <small>Updated 04.28.15 to add Brackets Sass</small>
   <small>Updated 05.14.15 to add Markdown Preview</small>
+  <small>Updated 06.16.15 to add Brackets UI Theming Enable and Preferences File content</small>
 </span>

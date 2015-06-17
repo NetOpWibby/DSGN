@@ -5,7 +5,7 @@ date:     2015-04-29
 category: post
 ---
 
-In a post about <a href="/thoughts/post/my-brackets-setup" class="animsition-link" data-animsition-out="zoom-out-sm">my Brackets setup</a>, I mentioned being informed about a plugin called, "Brackets Sass". I usually use Terminal to compile my Sass but once you start organizing folders and files differently, you tend to get confused about how to use parameters. Actually, this issue is probably just mine alone...anyhoo, you probably know that Brackets is a text-editor that has an integrated plugin system. To install Brackets Sass, just search for it in the Extensions Manager.
+In a post about [my Brackets setup](/thoughts/post/my-brackets-setup), I mentioned being informed about a plugin called, "Brackets Sass". I usually use Terminal to compile my Sass but once you start organizing folders and files differently, you tend to get confused about how to use parameters. Actually, this issue is probably just mine alone...anyhoo, you probably know that Brackets is a text-editor that has an integrated plugin system. To install Brackets Sass, just search for it in the Extensions Manager.
 
 The `README` on the [GitHub page](https://github.com/jasonsanjose/brackets-sass) had links to two examples, one of which included a bunch of Sass boilerplate stuff I don't need, and the other was simpler. I went with that one. Before I continue, you must know that in order to use Brackets Sass properly, you have to include a `.brackets.json` file at the base of your project folder.
 
