@@ -9,5 +9,4 @@ My portfolio, but on GitHub! Just because.
 
 ## Run
 
-* `bundle install`
-* `bundle exec jekyll serve`
+Install Jekyll, then run `jekyll serve`.
