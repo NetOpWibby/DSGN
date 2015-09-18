@@ -115,7 +115,8 @@ $yellow:  rgba(235, 232, 7, 1);   // #ebe807;
   white-space: nowrap;
 }
 
-p code {
+p code,
+li code {
   @include mono;
   margin-right: 0.1rem; padding: 0.1rem 0.7rem;
 

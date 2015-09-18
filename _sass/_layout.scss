@@ -115,7 +115,7 @@ body {
   overflow: auto;
 }
 
-p blockquote {
+.thought blockquote {
   // margin: 1.5rem -2rem 1.5rem 0;
   margin-bottom: 1.5rem; padding: 2rem 2rem 1rem 2rem;
 
@@ -138,9 +138,13 @@ p blockquote {
     margin-bottom: 2rem;
   }
 
-  @media (min-width: 1090px) {
-    padding-right: 16.66667%;
-    padding-left: 16.66667%;
+  @media (min-width: 1201px) and (max-width: 1469px) {
+    padding-left: 14.66667%;
+  }
+
+  @media (min-width: 1470px) {
+    // padding-right: 16.66667%;
+    padding-left: 24.66667%;
   }
 }
 
