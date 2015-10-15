@@ -60,7 +60,7 @@ August 2012 — November 2012
 
 
 
-### thougtbot [*](http://thoughtbot.com)
+### thoughtbot [*](http://thoughtbot.com)
 
 *Design Apprentice:*
 Thankfully, I wasn't required to fetch coffee for people. Shadowed the then co-owner of thoughtbot, then shadowed another great designer. Had minor roles in several projects, but got to provide input (some valuable). Got introduced to Sass, GitHub, software development, and gained several experience points.
