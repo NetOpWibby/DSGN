@@ -6,6 +6,8 @@ RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
 
 
 
+ErrorDocument 404 /404.html
+
 # compress text, html, javascript, css, xml:
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
