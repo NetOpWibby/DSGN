@@ -1,0 +1,84 @@
+.landing {
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+  }
+
+  &:before {
+    animation: gradientBG 45s ease infinite;
+    background: linear-gradient(270deg, $cyan, $magenta);
+    background-size: 400% 400%;
+    width: 80vw;
+
+    @media (max-width: 500px) {
+      bottom: 30%;
+      border-radius: 50%;
+      height: 80vw;
+      left: 24vw;
+    }
+
+    @media (min-width: 501px) {
+      bottom: 0;
+      height: 40vh;
+    }
+
+    @media (min-width: 501px) and (max-width: 900px) {
+      left: 10vw;
+    }
+
+    @media (min-width: 901px) and (max-width: 1159px) {
+      left: 20vw;
+    }
+
+    @media (min-width: 1160px) {
+      left: 10vw;
+    }
+  }
+
+  &:after {
+    width: 100%; height: 100%;
+
+    background-image: url("../images/me.png");
+    background-size: cover;
+
+    @media (max-width: 900px) {
+      background-position-x: 40%;
+    }
+  }
+}
+
+
+
+.cta {
+  background-color: $cyan;
+  color: $white;
+  padding: 1rem;
+  position: absolute;
+  z-index: 1;
+
+  @media (max-width: 450px) {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  @media (min-width: 451px) {
+    width: 26rem;
+  }
+
+  @media (max-width: 500px) {
+    bottom: 2rem;
+  }
+
+  @media (min-width: 501px) {
+    bottom: 5rem;
+  }
+
+  @media (min-width: 451px) and (max-width: 900px) {
+    left: 1rem;
+  }
+
+  @media (min-width: 901px) {
+    left: 5rem;
+  }
+}

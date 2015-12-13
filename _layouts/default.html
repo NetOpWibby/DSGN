@@ -1,2 +1,18 @@
+---
+layout: compress
+---
+
 {% include header.html %}
+{% include navigation.html %}
+
+<main class="main">
+  {% if content contains "<!--/ ad /-->" %}
+    {{ content | split:"<!--/ ad /-->" | first % }}
+      {% include ad.html %}
+    {{ content | split:"<!--/ ad /-->" | last % }}
+  {% else %}
+    {{ content }}
+  {% endif %}
+</main>
+
 {% include footer.html %}

@@ -1,0 +1,144 @@
+.sitemap-trigger {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 0.5rem 0 0.5rem;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  word-wrap: break-word;
+  z-index: 3;
+
+  &:before {
+    width: 8rem; height: 4rem;
+    top: -4px; left: -4px;
+
+    border: 0.3rem solid;
+    content: "";
+    position: absolute;
+    z-index: -1;
+  }
+
+  &:not(.active) {
+    color: $black;
+
+    &:before {
+      background-color: $white;
+      border-color: $black;
+    }
+  }
+
+  &.active {
+    color: $white;
+
+    &:before {
+      background-color: rgba($slate_gray, 0.9);
+      border-color: $white;
+    }
+  }
+
+  @media (max-width: 500px) {
+    left: calc(50% - 128px / 2);
+  }
+
+  @media (min-width: 501px) and (max-width: 1090px) {
+    left: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    top: 2rem;
+  }
+
+  @media (min-width: 601px) {
+    top: 4rem;
+  }
+
+  @media (min-width: 1091px) {
+    left: calc(4rem + 5px);
+  }
+}
+
+
+
+.sitemap {
+  top: 0; left: 0;
+  bottom: 0; right: 0;
+
+  background-color: rgba($slate_gray, 0.9);
+  color: $white;
+  overflow-y: auto;
+  padding-bottom: 2rem;
+  position: fixed;
+  z-index: 2;
+
+  &:not(.active) {
+    display: none;
+  }
+
+  &.active {
+    padding-top: 11rem;
+  }
+
+  @media (max-width: 320px) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  @media (min-width: 321px) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+
+
+.sitemap__title {
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:not(:first-of-type) {
+    padding-top: 3rem;
+  }
+}
+
+
+
+.sitemap__link {
+  font-size: 2rem;
+
+  @media (max-width: 644px) {
+    display: block;
+    width: 100%;
+  }
+
+  @media (min-width: 645px) {
+    &:not(:last-of-type) {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.s-01,
+.s-02,
+.s-03,
+.s-04,
+.s-05,
+.s-06 {
+  position: relative;
+
+  &:before {
+    width: calc(100% + 1rem); height: 1rem;
+
+    animation: gradientBG 45s ease infinite;
+    background: linear-gradient(270deg, $cyan, $magenta);
+    background-size: 400% 400%;
+    bottom: 0.5rem;
+    content: "";
+    left: -0.5rem;
+    position: absolute;
+    z-index: -1;
+  }
+
+  &:not(.active):before {
+    display: none;
+  }
+}

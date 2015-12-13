@@ -1,24 +1,22 @@
-{% include header.html %}
+---
+layout: default
+---
 
-          <nav class="pagination">
-          {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-              {% capture previous_page %}/{% endcapture %}
-            {% else %}
-              {% capture previous_page %}/page{{ paginator.previous_page }}{% endcapture %}
-            {% endif %}
-            <a href="/projects{{ previous_page }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-left-sm">Next Page</a>
-          {% endif %}
+<h1><a href="/projects/">Projects</a></h1>
+{{ content }}
 
-          {% if paginator.next_page %}
-            <a href="/projects/page{{ paginator.next_page }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-right-sm">Previous Page</a>
-          {% endif %}
 
-          {% if page.next_in_category != nil %}
-            <a href="{{ page.next_in_category.url }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm">Previous Project</a>
-          {% endif %}
-          {% if page.previous_in_category != nil %}
-            <a href="{{ page.previous_in_category.url }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm">Next Project</a>
-          {% endif %}
-          </nav>
-{% include footer.html %}
+
+<div class="pagination">
+  {% if page.next_in_category != nil %}
+    <a href="{{ page.next_in_category.url }}" class="pagination__next">Previous Project</a>
+  {% else %}
+    <span class="pagination__next">Previous Project</span>
+  {% endif %}
+
+  {% if page.previous_in_category != nil %}
+    <a href="{{ page.previous_in_category.url }}" class="pagination__previous">Next Project</a>
+  {% else %}
+    <span class="pagination__previous">Next Project</span>
+  {% endif %}
+</div>

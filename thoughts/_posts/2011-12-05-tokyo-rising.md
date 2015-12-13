@@ -10,8 +10,8 @@ Footwear manufacturer Palladium teamed up with Pharrell to explore Tokyo, and ho
 Sidenote: I have always wanted to own a home in Osaka.
 
 ### Part 1 — Pharrell's return to Tokyo
-<div class="video-container">
-  <iframe src="http://youtube.com/embed/Rk2C257x6bk?wmode=opaque"></iframe>
+<div class="media-container">
+  <iframe src="https://youtube.com/embed/Rk2C257x6bk?wmode=opaque"></iframe>
 </div>
 
 <div class="divider">
@@ -22,8 +22,8 @@ Sidenote: I have always wanted to own a home in Osaka.
 </div>
 
 ### Part 2 — Under and Above Ground
-<div class="video-container">
-  <iframe src="http://youtube.com/embed/oplrL0E7Ff8?wmode=opaque"></iframe>
+<div class="media-container">
+  <iframe src="https://youtube.com/embed/oplrL0E7Ff8?wmode=opaque"></iframe>
 </div>
 
 <div class="divider">
@@ -34,8 +34,8 @@ Sidenote: I have always wanted to own a home in Osaka.
 </div>
 
 ### Part 3 — Art in Flux
-<div class="video-container">
-  <iframe src="http://youtube.com/embed/zGJgA1TxMM4?wmode=opaque"></iframe>
+<div class="media-container">
+  <iframe src="https://youtube.com/embed/zGJgA1TxMM4?wmode=opaque"></iframe>
 </div>
 
 <div class="divider">
@@ -46,8 +46,8 @@ Sidenote: I have always wanted to own a home in Osaka.
 </div>
 
 ### Part 4 — The Remix Culture
-<div class="video-container">
-  <iframe src="http://youtube.com/embed/LC9gXwOaFKE?wmode=opaque"></iframe>
+<div class="media-container">
+  <iframe src="https://youtube.com/embed/LC9gXwOaFKE?wmode=opaque"></iframe>
 </div>
 
 <div class="divider">
@@ -58,6 +58,6 @@ Sidenote: I have always wanted to own a home in Osaka.
 </div>
 
 ### Part 5 — Trippple Nippples Show
-<div class="video-container">
-  <iframe src="http://youtube.com/embed/2jrBHwu_bN0?wmode=opaque"></iframe>
+<div class="media-container">
+  <iframe src="https://youtube.com/embed/2jrBHwu_bN0?wmode=opaque"></iframe>
 </div>

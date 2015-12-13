@@ -9,4 +9,4 @@ I somehow came across this lil' album (simply entitled, "▲") in my RSS feed as
 
 <iframe style="width: 100%; height: 160px;" src="http://bandcamp.com/EmbeddedPlayer/album=1045727591/size=large/bgcol=ffffff/linkcol=07d0eb/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://slowmagic.bandcamp.com/album/--2">▲ by Slow Magic</a></iframe>
 
-*via [Slow Magic](http://slowmagic.bandcamp.com/album/--2)*
+##### via [Slow Magic](http://slowmagic.bandcamp.com/album/--2)

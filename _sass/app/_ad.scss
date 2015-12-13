@@ -1,0 +1,72 @@
+.ad {
+  float: left;
+  font-size: 0.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  top: 0;
+  width: 120px;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+
+  @media (min-width: 501px) and (max-width: 580px) {
+    left: -1.1rem;
+  }
+
+  @media (min-width: 581px) and (max-width: 700px) {
+    left: -1.5rem;
+  }
+
+  @media (min-width: 701px) and (max-width: 1000px) {
+    left: -2rem;
+  }
+
+  @media (min-width: 1001px) {
+    left: -3rem;
+  }
+
+  a {
+    display: block;
+    padding: 0 !important;
+
+    &:after {
+      display: none !important;
+    }
+  }
+}
+
+
+
+.ad__network,
+.ad__img-wrap {
+  margin-bottom: 0.3rem;
+}
+
+
+
+.ad__network {
+  letter-spacing: 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ad__img-wrap {
+  border-radius: 0.2rem;
+  height: 90px;
+  overflow: hidden;
+}
+
+.ad__img {
+  position: relative;
+  transition: 3.5s ease;
+  width: 100%;
+
+  &:hover {
+    transform: scale(1.5) translateY(-0.5rem);
+  }
+}
+
+.ad__line {
+  cursor: default;
+}

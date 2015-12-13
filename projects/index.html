@@ -1,28 +1,73 @@
 ---
-layout: projects
+layout: default
 title: "Projects"
 category: projects
 ---
 
-{% for post in paginator.posts %}<section class="project" role="article">
-        <h2 class="project__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <!--/ <small class="project__meta">{{ post.date | date: "shared on %B %d, %Y" }}</small> /-->
+<h1><a href="/projects/">Projects</a></h1>
 
-        <p>
-          {{ post.content | truncatewords: 38 }}
-        </p>
+{% for post in paginator.posts %}
+<section class="project {{ post.project }}" role="article">
 
-        <div class="more">
-          <a href="{{ post.url }}" class="read animsition-link" data-animsition-out="fade-out-up-sm">Read more</a>
-          <a href="#" class="top">Top</a>
-        </div>
-      </section>
+  <h2>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <div class="project__type">{{ post.project }}</div>
+  </h2>
 
-      <div class="divider">
-        <span class="divider__shape-01"></span>
-        <span class="divider__shape-02"></span>
-        <span class="divider__shape-03"></span>
-        <span class="divider__shape-04"></span>
-      </div>
+  {% if post.phone %}
+    <div class="phone-wrap">
+      <img src="{{ post.phone }}" class="image" alt="{{ post.title }}, on a phone"/>
 
-      {% endfor %}
+      <svg viewbox="0 0 600 600" class="phone">
+        <path fill="#191919" d="M255.2, 371.4V198.6c0-3.2, 2.7-5.9, 5.9-5.9h77.9c3.2, 0, 5.9, 2.7, 5.9, 5.9v172.9 c0, 3.2-2.7, 5.9-5.9, 5.9h-77.9C257.8, 377.3, 255.2, 374.7, 255.2, 371.4z"/>
+        <circle fill="#9aa3b2" cx="300" cy="363.1" r="6"/>
+        <circle fill="#a4acbb" cx="284.3" cy="203.6" r="1.5"/>
+        <rect x="262.1" y="214.3" fill="#bdccd4" width="75.7" height="135.3"/>
+        <line fill="none" stroke="#9aa3b2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="292.5" y1="203" x2="307.5" y2="203"/>
+      </svg>
+    </div>
+  {% endif %}
+
+  {% if post.tablet %}
+    <div class="tablet-wrap">
+      <img src="{{ post.tablet }}" alt="{{ post.title }}, on a tablet"/>
+    </div>
+  {% endif %}
+
+  {% if post.laptop %}
+    <div class="laptop-wrap">
+      <img src="{{ post.laptop }}" class="image" alt="{{ post.title }}, on a laptop"/>
+
+      <svg viewbox="0 0 600 600" class="laptop">
+        <path fill="#191919" d="M310, 401.5H131.5v-226c0-3.9, 3.2-7, 7-7H310"/>
+        <path fill="#191919" d="M290, 168.5h171.5c3.8, 0, 7, 3.1, 7, 7v226H290"/>
+        <path fill="#ddd" d="M487, 409v15.5c0, 3.8-3.2, 7.5-7, 7.5H120c-3.8, 0-7-3.7-7-7.5V409H487z"/>
+        <polygon fill="#a4acbb" points="326.7, 421.8 273.3, 421.8 268.3, 414.2 331.7, 414.2"/>
+      </svg>
+    </div>
+  {% endif %}
+
+  {% if post.desktop %}
+    <div class="desktop-wrap">
+      <img src="{{ post.desktop }}" alt="{{ post.title }}, on desktop"/>
+    </div>
+  {% endif %}
+
+</section>
+{% endfor %}
+
+
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a href="/projects{{ paginator.next_page_path }}" class="pagination__previous">Previous Page</a>
+  {% else %}
+    <span class="pagination__previous">Previous Page</span>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <a href="/projects{{ paginator.previous_page_path }}" class="pagination__next">Next Page</a>
+  {% else %}
+    <span class="pagination__next">Next Page</span>
+  {% endif %}
+</div>

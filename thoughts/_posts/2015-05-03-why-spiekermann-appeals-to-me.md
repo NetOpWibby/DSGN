@@ -12,9 +12,11 @@ Another thing I like about Erik is how straightforward he is. I feel that straig
 
 
 <figure>
-  [![](/images/thoughts/2015-05-03/01.jpg)](/images/thoughts/2015-05-03/01.jpg)
+  ![](/images/thoughts/2015-05-03/01.jpg)
   <figcaption>Don't work for assholes. Don't work with assholes. — I need this print in my life.</figcaption>
 </figure>
+
+<!--/ ad /-->
 
 Unintentionally, I have started to apply this quote to my life, just a few years ago. When I came across it earlier this week, I laughed because of the timeliness of it.
 
@@ -29,10 +31,10 @@ Basically, live by the [Golden Rule](http://en.wikipedia.org/wiki/Golden_Rule). 
 You never know how someone can help you, or even better, how you can help *them*. Aside from your own ideas and ideals, the most **important** thing in the world is relationships.
 
 <figure>
-  [![](/images/thoughts/2015-05-03/02.jpg)](/images/thoughts/2015-05-03/02.jpg)
+  ![](/images/thoughts/2015-05-03/02.jpg)
   <figcaption>Erik Spiekermann at home</figcaption>
 </figure>
 
 You can learn more about Erik at [his font foundry](https://www.fontfont.com/designers/erik-spiekermann), and in [another great interview](https://www.fontfont.com/news/at-home-with-erik-spiekermann) on the same site.
 
-<small>Photos by [Robbie Lawrence](http://robbie-lawrence.com)</small>
+##### Photos by [Robbie Lawrence](http://robbie-lawrence.com)

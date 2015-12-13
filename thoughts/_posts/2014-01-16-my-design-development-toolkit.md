@@ -9,15 +9,17 @@ When I started doing graphic design eight years ago (followed by web design a ye
 
 As I matured into a more capable (front-end) web developer, I stopped paying attention to the "top list" headlines blogs are *still* continuing to use, and found myself returning to the same tools for every project I worked on. Subsequently, I released less and less graphic goodies (I used to make desktop wallpaper all the time). I intend to reverse that trend.
 
+<!--/ ad /-->
+
 This was going to be two different blog posts but most people are beginning the transition from designer to developer and vice-versa. I figured it would be helpful to show how my workflow is, so that you can learn something new and/or tell me how I could do something better! Also, I am on a Windows machine so some of the applications here won't apply to your system. Linux users, I commend you. Mac users&hellip;you guys get all the good stuff anyway.
 
 ### Writing Utensil and Paper
 This is probably my most prized set of tools, right before Notepad++ and Opera. I own many [Moleskine](http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Moleskine)s, sketch pads, notebooks, and [DotGrid Journal](http://www.creativesoutfitter.com/product/33/dot-grid-journal)s. These many sources of paper are filled with layout sketches, HEX color codes, lyrics, plans for world domination, [Numberman codes](http://www.gamefaqs.com/gba/915457-mega-man-battle-network-3-blue/cheats), &c. Sketches are super essential for communicating ideas, complex and otherwise. Want proof? [Hieroglyphics](http://en.wikipedia.org/wiki/Hieroglyphics).
 
-### Photoshop [*](http://adobe.com/photoshop)
+### [Photoshop](https://adobe.com/photoshop)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/01.png")](/images/thoughts/2014-01-16/01.png)
+  ![](/images/thoughts/2014-01-16/01.png")
   <figcaption>Adobe Photoshop</figcaption>
 </figure>
 
@@ -25,19 +27,19 @@ The industry standard. I am keen to try [Pixelmator](http://www.pixelmator.com),
 
 Anyhoo! For concepts that require a bit of finesse and optimizing, Photoshop gets the job done for me. Aside from that, I mostly use Photoshop to get HEX and RGBA values for colors to use with my Sass files.
 
-### Axialis Icon Workshop [*](http://www.axialis.com/iconworkshop)
+### [Axialis Icon Workshop](http://www.axialis.com/iconworkshop)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/02.png)](/images/thoughts/2014-01-16/02.png)
+  ![](/images/thoughts/2014-01-16/02.png)
   <figcaption>Axialis Icon Workshop</figcaption>
 </figure>
 
 I use this app to package 16px and 32px images of my favicons. Before this, I just made a single PNG (favicon.png) and called it a day. If you don't already know this, icons actually contain several different sizes of an image optimized for particular dimensions. Fun fact! High-DPI displays can take advantage of the 32x32px image inside your favicon.ico, whereas regular displays will still show the 16x16px icon. This is a small detail, but a detail nonetheless.
 
-### Opera [*](http://opera.com)
+### [Opera](https://opera.com)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/03.png)](/images/thoughts/2014-01-16/03.png)
+  ![](/images/thoughts/2014-01-16/03.png)
   <figcaption>Opera Developer</figcaption>
 </figure>
 
@@ -45,26 +47,26 @@ I discovered this browser sometime in 2006 and have been a faithful user ever si
 
 I use Opera because at the time I discovered it, it was the most standards-compliant (HTML, CSS, &c) browser, and it pioneered a lot of cool features that are now defaults in the other popular browsers. I am not sure if Opera is still the most standards-compliant, but even if it isn't, I'm a creature of habit. It's pretty difficult to get me to try something else if I'm comfortable with what I've got.
 
-<del>For long-time Opera users, I'll write a future post detailing how I make the new Opera feel like version 12.</del>
-<span><small>Updated 03.29.14 to add [this](/thoughts/bringing-back-opera-classic), a post where I detail how to make the new Opera feel like version 12.</small></span>
+~~For long-time Opera users, I'll write a future post detailing how I make the new Opera feel like version 12.~~
+##### Updated 03.29.14 to add [this](/thoughts/bringing-back-opera-classic), a post where I detail how to make the new Opera feel like version 12.
 
-### Notepad++ [*](http://www.notepad-plus-plus.org)
+### [Notepad++](http://www.notepad-plus-plus.org)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/04.png)](/images/thoughts/2014-01-16/04.png)
+  ![](/images/thoughts/2014-01-16/04.png)
   <figcaption>Notepad++</figcaption>
 </figure>
 
-My dad used Dreamweaver back when it was owned by Macromedia (lol, old man!). I *may* have perused a "[Dreamweaver MX](http://webdesign.about.com/cs/htmleditors/gr/aapr_dreamwvrmx.htm)" book back in the day. Even though I started coding in '06/'07, I actually dabbled in it when I was in 7th grade. I didn't like how bulky Dreamweaver felt back then (still don't), so I opted to use Windows' default simple text editor, Notepad.
+My dad used Dreamweaver back when it was owned by Macromedia (lol, old man!). I *may* have perused a [Dreamweaver MX](http://webdesign.about.com/cs/htmleditors/gr/aapr_dreamwvrmx.htm) book back in the day. Even though I started coding in '06/'07, I actually dabbled in it when I was in 7th grade. I did not like how bulky Dreamweaver felt back then (still don't), so I opted to use Windows' default simple text editor, Notepad.
 
-Maybe that's why I use Notepad++? I just wish it had native [Sass](http://sass-lang.com) support! I've tried [Sublime Text](http://www.sublimetext.com) and liked it *visually*, but I didn't like the auto-bracketing and other "auto" things. A pet peeve of mine is when programs try to tell me what to do (similarly, I also dislike Google's "Did you mean" suggestions, so I use [DuckDuckGo](https://duckduckgo.com). I also don't like getting tracked/spied on, but that's a different story). I'm sure the things that annoy me about Sublime can be disabled, but I didn't experience anything to make me think I should change text editors...also, Notepad++ is free.
+Maybe that is why I use Notepad++? I just wish it had native [Sass](http://sass-lang.com) support! I have tried [Sublime Text](http://www.sublimetext.com) and liked it *visually*, but I did not like the auto-bracketing and other "auto" things. A pet peeve of mine is when programs try to tell me what to do (similarly, I also dislike Google's "Did you mean" suggestions, so I use [DuckDuckGo](https://duckduckgo.com). I also do not like getting tracked/spied on, but that is a different story). I am sure the things that annoy me about Sublime can be disabled, but I did not experience anything to make me think I should change text editors...also, Notepad++ is free.
 
-I am using a custom theme based on a screenshot I saw on Dribbble. The font I use is "[Source Code Pro](http://sourceforge.net/projects/sourcecodepro.adobe/files)" at 9 points.
+I am using a custom theme based on a screenshot I saw on Dribbble. The font I use is [Source Code Pro](http://sourceforge.net/projects/sourcecodepro.adobe/files) at 9 points.
 
-### Console2 [*](http://sourceforge.net/projects/console)
+### [Console2](http://sourceforge.net/projects/console)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/05.png)](/images/thoughts/2014-01-16/05.png)
+  ![](/images/thoughts/2014-01-16/05.png)
   <figcaption>Console2</figcaption>
 </figure>
 
@@ -72,10 +74,10 @@ While I was an apprentice at thoughtbot in early 2012, I was required to use Mac
 
 When the apprenticeship was over, I was first disgusted, then saddened at the prospect of using Windows' default terminal, cmd.exe. Yuck. A quick search brought the existence of Console2 into my life. Using a screenshot of my temporary MacBook's Terminal, I customized Console2 to resemble it. The current look you see above is based on [Amana2](http://www.mangosango.us/new/amana2) screenshots by the immaculate [Sang Lee](http://www.sanglee.me).
 
-### JS Beautifier [*](http://jsbeautifier.org)
+### [JS Beautifier](http://jsbeautifier.org)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/06.png)](/images/thoughts/2014-01-16/06.png)
+  ![](/images/thoughts/2014-01-16/06.png)
   <figcaption>JS Beautifier</figcaption>
 </figure>
 
@@ -83,10 +85,10 @@ I often find useful code online, but it will be sloppily written. My coding styl
 
 Besides, it helps me learn and become better at coding JavaScript.
 
-### JS Hint [*](http://jshint.com)
+### [JS Hint](http://jshint.com)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/07.png)](/images/thoughts/2014-01-16/07.png)
+  ![](/images/thoughts/2014-01-16/07.png)
   <figcaption>JS Hint</figcaption>
 </figure>
 
@@ -94,10 +96,10 @@ I use JS Hint immediately after using JS Beautifier. As I hinted earlier, I teac
 
 Not all JavaScript is created equal.
 
-### Stack Overflow [*](http://stackoverflow.com)
+### [Stack Overflow](https://stackoverflow.com)
 
 <figure>
-  [![](/images/thoughts/2014-01-16/08.png)](/images/thoughts/2014-01-16/08.png)
+  ![](/images/thoughts/2014-01-16/08.png)
   <figcaption>Stack Overflow</figcaption>
 </figure>
 

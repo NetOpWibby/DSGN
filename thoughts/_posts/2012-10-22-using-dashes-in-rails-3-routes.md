@@ -9,19 +9,21 @@ I stumbled across this solution today, and I'm quite proud of myself because not
 
 This is a line in my `routes.rb` file:
 
-<pre><code>
-  match "business-locator" => "home#merchants"
-</code></pre>
+```rails
+match "business-locator" => "home#merchants"
+```
 
 `business-locator` is the URL that will be appended to `http://localhost:3000` (for testing on your local machine), and `http://yoursite.com` for your live site (obviously). `home` is the folder where the HTML file for `merchants` is located.
 
 These are lines in my `home_controller.rb` file:
 
-<pre><code>
-  def business_locator
-    redirect_to "/business-locator"
-  end
-</code></pre>
+```rails
+def business_locator
+  redirect_to "/business-locator"
+end
+```
+
+<!--/ ad /-->
 
 Since Rails will give things underscores anyway, I defined `business_locator` with a redirect to the URL I want displayed, `/business-locator`. I am not sure if Rails 3 automatically adds a preceding slash to the URL I want, but it doesn't hurt to include it yourself.
 

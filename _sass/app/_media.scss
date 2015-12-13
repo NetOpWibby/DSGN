@@ -1,0 +1,38 @@
+.media-container {
+  margin-bottom: 4rem; padding-top: 30px;
+
+  height: 0;
+  overflow: hidden;
+  position: relative;
+
+  iframe,
+  object,
+  embed {
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+
+    border: none;
+    clear: left;
+    position: absolute;
+  }
+
+  @media (max-width: 1091px) {
+    padding-bottom: 56.25%;
+  }
+
+  @media (min-width: 1090px) {
+    margin-right: 16.66667%;
+    margin-left: 16.66667%;
+    padding-bottom: 36.5%;
+  }
+}
+
+section > iframe {
+  @media (min-width: 800px) and (max-width: 1200px) {
+    padding-left: 4%;
+  }
+
+  @media (min-width: 1201px) {
+    padding-left: 20.66667%;
+  }
+}

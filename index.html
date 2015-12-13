@@ -1,57 +1,11 @@
 ---
-layout: default
+layout: hq
 title: "Portfolio of Paul Anthony Webb"
 ---
 
-<section role="article">
-        <p>I am a proud lefty, Aries, and <a href="https://xn--wem-tna.com">space bandit</a>. The only pencil I trust is a Ticonderoga. I was born on Easter Sunday, 1988. I used to be an "Army-brat". My parents despised video games while I was growing up, so I make up for it now. I (used to) make music under various aliases, the most used being "the Wibby" (followed by <a href="http://frsh.fm">FRSH&times;BTS</a> and Spaceman Fresh). I need to get back on that...</p>
+<div class="cta">
+  My name is <strong>Paul Anthony Webb</strong>. I <strong>design</strong>, <strong>code</strong>, and <strong>create awesome</strong>. You're awesome.<br/><br/>
+  <a href="/me" style="color: inherit; float: right; letter-spacing: 0.1rem; text-decoration: none; text-transform: uppercase;"><strong>Explore &rang;</strong></a>
+</div>
 
-        <p>I named my portfolio "Design Services for the Good Natured" because no one likes a jerk. Every day brings about new opportunities, inspiration, and kick-ass "whoah" moments. Spread the love and do your part by inspiring others as you’ve been inspired! <strong>(:</strong> That’s what I try to do anyway.</p>
-
-        <div class="more">
-          <a href="/me" class="read animsition-link" data-animsition-out="fade-out-up-sm">Read more</a>
-          <a href="#" class="top">Top</a>
-        </div>
-
-        <div class="divider">
-          <span class="divider__shape-01"></span>
-          <span class="divider__shape-02"></span>
-          <span class="divider__shape-03"></span>
-          <span class="divider__shape-04"></span>
-        </div>
-      </section>
-
-      <section class="thought" role="article">{% for post in site.categories.thoughts limit: 1 %}
-        <h2 class="thought__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <small class="thought__meta">Latest Post</small>
-
-        <p>
-          {{ post.content | strip_html | truncatewords: 75 }}
-        </p>
-
-        <div class="more">
-          <a href="{{ post.url }}" class="read animsition-link" data-animsition-out="fade-out-up-sm">Read more</a>
-          <a href="#" class="top">Top</a>
-        </div>
-
-        <div class="divider">
-          <span class="divider__shape-01"></span>
-          <span class="divider__shape-02"></span>
-          <span class="divider__shape-03"></span>
-          <span class="divider__shape-04"></span>
-        </div>{% endfor %}
-      </section>
-
-      <section class="project" role="article">{% for post in site.categories.projects limit: 1 %}
-        <h2 class="project__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <small class="project__meta">Latest Project</small>
-
-        <p>
-          {{ post.content | truncatewords: 40 }}
-        </p>
-
-        <div class="more">
-          <a href="{{ post.url }}" class="read animsition-link" data-animsition-out="fade-out-up-sm">Read more</a>
-          <a href="#" class="top">Top</a>
-        </div>{% endfor %}
-      </section>
+<div class="landing"></div>

@@ -13,4 +13,4 @@ Prelude of the Chambered reminds me a lot of Wolfenstein, and is even creepier a
 
 Java is required to play this game, as it is browser-based. What a marvelous time-waster. You'll look productive while playing this, I know I did.
 
-*via [Prelude of the Chambered](http://s3.amazonaws.com/ld48/index.html)*
+##### via [Prelude of the Chambered](http://s3.amazonaws.com/ld48/index.html)

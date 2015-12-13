@@ -11,4 +11,4 @@ Jim Guthrie, the man behind the oh-so-beautiful sounds released this album on hi
 
 <iframe style="border: 0; width: 100%; height: 160px;" src="http://bandcamp.com/EmbeddedPlayer/album=4145397847/size=large/bgcol=ffffff/linkcol=07d0eb/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://jimguthrie.bandcamp.com/album/the-scythian-steppes-seven-sworcery-songs-localized-for-japan">The Scythian Steppes: Seven #Sworcery Songs Localized for Japan by Jim Guthrie</a></iframe>
 
-*via [Jim Guthrie](http://jimguthrie.bandcamp.com/album/the-scythian-steppes-seven-sworcery-songs-localized-for-japan)*
+##### via [Jim Guthrie](http://jimguthrie.bandcamp.com/album/the-scythian-steppes-seven-sworcery-songs-localized-for-japan)

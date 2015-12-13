@@ -1,23 +1,22 @@
-{% include header.html %}
+---
+layout: default
+---
 
-          <nav class="pagination">
-          {% if paginator.next_page %}
-            <a href="/thoughts/page{{ paginator.next_page }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm">Previous Page</a>
-          {% endif %}
-          {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-              {% capture previous_page %}/{% endcapture %}
-            {% else %}
-              {% capture previous_page %}/page{{ paginator.previous_page }}{% endcapture %}
-            {% endif %}
-            <a href="/thoughts{{ previous_page }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm">Next Page</a>
-          {% endif %}
+<h1><a href="/thoughts/">Thoughts</a></h1>
+{{ content }}
 
-          {% if page.next_in_category != nil %}
-            <a href="{{ page.next_in_category.url }}" class="pagination__item--previous animsition-link" data-animsition-out="fade-out-right-sm">Previous Post</a>
-          {% endif %}
-          {% if page.previous_in_category != nil %}
-            <a href="{{ page.previous_in_category.url }}" class="pagination__item--next animsition-link" data-animsition-out="fade-out-left-sm">Next Post</a>
-          {% endif %}
-          </nav>
-{% include footer.html %}
+
+
+<div class="pagination">
+  {% if page.next_in_category != nil %}
+    <a href="{{ page.next_in_category.url }}" class="pagination__next">Previous Post</a>
+  {% else %}
+    <span class="pagination__next">Previous Post</span>
+  {% endif %}
+
+  {% if page.previous_in_category != nil %}
+    <a href="{{ page.previous_in_category.url }}" class="pagination__previous">Next Post</a>
+  {% else %}
+    <span class="pagination__previous">Next Post</span>
+  {% endif %}
+</div>

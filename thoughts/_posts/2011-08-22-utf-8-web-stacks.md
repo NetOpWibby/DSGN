@@ -9,4 +9,4 @@ category: post
 
 This is a lovely how-to article on how to use UTF-8 throughout web stacks. Super helpful when creating web apps. Bookmarked for future reference.
 
-*via [Rentzsch](http://rentzsch.tumblr.com/post/9133498042/howto-use-utf-8-throughout-your-web-stack)*
+##### via [Rentzsch](http://rentzsch.tumblr.com/post/9133498042/howto-use-utf-8-throughout-your-web-stack)

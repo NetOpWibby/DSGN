@@ -13,13 +13,15 @@ I also loved to paint, draw, &amp;c. I remember mixing paint to try and get the 
 
 Enter [SwatchMate's Color Capturing Cube](http://www.kickstarter.com/projects/657220568/swatchmate-color-capturing-cube)!
 
-<div class="video-container">
+<div class="media-container">
   <iframe src="http://www.kickstarter.com/projects/657220568/swatchmate-color-capturing-cube/widget/video.html"></iframe>
 </div>
 
 > The Cube is a portable device that captures the color of any surface. Using Bluetooth, it sends the color data to your smartphone or directly into Photoshop.
 
 > Inside the Cube there is (surprisingly!) a sphere. The sphere contains a light source and a color sensor, and has a small sample hole through which to capture color. A controlled sequence of light is shone on the surface, before being redirected back into the sphere toward the color sensor.
+
+<!--/ ad /-->
 
 Oh hells yeah!
 

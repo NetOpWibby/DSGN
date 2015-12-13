@@ -5,7 +5,7 @@ date:     2014-05-11
 category: post
 ---
 
-Almost a year ago, <a href="/thoughts/post/the-future-of-the-operating-system" class="animsition-link" data-animsition-out="zoom-out-sm">I wrote</a> about my operating system concept, hikari OS, and how excited I was to work on it. It's about time you got some updates, right?
+Almost a year ago, [I wrote](/thoughts/post/the-future-of-the-operating-system) about my operating system concept, hikari OS, and how excited I was to work on it. It's about time you got some updates, right?
 
 <div class="divider">
   <span class="divider__shape-01"></span>
@@ -19,28 +19,28 @@ I am using [node.js](http://nodejs.org) for the structure and foundation of hika
 I thought it clever to run the server on `localhost:1343` because of the main town in Megaman Battle Network is ACDC Town (think of the numbers as letters, you'll get it). `localhost:1343/s` is the URL you'll get it when you log in. This is future-proofing for when hikari will be hosted "in the cloud". The full URL will be `hikar.io/s`, for "hikari OS". I really like playing around with URLs, if you haven't noticed. Ooh, here are some screens of hikari at this time of writing!
 
 <figure>
-  [![](/images/thoughts/2014-05-11/01.jpg)](/images/thoughts/2014-05-11/01.jpg)
+  ![](/images/thoughts/2014-05-11/01.jpg)
   <figcaption>Login screen</figcaption>
 </figure>
 
 I had the idea to use animated gifs that correspond with the weather in your area. Large animated gifs affect performance negatively on a Retina display. Check out that cursor though! I'm using SVG for it.
 
 <figure>
-  [![](/images/thoughts/2014-05-11/02.jpg)](/images/thoughts/2014-05-11/02.jpg)
+  ![](/images/thoughts/2014-05-11/02.jpg)
   <figcaption>Login panel expanded, opens with a nifty animation.</figcaption>
 </figure>
 
 I have a theory that logins are going to become less important as the years go on. Still, for peace of mind (and as backup), standard login will be implemented.
 
 <figure>
-  [![](/images/thoughts/2014-05-11/03.jpg)](/images/thoughts/2014-05-11/03.jpg)
+  ![](/images/thoughts/2014-05-11/03.jpg)
   <figcaption>I'm logged in!</figcaption>
 </figure>
 
 You can tell from the upper-right corner that my avatar is being pulled via GitHub's oAuth, and the vertical green bar indicates I have an Internet connection.
 
 <figure>
-  [![](/images/thoughts/2014-05-11/04.jpg)](/images/thoughts/2014-05-11/04.jpg)
+  ![](/images/thoughts/2014-05-11/04.jpg)
   <figcaption>The main side menu opened. Battle Network fans will recognize this instantly.</figcaption>
 </figure>
 
@@ -64,6 +64,8 @@ Aries is the name I chose for hikari's browser. For one, my zodiac sign is Aries
 Anyhoo, those eagle-eyed readers might have noticed that the above screenshots were of hikari running *inside* of Aries. Of course, Aries still needs a **lot** of work.
 
 Aries is running on [node-webkit](https://github.com/rogerwang/node-webkit), and I have been working on it for the past two weeks, daily. Since I develop on a Mac primarily these days, I have not created binaries for Aries on other platforms yet. I am waiting to get to a 1.0 release (just like hikari).
+
+<!--/ ad /-->
 
 The default node-webkit window is basically a stripped down Chromium browser. For Aries, it is the parent container for the tabs and frames associated with them. Because of this unique setup, I am able to do things I wouldn't otherwise be able to do normally like grab the title of a page in an iframe. I am doing the same for favicons, but I've got to come up with a better regex for grabbing them. Absolute URLs to favicons work, but relative ones don't. *UGH*. I'm learning a lot of pretty nifty stuff though, and it definitely makes my crazy idea of making the browser I want an actual reality.
 

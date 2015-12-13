@@ -16,4 +16,6 @@ I didn't have to access the command line to do anything, just install and reboot
 3. [Fuse Wait](http://mac.softpedia.com/get/Utilities/Fuse-Wait.shtml)
 4. [MacFUSE Core](http://www.tuxera.com/mac/macfuse-core-10.5-2.1.9.dmg)
 
-The [original tutorial](http://www.macbreaker.com/2012/02/enable-write-for-ntfs-hard-drives-on.html#comment-925777564) I was following said I just needed the above files. Maybe something changed between Lion and Mavericks, but I also needed MacFuse. I then got a message saying MacFuse wasn't fully installed (augh!), [so I installed "MacFUSE Core"](http://stackoverflow.com/questions/11326969/macfuse-does-not-appear-to-be-installed). Not sure what the difference was, but hey, everything should be working for you now!
+<!--/ ad /-->
+
+The [original tutorial](http://www.macbreaker.com/2012/02/enable-write-for-ntfs-hard-drives-on.html#comment-925777564) I was following said I just needed the above files. Maybe something changed between Lion and Mavericks, but I also needed MacFuse. I then got a message saying MacFuse wasn't fully installed (augh!), so I installed [MacFUSE Core](http://stackoverflow.com/questions/11326969/macfuse-does-not-appear-to-be-installed). Not sure what the difference was, but hey, everything should be working for you now!

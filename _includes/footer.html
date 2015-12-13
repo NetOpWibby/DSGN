@@ -1,71 +1,24 @@
-      </nav>
+    <a href="#" id="goUp" class="top">Top</a>
+
+    <div class="sitemap">
+      <h2 class="sitemap__title">Here</h2>
+      <a class="sitemap__link s-01" href="/">Home</a>
+      <a class="sitemap__link s-02" href="/me">Me</a>
+      <a class="sitemap__link s-03" href="/projects">Projects</a>
+      <a class="sitemap__link s-04" href="/thoughts">Thoughts</a>
+      <a class="sitemap__link s-05" href="/resume">Resumé</a>
+      <a class="sitemap__link s-06" href="/imprint">Imprint</a>
+
+      <h2 class="sitemap__title">Elsewhere</h2>
+      <a class="sitemap__link" href="https://dribbble.com/nokadota" target="_blank">Dribbble</a>
+      <a class="sitemap__link" href="https://github.com/NetOperatorWibby" target="_blank">GitHub</a>
+      <a class="sitemap__link" href="https://miiverse.nintendo.net/users/NetOpWibby" target="_blank">Miiverse</a>
+      <a class="sitemap__link" href="https://twitter.com/NetOpWibby" target="_blank">Twitter</a>
     </div>
-
-    <main class="layout-wrap" role="main">
-      {{ content }}
-    </main>
-
-    <div class="ugh">
-      <!--/
-        Ideally, this would be done via the :before pseudo-selector, but there
-        was an annoying overflow issue going on that was not easily fixed. Welp.
-
-        This, along with the JS solution I cooked up needs refining, but it
-        looks damn good.
-      /-->
-    </div>
-
-    <footer class="footer" role="contentinfo">
-      <div class="footer__section">
-        <h5>Sitemap</h5>
-
-        <nav class="footer__links--sitemap">
-          <a class="footer__link--sitemap" href="/">Home</a>
-          <a class="footer__link--sitemap" href="/me">Me</a>
-          <a class="footer__link--sitemap" href="/thoughts">Thoughts</a>
-          <a class="footer__link--sitemap" href="/projects">Projects</a>
-          <a class="footer__link--sitemap" href="/resume">Résumé</a>
-        </nav>
-      </div>
-
-      <div class="footer__section">
-        <h5>Latest Tweet</h5>
-
-        <blockquote id="netopwibby">
-        </blockquote>
-      </div>
-
-      <div class="footer__section">
-        <h5>Elsewhere</h5>
-
-        <nav class="footer__links--social">
-          <a class="footer__link--social" target="_blank" href="https://dribbble.com/nokadota">Dribbble</a>
-          <a class="footer__link--social" target="_blank" href="https://ello.co/netoperatorwibby">Ello</a>
-          <!--/
-            <a href="">the Network</a> Coming soon, hehe!
-          /-->
-          <a class="footer__link--social" target="_blank" href="https://github.com/NetOperatorWibby">GitHub</a>
-          <a class="footer__link--social" target="_blank" href="https://twitter.com/NetOpWibby">Twitter</a>
-          <a class="footer__link--social" target="_blank" href="https://xn--wem-tna.com">WEÖM</a>
-        </nav>
-      </div>
-    </footer>
 
     <script src="/scripts/plugins/highlight.js"></script>
-    <script src="/scripts/plugins/fluidtoewheel.js"></script>
-    <script src="/scripts/plugins/twitterFetcher.js"></script>
-
-    <script src="/scripts/dsgn.js"></script>
-
-    <script>
-      hljs.initHighlightingOnLoad();
-			// hljs.initLineNumbersOnLoad();
-
-      // Analytics
-      var _paq=_paq||[];_paq.push(["trackPageView"]),_paq.push(["enableLinkTracking"]),function(){var e="//the-inc.co/enlight/";_paq.push(["setTrackerUrl",e+"piwik.php"]),_paq.push(["setSiteId",1]);var a=document,t=a.createElement("script"),p=a.getElementsByTagName("script")[0];t.type="text/javascript",t.async=!0,t.defer=!0,t.src=e+"piwik.js",p.parentNode.insertBefore(t,p)}();
-    </script>
-
-    <noscript><p><img src="//the-inc.co/enlight/piwik.php?idsite=1" style="border:0;" alt=""/></p></noscript>
+    <script src="/scripts/plugins/zoom.js"></script>
+    <script src="/scripts/app.js"></script>
   </body>
 
 </html>

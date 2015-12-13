@@ -15,8 +15,8 @@ Bloody hell...at least I can enjoy these videos.
 
 ### Bond's World
 
-<div class="video-container">
-  <iframe src="http://player.vimeo.com/video/45067313?title=0&amp;byline=0&amp;portrait=0&amp;color=fefefe"></iframe>
+<div class="media-container">
+  <iframe src="https://player.vimeo.com/video/45067313?title=0&amp;byline=0&amp;portrait=0&amp;color=fefefe"></iframe>
 </div>
 
 <div class="divider">
@@ -28,6 +28,6 @@ Bloody hell...at least I can enjoy these videos.
 
 ### Bond's Look
 
-<div class="video-container">
-  <iframe src="http://player.vimeo.com/video/45066851?title=0&amp;byline=0&amp;portrait=0&amp;color=fefefe"></iframe>
+<div class="media-container">
+  <iframe src="https://player.vimeo.com/video/45066851?title=0&amp;byline=0&amp;portrait=0&amp;color=fefefe"></iframe>
 </div>

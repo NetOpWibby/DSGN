@@ -13,42 +13,44 @@ The `.` at the beginning of the file will render it invisible to your system whe
 
 Here is my code for a sample project, adapted from the [original example code](https://github.com/jasonsanjose/brackets-sass/wiki/Foundation):
 
-<pre><code>
-  {
-    "path": {
-      "css/style.scss": {
-        "sass.enabled": true,
-        "sass.options": {
-          "outputDir": "../css/",
-          "imagePath": null,
-          "sourceComments": "map",
-          "outputStyle": "compressed"
-        }
+```json
+{
+  "path": {
+    "css/style.scss": {
+      "sass.enabled": true,
+      "sass.options": {
+        "outputDir": "../css/",
+        "imagePath": null,
+        "sourceComments": "map",
+        "outputStyle": "compressed"
       }
     }
   }
-</code></pre>
+}
+```
 
 I suppose I should post the contents of my `style.scss` file too:
 
-<pre><code>
-  @charset "utf-8";
+```sass
+@charset "utf-8";
 
-  @import
-    "../sass/fonts",
-    "../sass/colours",
-    "../sass/base",
-    "../sass/forms",
-    "../sass/header",
-    "../sass/icons",
-    "../sass/layout",
-    "../sass/sidebar"
-  ;
-</code></pre>
+@import
+  "../sass/fonts",
+  "../sass/colours",
+  "../sass/base",
+  "../sass/forms",
+  "../sass/header",
+  "../sass/icons",
+  "../sass/layout",
+  "../sass/sidebar"
+;
+```
 
 Looking at the section of code from my `.brackets.json` file, you can see that I am telling Brackets to watch my `style.scss` file, and push the compiled CSS to my `css/` folder. Every time you make a change to any of your Sass files, Brackets will recompile the CSS. **Sweet**.
 
-<small>I am not sure why the `../` is needed since the JSON is at the base of the project folder, but it doesn't work without it.</small>
+<!--/ ad /-->
+
+##### I am not sure why the `../` is needed since the JSON is at the base of the project folder, but it doesn't work without it.
 
 Output style can only take two parameters at the moment, `nested` and `compressed`. The other two, `expanded` and `compact` will become supported at a later date.
 

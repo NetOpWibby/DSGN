@@ -1,35 +1,28 @@
 ---
 ---
+
 @charset "utf-8";
 
-/*!
-
-  OH HAI THAR! YOU LIEK DOPE SIHT? KEWL BEENS BRO
-
-  .______  .________._____  .______
-  :_ _   \ |    ___/:_ ___\ :      \
-  |   |   ||___    \|   |___|       |
-  | . |   ||       /|   /  ||   |   |
-  |. ____/ |__:___/ |. __  ||___|   |
-  :/         :      :/ |. |    |___|  2015
-  :                 :   :/
-  : S.T.A.
-
-*/
-
 @import
-  "fonts",
-  "base",
-  "animation",
-  "animsition",
-  "articles",
-  "codeview",
-  "fluidbox",
-  "footer",
-  "header",
-  "icons",
-  "media",
-  "navigation",
-  "shared",
+  "init/colours",
+  "init/type",
+  "init/base",
+
+  "app/ad",
+  "app/animation",
+  "app/home",
+  "app/media",
+  "app/navigation",
+  "app/pagination",
+  "app/sitemap",
+  "app/titlebar",
+
+  "pages/projects",
+  "pages/thoughts",
+
+  "plugins/highlightJS",
+  "plugins/tweetFetcher",
+  "plugins/zoomJS",
+
   "layout"
 ;

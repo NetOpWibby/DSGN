@@ -14,22 +14,24 @@ Every one of these gadgets contain their own operating system, specifically desi
 This line of reasoning is how my operating system concept, [hikari OS](http://dribbble.com/nokadota/projects/127021-hikari-OS) was born.
 
 <figure>
-  [![](/images/thoughts/2013-07-24/logo-full.jpg)](/images/thoughts/2013-07-24/logo-full.jpg)
+  ![](/images/thoughts/2013-07-24/logo-full.jpg)
   <figcaption>Final logo and logotype</figcaption>
 </figure>
 
 <figure>
-  [![](/images/thoughts/2013-07-24/01.PNG)](/images/thoughts/2013-07-24/01.PNG)
+  ![](/images/thoughts/2013-07-24/01.PNG)
   <figcaption>Fully coded snapshot of hikari</figcaption>
 </figure>
 
 There is a point to this post, but first, a story...
 
-When I was in middle school (maybe 7th or 8th grade), I was really into playing Mega Man X1, X2, and X3 via the snes9x emulator on my computer (my parents never allowed my sisters and I to own game consoles growing up. I **did** own a Gameboy Advance though, given to me by a friend). Anyhoo, there was a younger kid on my street who knew of my Mega Man gaming habits and suggested a GBA trade; his "[Mega Man Battle Network]("http://en.wikipedia.org/wiki/Mega_Man_Battle_Network)" for my "Donkey Kong Country". I had never heard of this Mega Man game so I said sure. I got home, started a new game (over his game save, just to see how the story began) and was immediately drawn into this world set in the near-future about [pocket-sized computers](http://megaman.wikia.com/wiki/PET) and the [intelligent A.I.](http://megaman.wikia.com/wiki/NetNavi)s that resided in them and became your friend (while also saving the world, of course). I don't remember when I got the game, but I remember defeating the final boss on Christmas morning (circa 2001).
+When I was in middle school (maybe 7th or 8th grade), I was really into playing Mega Man X1, X2, and X3 via the snes9x emulator on my computer (my parents never allowed my sisters and I to own game consoles growing up. I **did** own a Gameboy Advance though, given to me by a friend). Anyhoo, there was a younger kid on my street who knew of my Mega Man gaming habits and suggested a GBA trade; his [Mega Man Battle Network]("http://en.wikipedia.org/wiki/Mega_Man_Battle_Network) for my Donkey Kong Country. I had never heard of this Mega Man game so I said sure. I got home, started a new game (over his game save, just to see how the story began) and was immediately drawn into this world set in the near-future about [pocket-sized computers](http://megaman.wikia.com/wiki/PET) and the [intelligent A.I.](http://megaman.wikia.com/wiki/NetNavi)s that resided in them and became your friend (while also saving the world, of course). I don't remember when I got the game, but I remember defeating the final boss on Christmas morning (circa 2001).
 
 Needless to say, the nice kid on my street never got his game back (I am *not* sorry).
 
 In 9th grade I befriended a guy who was also a huge MMBN fan like myself and also had the current game at the time, MMBN3 (critically hailed by fans as the definitive BN game...I'm inclined to agree, although I did like the last entry of the series, MMBN6 as well). Not only did I have a [community of fans](http://rockman-exe.com/online) to converse with on the Internet, I also had someone who I could see everyday (and [NetBattle](http://megaman.wikia.com/wiki/Net_Battle)!). I discussed with my best friend my crazy idea of one day creating the fictional world that had enthralled me so. No matter what, I was going to build it.
+
+<!--/ ad /-->
 
 Fast-forward through high-school and my failed first six/eight months of college (long story/crappy circumstance) and I am nowhere closer to my goal. Sure, I have tons of blueprints at this point, and notebooks filled with conceptual software walkthroughs (I went to college for software engineering), but I did not have anything I could use or see. [Code Academy](http://www.codecademy.com) did not yet exist, the [Envato Tuts network](http://hub.tutsplus.com) was just getting started, and the economy sucked so bad I could not find a job to support what would be my night hobby (circa 2007/08).
 
@@ -46,4 +48,4 @@ Clearly, I am on the right track and I am **so** glad there are like-minded peop
 P.S. I will be *slowly* churning out updates on hikari and they **will** be slow. You can check the progress on the [official site](http://hikar.io) (just a placeholder for now), and also on [Dribbble](http://dribbble.com/nokadota/projects/127021-hikari-OS). I may post things here (and on [Twitter](http://twitter.com/tadashihikari)!) as well.
 
 EDIT: Created a [GitHub repo](https://github.com/IdeasNeverCease/hikari)!
-<span><small>Updated 03.25.14 to correct a year and update repo link</small></span>
+##### Updated 03.25.14 to correct a year and update repo link

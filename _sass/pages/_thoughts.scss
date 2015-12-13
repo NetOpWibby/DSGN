@@ -1,0 +1,53 @@
+.date {
+  background-color: $silver;
+  color: rgba($black, 0.3);
+  cursor: default;
+  display: inline-block;
+  font-size: 60%;
+  padding-bottom: 0.1rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 10rem;
+
+  &:before {
+    width: 0; height: 0;
+
+    border-top: 0.95rem solid $silver;
+    border-left: 0.95rem solid transparent;
+    content: "";
+    left: -0.89rem;
+    position: absolute;
+  }
+
+  @media (max-width: 1290px) {
+    top: calc(-2rem - 7px); left: calc(50% - 5rem);
+
+    &:after {
+      width: 0; height: 0;
+
+      border-top: 0.95rem solid $silver;
+      border-right: 0.9rem solid transparent;
+      content: "";
+      right: -0.89rem;
+      position: absolute;
+    }
+  }
+
+  @media (min-width: 1291px) {
+    float: right;
+    top: -2rem;
+  }
+}
+
+.thought {
+  img {
+    width: 100%;
+  }
+
+  &:not(:last-of-type) {
+    margin-bottom: 3rem;
+  }
+}

@@ -27,4 +27,4 @@ Only five of the ten GBA Virtual Console games have been announced so far. They 
 
 On top of all this, all of the great 3DS games will be coming out in the latter half of this year too. Woop woop! **=D**
 
-*via [Nintendo Support](http://www.nintendo.com/consumer/systems/3ds/en_na/3dsambassador.jsp)*
+##### via [Nintendo Support](http://www.nintendo.com/consumer/systems/3ds/en_na/3dsambassador.jsp)

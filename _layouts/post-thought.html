@@ -1,16 +1,27 @@
 ---
 layout: thoughts
 ---
+
 <section class="thought">
-        <h2 class="thought__title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-        <small class="thought__meta">{{ page.date | date: "shared on %B %d, %Y" }}</small>
+  <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+  <small class="date">{{ page.date | date: "shared on %B %d, %Y" }}</small>
 
-        {{ content }}
-      </section>
+  {% if content contains "<!--/ ad /-->" %}
+    {{ content | split:"<!--/ ad /-->" | first % }}
+      {% include ad.html %}
+    {{ content | split:"<!--/ ad /-->" | last % }}
+  {% else %}
+    {{ content }}
+  {% endif %}
+</section>
 
-      <div class="divider">
-        <span class="divider__shape-01"></span>
-        <span class="divider__shape-02"></span>
-        <span class="divider__shape-03"></span>
-        <span class="divider__shape-04"></span>
-      </div>
+
+
+<div class="divider">
+  <span class="divider__shape-01"></span>
+  <span class="divider__shape-02"></span>
+  <span class="divider__shape-03"></span>
+  <span class="divider__shape-04"></span>
+</div>
+
+<div class="titlebar">{{ page.title }}</div>

@@ -5,6 +5,8 @@ date:     2015-03-08
 category: post
 ---
 
+##### This post is referring to a previous version of DSGN, the sourcecode of which can be found [here](https://github.com/NetOperatorWibby/DSGN/tree/v1 "Previous DSGN").
+
 About a month ago, I felt I needed to give this dear site of mine more love in the form of a redesign. As I started the redesign, I realized what it needed was more of a re*align*. The code needed a major refactor, mobile styles needed to be refined, and I needed a better way to organize (and create new) projects.
 
 This is finally done! However, I jumped the gun a bit, haha!
@@ -51,8 +53,10 @@ At a high level, I am quite pleased with how version 8 of this site came out\*, 
 
 Announcement! There is another project I'm working on, and a full write-up will come later, but the name of it is "WEÖM" (pronounced, "wee-oohm"). It is a streetwear (for lack of a better word) brand whose focus is space. Not the Dieter Rams designer-y "space", but that place Neil deGrasse Tyson likes to talk about so much.
 
+<!--/ ad /-->
+
 You can reach it at [weöm.com](https://weöm.com) and also [weom.co](http://weom.co). The plan is to launch it on my birthday, April 3rd, and even though that's just a month away, I have faith that my team and I can get it done. Unfortunately, we are only able to launch with one product due to manufacturer issues, but more is in the pipeline.
 
 Til' next time!
 
-<small>*I've had this domain for eight years and I'm pretty sure it's been redesigned at least once a year. This marks the first time that the design has stayed the same, but iterated to a better design.</small>
+##### *I've had this domain for eight years and I'm pretty sure it's been redesigned at least once a year. This marks the first time that the design has stayed the same, but iterated to a better design.
