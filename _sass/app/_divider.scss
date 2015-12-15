@@ -1,0 +1,82 @@
+.divider {
+  cursor: default;
+  font-size: 4em;
+  line-height: 0.5em;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  position: relative;
+
+  p + &,
+  figure + &,
+  .media-container + & {
+    width: 92px; height: 1rem;
+    padding-top: 2rem;
+  }
+
+  .thought + &,
+  .project + & {
+    width: 13rem; height: 8rem;
+
+    background-image: url("../images/signature.png");
+    background-repeat: no-repeat;
+    padding-top: 7rem;
+
+    @media (max-width: 500px) {
+      background-position-x: 0.5rem;
+      background-size: 80%;
+      padding-left: 4rem;
+    }
+
+    @media (min-width: 501px) {
+      background-size: 200px 91px;
+      padding-left: 3rem;
+    }
+  }
+
+  .project + & {
+    padding-bottom: 3rem;
+    top: 9rem;
+  }
+}
+
+.divider__shape-01,
+.divider__shape-02,
+.divider__shape-03,
+.divider__shape-04 {
+  float: left;
+}
+
+.divider__shape-01,
+.divider__shape-02,
+.divider__shape-03 {
+  margin-right: 20px;
+}
+
+.divider__shape-01 { // triangle down
+  width: 0; height: 0;
+
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 8px solid $cyan;
+}
+
+.divider__shape-02 { // square
+  width: 8px; height: 8px;
+  background-color: $magenta;
+}
+
+.divider__shape-03 { // circle
+  width: 8px; height: 8px;
+
+  background-color: $yellow;
+  border-radius: 50%;
+}
+
+.divider__shape-04 { // triangle up
+  width: 0; height: 0;
+
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid $black;
+}

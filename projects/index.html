@@ -49,7 +49,14 @@ category: projects
 
   {% if post.desktop %}
     <div class="desktop-wrap">
-      <img src="{{ post.desktop }}" alt="{{ post.title }}, on desktop"/>
+      <img src="{{ post.desktop }}" class="image" alt="{{ post.title }}, on a desktop"/>
+
+      <svg viewbox="0 0 600 600" class="desktop">
+        <path fill="#ddd" d="M386.3,512H374l-20.7-57h-106L226,512h-12.3c-2.6,0-4.7,1.9-4.7,4.5s2.1,4.5,4.7,4.5 h172.7c2.6,0,4.7-1.9,4.7-4.5S388.9,512,386.3,512z"/>
+        <polygon fill="#a4acbb" points="357.4,467 242.6,467 247.1,455 353.1,455"/>
+        <path fill="#191919" d="M559.7,79h-520C32.5,79,27,84.6,27,91.8V403h546V91.8C573,84.6,566.9,79,559.7,79z" style="transform: scaleX(0.92) translateX(1.6rem);"/>
+        <path fill="#ddd" d="M573,403v39c0,7.1-6.1,13-13.3,13h-520c-7.2,0-12.7-5.9-12.7-13v-39H573z" style="transform: scaleX(0.92) translateX(1.6rem);"/>
+      </svg>
     </div>
   {% endif %}
 

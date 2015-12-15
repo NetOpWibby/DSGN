@@ -63,6 +63,9 @@ $(function () {
   if (window.location.pathname === "/projects/" || window.location.pathname.indexOf("projects") > -1) {
     $(".navigation__item, .sitemap__link").removeClass("active");
     $("#nav-03, .s-03").addClass("active");
+
+    // Set up images for zoom.js
+    $("img:not(.phone-wrap img, .laptop-wrap img, .desktop-wrap img)").attr("data-action", "zoom");
   }
 
   if (window.location.pathname === "/thoughts/" || window.location.pathname.indexOf("thoughts") > -1) {

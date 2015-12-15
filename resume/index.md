@@ -23,7 +23,7 @@ My focus is to learn as much as I can, preferably in a position that can challen
 ### [Queralt](http://queraltinc.com "Queralt website")
 
 *Solutions Architect:*
-I design and make exquisite interfaces for the Internet of Things.
+I design and make exquisite interfaces for the Internet of Things. **Yes**, the website is terrible but, we're busy creating a PaaS. If you're a mid-sized business who needs to track people/assets, [let me know](mailto:paul.webb@queraltinc.com "Send me an email")!
 
 *Timeframe:*
 April 2015 — Present

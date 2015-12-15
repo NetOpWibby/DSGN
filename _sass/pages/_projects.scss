@@ -1,6 +1,10 @@
 .project {
   position: relative;
 
+  img {
+    width: 100%;
+  }
+
   @media (max-width: 500px) {
     &:not(:first-of-type) {
       min-height: 17rem;
@@ -13,13 +17,16 @@
   }
 
   @media (min-width: 501px) {
-    &:not(:first-of-type) {
-      min-height: 25rem;
+    min-height: 25rem;
+  }
+
+  @media (min-width: 501px) and (max-width: 1325px) {
+    &:first-of-type {
+      top: 7.7rem;
     }
 
-    &:first-of-type {
-      min-height: calc(25rem + 7.6rem);
-      top: 7.6rem;
+    &:first-of-type:not(.self) + & {
+      margin-top: calc(7rem + 5.7rem);
     }
   }
 
@@ -126,12 +133,36 @@
 
       @media (min-width: 501px) and (max-width: 600px) {
         color: $white;
+      }
+    }
+  }
+
+  &.client,
+  &.freebie,
+  &.old {
+    .project__type {
+      @media (min-width: 501px) and (max-width: 600px) {
         right: -0.8rem;
       }
     }
   }
 
+  &.self + &.client,
+  &.self + &.freebie,
+  &.self + &.old,
+  &.self + &.self {
+    @media (max-width: 500px) {
+      margin-top: calc(7rem + 1.7rem);
+    }
 
+    @media (min-width: 501px) and (max-width: 1325px) {
+      margin-top: calc(7rem + 7.7rem);
+    }
+
+    @media (min-width: 1326px) {
+      margin-top: 7rem;
+    }
+  }
 
   &.client {
     &:after {
@@ -189,6 +220,10 @@
         top: 5.4rem;
       }
 
+      @media (min-width: 501px) and (max-width: 600px) {
+        right: -0.3rem;
+      }
+
       @media (min-width: 601px) {
         color: $yellow;
         right: -1.9rem;
@@ -223,7 +258,12 @@
     margin-bottom: 5rem;
   }
 
-  p:first-of-type {
+  .desktop-wrap + p {
+    margin-top: 17rem;
+  }
+
+  .phone-wrap + p,
+  .laptop-wrap + p {
     @media (max-width: 500px) {
       margin-top: 6rem;
     }
@@ -236,11 +276,23 @@
 
 
 
+.phone-wrap,
+.tablet-wrap,
+.laptop-wrap,
+.desktop-wrap {
+  position: absolute;
+
+  .image {
+    position: absolute;
+  }
+}
+
+
+
 .phone-wrap {
   width: 25rem; height: 25rem;
-  top: 7.9rem;
 
-  position: absolute;
+  top: 7.9rem;
   z-index: 2;
 
   @media (max-width: 500px) {
@@ -258,19 +310,14 @@
 
   .image {
     top: 8.9rem; left: 10.87rem;
-
-    position: absolute;
     width: 3.2rem;
-  }
-
-  .phone {
   }
 }
 
 
 
 .tablet-wrap {
-  background-image: url("../images/svg/devices/tablet.svg");
+  // background-image: url("../images/svg/devices/tablet.svg");
 }
 
 
@@ -280,7 +327,6 @@
 
   left: calc(50% - 200px);
   overflow: hidden;
-  position: absolute;
 
   @media (max-width: 500px) {
     top: -2rem;
@@ -294,7 +340,6 @@
   .image {
     top: 4.3rem; left: 2.2rem;
 
-    position: absolute;
     width: 20.6rem;
     z-index: 1;
   }
@@ -310,5 +355,26 @@
 
 
 .desktop-wrap {
-  background-image: url("../images/svg/devices/desktop.svg");
+  width: 27rem; height: 27rem;
+  left: calc(50% - 216px);
+
+  @media (max-width: 400px) {
+    top: -1rem;
+    transform: scale(0.8);
+  }
+
+  @media (min-width: 401px) and (max-width: 500px) {
+    top: 1rem;
+  }
+
+  @media (min-width: 501px) {
+    top: 3rem;
+  }
+
+  .image {
+    top: 4.3rem; left: 3rem;
+
+    width: 21rem;
+    z-index: 1;
+  }
 }
