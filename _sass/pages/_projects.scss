@@ -1,7 +1,7 @@
 .project {
   position: relative;
 
-  img {
+  img:not(.image) {
     width: 100%;
   }
 
@@ -263,6 +263,7 @@
   }
 
   .phone-wrap + p,
+  .phone-wrap-r + p,
   .laptop-wrap + p {
     @media (max-width: 500px) {
       margin-top: 6rem;
@@ -277,6 +278,7 @@
 
 
 .phone-wrap,
+.phone-wrap-r,
 .tablet-wrap,
 .laptop-wrap,
 .desktop-wrap {
@@ -289,7 +291,8 @@
 
 
 
-.phone-wrap {
+.phone-wrap,
+.phone-wrap-r {
   width: 25rem; height: 25rem;
 
   top: 7.9rem;
@@ -307,10 +310,25 @@
   @media (min-width: 801px) {
     left: calc(30% - 10rem);
   }
+}
 
+.phone-wrap {
   .image {
     top: 8.9rem; left: 10.87rem;
     width: 3.2rem;
+  }
+}
+
+.phone-wrap-r {
+  .image {
+    top: 10.89rem; left: 8.92rem;
+
+    width: 5.7rem;
+    z-index: 1;
+  }
+
+  .phone {
+    transform: rotate(-90deg);
   }
 }
 

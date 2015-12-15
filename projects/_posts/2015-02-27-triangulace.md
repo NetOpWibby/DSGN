@@ -5,7 +5,7 @@ date:     2015-02-27
 category: project
 
 project:  freebie
-phone:    "/images/freebies/triangulace/iphone-01.jpg"
+phone:    "/images/freebies/triangulace/phone-01.jpg"
 laptop:   "/images/freebies/triangulace/desktop-01.jpg"
 ---
 

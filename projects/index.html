@@ -22,7 +22,19 @@ category: projects
         <path fill="#191919" d="M255.2, 371.4V198.6c0-3.2, 2.7-5.9, 5.9-5.9h77.9c3.2, 0, 5.9, 2.7, 5.9, 5.9v172.9 c0, 3.2-2.7, 5.9-5.9, 5.9h-77.9C257.8, 377.3, 255.2, 374.7, 255.2, 371.4z"/>
         <circle fill="#9aa3b2" cx="300" cy="363.1" r="6"/>
         <circle fill="#a4acbb" cx="284.3" cy="203.6" r="1.5"/>
-        <rect x="262.1" y="214.3" fill="#bdccd4" width="75.7" height="135.3"/>
+        <line fill="none" stroke="#9aa3b2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="292.5" y1="203" x2="307.5" y2="203"/>
+      </svg>
+    </div>
+  {% endif %}
+
+  {% if post.phone-r %}
+    <div class="phone-wrap-r">
+      <img src="{{ post.phone-r }}" class="image" alt="{{ post.title }}, on a phone"/>
+
+      <svg viewbox="0 0 600 600" class="phone">
+        <path fill="#191919" d="M255.2, 371.4V198.6c0-3.2, 2.7-5.9, 5.9-5.9h77.9c3.2, 0, 5.9, 2.7, 5.9, 5.9v172.9 c0, 3.2-2.7, 5.9-5.9, 5.9h-77.9C257.8, 377.3, 255.2, 374.7, 255.2, 371.4z"/>
+        <circle fill="#9aa3b2" cx="300" cy="363.1" r="6"/>
+        <circle fill="#a4acbb" cx="284.3" cy="203.6" r="1.5"/>
         <line fill="none" stroke="#9aa3b2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="292.5" y1="203" x2="307.5" y2="203"/>
       </svg>
     </div>
@@ -31,6 +43,13 @@ category: projects
   {% if post.tablet %}
     <div class="tablet-wrap">
       <img src="{{ post.tablet }}" alt="{{ post.title }}, on a tablet"/>
+
+      <svg viewbox="0 0 600 600" class="tablet">
+        <path class="tabletEdge" fill="#fffaeb" d="M198.5,404.5v-239c0-7.7,6.3-14,14-14h175c7.7,0,14,6.3,14,14v239c0,7.7-6.3,14-14,14 h-175C204.8,418.5,198.5,412.2,198.5,404.5z"/>
+        <path class="tabletScreen" fill="#bdccd4" d="M218.5,386.5v-203c0-2.8,2.3-5,5-5h153c2.8,0,5,2.3,5,5v203c0,2.8-2.3,5-5,5h-153 C220.8,391.5,218.5,389.3,218.5,386.5z"/>
+        <circle class="tabletButton" fill="#a4acbb" cx="300" cy="406" r="6"/>
+        <circle class="tabletCamera" fill="#a4acbb" cx="300" cy="168" r="2"/>
+      </svg>
     </div>
   {% endif %}
 

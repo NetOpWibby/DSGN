@@ -5,7 +5,7 @@ date:     2015-02-04
 category: project
 
 project:  freebie
-phone:    "/images/freebies/cement-your-reality/iphone-01.jpg"
+phone:    "/images/freebies/cement-your-reality/phone-01.jpg"
 laptop:   "/images/freebies/cement-your-reality/desktop-01.jpg"
 ---
 
