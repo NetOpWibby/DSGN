@@ -115,3 +115,16 @@ ul {
   display: flex;
   justify-content: center;
 }
+
+
+
+noscript {
+  background-color: $red;
+  color: $white;
+  font-weight: 600;
+  padding: 1rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 9;
+}
