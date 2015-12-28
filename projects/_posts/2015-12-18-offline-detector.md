@@ -30,4 +30,4 @@ Here's what it looks like!
   <figcaption>Hey, where did my wifi go?!</figcaption>
 </figure>
 
-You can find [OfflineDetector on GitHub](https://github.com/NetOperatorWibby/OfflineDetector "OfflineDetector sourcecode, on GitHub).
+You can find [OfflineDetector on GitHub](https://github.com/NetOperatorWibby/OfflineDetector "OfflineDetector sourcecode, on GitHub").
