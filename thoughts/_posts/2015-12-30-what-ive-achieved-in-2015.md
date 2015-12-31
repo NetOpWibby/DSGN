@@ -11,7 +11,7 @@ category: post
 
 This is what killed my daughter, Zoe.
 
-[Wikipedia says](https://en.wikipedia.org/wiki/Turner_syndrome) this syndrome occurs in one of 5000 females (in fact, Turner Syndrome only affects females). It is a chromosomal abnormality in which one of the X chromosomes is altered or missing entirely. 99% of baby girls with Turner Syndrome are either stillborn, or miscarried. The 1% that _do_ live have to deal with heart surgeries and the like, pretty much forever. The most difficult thing to deal with, aside from seeing the grief-stricken mother of my daughter everyday, was feeling guilty that I couldn't do anything to prevent or fix this. I couldn't save Zoe. Literally every bad hand I have **ever** been dealt in life has been dealt with and turned around by sheer determination and my unwavering optimism. However, like you've just read, Turner Syndrome is completely random and unfortunately, that randomness hit home.
+[Wikipedia says](https://en.wikipedia.org/wiki/Turner_syndrome "Wikipedia article on Turner Syndrome") this syndrome occurs in one of 5000 females (in fact, Turner Syndrome only affects females). It is a chromosomal abnormality in which one of the X chromosomes is altered or missing entirely. 99% of baby girls with Turner Syndrome are either stillborn, or miscarried. The 1% that _do_ live have to deal with heart surgeries and the like, pretty much forever. The most difficult thing to deal with, aside from seeing the grief-stricken mother of my daughter everyday, was feeling guilty that I couldn't do anything to prevent or fix this. I couldn't save Zoe. Literally every bad hand I have **ever** been dealt in life has been dealt with and turned around by sheer determination and my unwavering optimism. However, like you've just read, Turner Syndrome is completely random and unfortunately, that randomness hit home.
 
 
 
@@ -29,7 +29,7 @@ Chatter about the "Internet of Things" really blew up this year. I've tinkered w
 
 ### Wrote popular posts
 
-I forget what text editor I was using before Brackets, but it probably doesn't matter at this point, haha! The more I used Brackets, the more I thought I should write about it, so I did! The first post is, "[My Brackets Setup](/thoughts/post/my-brackets-setup)". In it, I just posted links to my favorite Brackets plugins and themes. The second post is, "[How to use Brackets Sass](/thoughts/post/how-to-use-brackets-sass)". When I am developing static one-pager sites, I don't need to use Jekyll, but I certainly want to use Sass. Compass is unnecessary, and I _could_ just run a `sass-watch` command in Terminal, but why do that when I can let Brackets do it for me? Brackets Sass is a plugin that watches Sass files and compiles them to CSS. However, the documentation for said plugin isn't straightforward, so after having my GitHub Issue on the topic ignored, I decided to work at it for a couple minutes and create a how-to for others having the same comprehension problem. Those two posts prompted [Adobe to send](https://twitter.com/NetOpWibby/status/596129811657072640) me two Brackets t-shirts, which was pretty awesome. Thanks again guys!
+I forget what text editor I was using before Brackets, but it probably doesn't matter at this point, haha! The more I used Brackets, the more I thought I should write about it, so I did! The first post is, "[My Brackets Setup](/thoughts/post/my-brackets-setup "My post about my Brackets setup")". In it, I just posted links to my favorite Brackets plugins and themes. The second post is, "[How to use Brackets Sass](/thoughts/post/how-to-use-brackets-sass "My post/tutorial on how to use Brackets Sass")". When I am developing static one-pager sites, I don't need to use Jekyll, but I certainly want to use Sass. Compass is unnecessary, and I _could_ just run a `sass-watch` command in Terminal, but why do that when I can let Brackets do it for me? Brackets Sass is a plugin that watches Sass files and compiles them to CSS. However, the documentation for said plugin isn't straightforward, so after having my GitHub Issue on the topic ignored, I decided to work at it for a couple minutes and create a how-to for others having the same comprehension problem. Those two posts prompted [Adobe to send](https://twitter.com/NetOpWibby/status/596129811657072640 "My tweet to Brackets, thanking them") me two Brackets t-shirts, which was pretty awesome. Thanks again guys!
 
 <figure>
   ![](/images/thoughts/2015-12-30/01.jpg)
@@ -40,31 +40,33 @@ I forget what text editor I was using before Brackets, but it probably doesn't m
 
 ### Encouraged my girlfriend to start a blog
 
-She has very strong opinions and will talk to me about things that annoy/delight her about virtually any topic. Her rants (lol) get lots of likes and such on Facebook and in various online groups she's a part of, but she always assumed no one cared about her thoughts (which is a dumb thought). I'm not sure if the popularity of my Brackets posts pushed her to finally start writing for public consumption, but I'm glad it happened regardless. You can find her writings at [Sincerely, Shantelle](http://sincerelyshantelle.com).
+She has very strong opinions and will talk to me about things that annoy/delight her about virtually any topic. Her rants (lol) get lots of likes and such on Facebook and in various online groups she's a part of, but she always assumed no one cared about her thoughts (which is a dumb thought). I'm not sure if the popularity of my Brackets posts pushed her to finally start writing for public consumption, but I'm glad it happened regardless. You can find her writings at [Sincerely, Shantelle](http://sincerelyshantelle.com "Lakeisha Shantelle's blog").
 
 
 
 ### Figured out automatic deployment
 
-Ugh. I cannot _believe_ that I used to manually upload my compiled Jekyll site to my server every time I made a change. How barbaric. I could use [GitHub Pages](https://pages.github.com), but plugin use isn't possible. Plus, I like handling as much as possible for my projects. I really should update my deploy script for the latest Capistrano version, or try [Mina](http://nadarei.co/mina). That's something I'll definitely do in 2016!
+Ugh. I cannot _believe_ that I used to manually upload my compiled Jekyll site to my server every time I made a change. How barbaric. I could use [GitHub Pages](https://pages.github.com "Official site of GitHub Pages"), but plugin use isn't possible. Plus, I like handling as much as possible for my projects. I really should update my deploy script for the latest Capistrano version, or try [Mina](http://nadarei.co/mina "Official site of Mina"). That's something I'll definitely do in 2016!
 
 
+
+<!--/ ad /-->
 
 ### Started my own fashion brand
 
-[WEÖM](https://weöm.com) is an idea that I've had for at least five years and never did anything with but plan (space-focused apparel). Is it profitable? Absolutely not. The selection isn't even that great (we have a t-shirt and a snapback), but I'm working to change that in 2016. Nothing worth doing is ever easy.
+[WEÖM](https://weöm.com "Official site of WEÖM") is an idea that I've had for at least five years and never did anything with but plan (space-focused apparel). Is it profitable? Absolutely not. The selection isn't even that great (we have a t-shirt and a snapback), but I'm working to change that in 2016. Nothing worth doing is ever easy.
 
 
 
 ### Created my own email server
 
-Courtesy of [Mail-in-a-Box](https://mailinabox.email)! I had grown increasingly uncomfortable with the amount of data Google has on me, and I hated checking my Gmail knowing that Google read it before me. Call me crazy, but I don't like being tracked and spied upon, even _with_ permission. MiaB's setup instructions are incredibly easy, especially if you already SFTP into servers and such. Also, having your email address be `netopwibby@thenetwork.email` sounds amazing. I have the domain name `illuminatus.email`, but I haven't set it up yet.
+Courtesy of [Mail-in-a-Box](https://mailinabox.email "Official site of Mail-in-a-Box")! I had grown increasingly uncomfortable with the amount of data Google has on me, and I hated checking my Gmail knowing that Google read it before me. Call me crazy, but I don't like being tracked and spied upon, even _with_ permission. MiaB's setup instructions are incredibly easy, especially if you already SFTP into servers and such. Also, having your email address be `netopwibby@thenetwork.email` sounds amazing. I have the domain name `illuminatus.email`, but I haven't set it up yet.
 
 
 
 ### Enabled better security for (some of) my servers
 
-[SSL Labs](https://www.ssllabs.com/ssltest) runs a service to check if your servers are secure and I was dismayed to find that mine weren't. I documented the process to get one of my servers from an F to an [A+ rating](/thoughts/post/set-up-your-apache-server-with-ssl). Unfortunately, there is even _more_ work to be done, according to [SecurityHeaders.io](https://securityheaders.io), haha! I'll work on getting my headers up to snuff soon.
+[SSL Labs](https://www.ssllabs.com/ssltest "Official site of SSL Labs") runs a service to check if your servers are secure and I was dismayed to find that mine weren't. I documented the process to get one of my servers from an F to an [A+ rating](/thoughts/post/set-up-your-apache-server-with-ssl "My post on setting up an Apache server with SSL"). Unfortunately, there is even _more_ work to be done, according to [SecurityHeaders.io](https://securityheaders.io "Official site of Security Headers"), haha! I'll work on getting my headers up to snuff soon.
 
 
 
@@ -76,7 +78,7 @@ Well, almost. I _really_ like YouTube, and keeping track of my favorite videos w
 
 ### Enabled 2FA everywhere possible
 
-I thought Google Authenticator was the only good app out there for managing two-factor authentication, but it turns out that it isn't! [Authy](https://www.authy.com) is a perfect non-Google alternative. I also discovered that someone from France was trying to access my GitHub account (well, the IP was from France).
+I thought Google Authenticator was the only good app out there for managing two-factor authentication, but it turns out that it isn't! [Authy](https://www.authy.com "Official site of Authy") is a perfect non-Google alternative. I also discovered that someone from France was trying to access my GitHub account (well, the IP was from France).
 
 
 
@@ -88,7 +90,7 @@ This may seem silly (because it is), but there are really great Splatoon players
 
 ### Released a plugin
 
-It is called, "[OfflineDetector](https://github.com/NetOperatorWibby/OfflineDetector)", and is available in vanilla JavaScript and jQuery versions. Like the name suggests, it lets you know if you lose connectivity. I copy/pasted the code in my IoT solutions so much, it just made sense to extract it.
+It is called, "[OfflineDetector](https://github.com/NetOperatorWibby/OfflineDetector "OfflineDetector source code, on GitHub")", and is available in vanilla JavaScript and jQuery versions. Like the name suggests, it lets you know if you lose connectivity. I copy/pasted the code in my IoT solutions so much, it just made sense to extract it.
 
 
 
@@ -112,11 +114,13 @@ Like my fashion brand, I've had plenty of ideas for games, but I haven't done mu
 
 ### Made my web browser better
 
-Yes, [Aries](https://github.com/IdeasNeverCease/Aries) is so much better now! I opted to use [Electron](http://electron.atom.io) in place of [NW.js](http://nwjs.io), especially after I learned that Slack was built with it, and Slack feels like a native app. I was able to replicate the same functionality of NW.js base in half the time. Amazing. More to come in 2016!
+Yes, [Aries](https://github.com/IdeasNeverCease/Aries) is so much better now! I opted to use [Electron](http://electron.atom.io "Official site of Electron") in place of [NW.js](http://nwjs.io "Official site of NW.js"), especially after I learned that Slack was built with it, and Slack feels like a native app. I was able to replicate the same functionality of NW.js base in half the time. Amazing. More to come in 2016!
 
-I'll end this post with my best nine Instagram photos of 2015, according to [Lip Inc](http://2015bestnine.com).
+I'll end this post with my best nine Instagram photos of 2015, according to [Lip Inc](http://2015bestnine.com "2015 Best Nine").
 
 <figure>
   ![](/images/thoughts/2015-12-30/02.jpg)
   <figcaption>You can see more [@spacemanfresh](https://www.instagram.com/spacemanfresh)</figcaption>
 </figure>
+
+Thanks to Reda Lemeden for [the idea](https://unredacted.redalemeden.com/2015/achievement-unlocked-2015 "Reda Lemeden's blog") to make this post!
