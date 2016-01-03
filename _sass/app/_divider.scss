@@ -8,6 +8,8 @@
   position: relative;
 
   p + &,
+  h5 + &,
+  blockquote + &,
   figure + &,
   .media-container + & {
     width: 92px; height: 1rem;

@@ -42,7 +42,7 @@ function weom() {
 
   if (imageArray.length) {
     ad += "<div class='ad__line'>";
-    ad += "<strong>WEÖM</strong> | Dope space apparel<br/><br/>Use code <strong>WINTER15</strong> for <strong>20% off</strong> your entire order!";
+    ad += "<strong>WEÖM</strong> | Dope space apparel<br/><br/>Use code <strong>WINTER16</strong> for <strong>20% off</strong> your entire order!";
     ad += "</div>";
   }
 

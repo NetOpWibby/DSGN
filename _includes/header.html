@@ -17,7 +17,7 @@
     /-->
 
     <meta name="title" content="DSGN*"/>
-    <meta name="description" content="Paul Anthony Webb does webb design. I mean, web. I was literally made for this."/>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 75 }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Karla:400,400i,700/Noto+Serif:400,400i/Fira+Mono:400"/>
