@@ -3,20 +3,13 @@
 //------------------------------
 
 * {
-  text-rendering: optimizeLegibility !important;
   text-shadow: 1px 1px 1px rgba($black, 0.004);
-
-  -webkit-font-smoothing: antialiased !important;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: border-box;
-  text-size-adjust: 100%;
-
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
